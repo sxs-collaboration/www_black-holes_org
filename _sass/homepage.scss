@@ -541,3 +541,17 @@
     border-radius: 4px;
     display: inline-grid;
 }
+
+.soundbox {
+    max-width: 480px;
+    clear: both;
+    background: $palegrey;
+    border: $lightgrey solid 3px;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 0 0 30px;
+}
+
+.soundbox .padded-right {
+    padding-right: 1em;
+}
