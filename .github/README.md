@@ -7,7 +7,7 @@ automatically does this rendering for us because it detects jekyll files in the 
 though it would also be possible to render manually via github actions if we need to use features
 github doesn't enable by default.
 
-See the rendered site [here](https://moble.github.io/www_black-holes_org).
+See the rendered site [here](https://sxs-collaboration.github.io/www_black-holes_org).
 
 
 ## Quickstart for updaters: building locally with Jekyll
