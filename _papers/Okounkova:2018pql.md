@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.99.044019"
 date: 2018-11-26
 arxiv: "1811.10713"
 used_spec: true
+used_spec: true
 abstract: |
   The stability of rotating black holes in dynamical Chern-Simons
   gravity (dCS) is an open question. To study this issue, we evolve

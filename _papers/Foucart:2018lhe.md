@@ -18,6 +18,7 @@ doi: "10.1103/PhysRevD.99.044008"
 date: 2018-12-17
 arxiv: "1812.06988"
 used_spec: true
+used_spec: true
 abstract: |
   Gravitational waveforms from numerical simulations are a critical
   tool to test and analytically calibrate the waveform models used to
