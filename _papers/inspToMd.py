@@ -64,10 +64,21 @@ abstract: |
 ############################################################
 
 if __name__ == "__main__":
-  help="""Query INSPIRE and emit some MD files"""
-  parser = argparse.ArgumentParser(description=help)
-  parser.add_argument('query', help="INSPIRE query")
+    help = """Query INSPIRE and emit some MD files"""
+    parser = argparse.ArgumentParser(
+        description=help, formatter_class=argparse.RawTextHelpFormatter
+    )
+    parser.add_argument(
+        "query",
+        help=(
+            "INSPIRE query. Typical queries might be (with the quotes):\n - 'a"
+            " Last, First'\n - 't Part of Title'\n - 'texkey"
+            " Lovelace:2024wra'\n - 'eprint 2410.00265'\n - 'aff Caltech and a"
+            " Last, First'\nSee"
+            " https://help.inspirehep.net/knowledge-base/inspire-paper-search/"
+            " for more detailed queries."
+        ),
+    )
 
-  args = parser.parse_args()
-  write_insp_resp_to_md(sxs.utilities.inspire.query(args.query))
-
+    args = parser.parse_args()
+    write_insp_resp_to_md(sxs.utilities.inspire.query(args.query))
