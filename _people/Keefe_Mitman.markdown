@@ -17,7 +17,7 @@ Modeling the ringdown phase of binary black hole mergers
 
 ##### Biography
 
-I received by BS in physics and mathematics from Columbia in 2019. I then received by PhD in physics
+I received my BS in physics and mathematics from Columbia University in 2019. I then received my PhD in physics
 from Caltech in 2024. My doctoral thesis was on (i) resolving memory effects in numerical simulations
 of binary black hole mergers, (ii) utilizing the BMS group to improve gravitational wave modeling, and
 (iii) extracting nonlinearities from black hole ringdowns. This work was under the supervision of
