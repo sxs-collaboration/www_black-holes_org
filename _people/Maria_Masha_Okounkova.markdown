@@ -1,7 +1,7 @@
 ---
 name: Maria (Masha) Okounkova
 lastname: Okounkova
-group: graduate_students
+group: faculty
 position: Graduate student
 institution: California Institute of Technology
 advisor: Yanbei Chen

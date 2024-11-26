@@ -1,7 +1,7 @@
 ---
 name: CJ Woodford
 lastname: Woodford
-group: graduate_students
+group: alumni
 position: Graduate Student
 institution: Canadian Institute for Theoretical Astrophysics
 advisor: Harald Pfeiffer

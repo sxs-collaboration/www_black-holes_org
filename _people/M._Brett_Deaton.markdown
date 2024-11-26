@@ -1,7 +1,7 @@
 ---
 name: M. Brett Deaton
 lastname: Deaton
-group: graduate_students
+group: alumni
 position: Graduate student
 institution: Washington State University
 advisor: Matthew Duez

@@ -1,7 +1,7 @@
 ---
 name: Andre da Silva Schneider
 lastname: da Silva Schneider
-group: academic_staff
+group: alumni
 position: Postdoctoral Scholar
 institution: California Institute of Technology
 advisor:

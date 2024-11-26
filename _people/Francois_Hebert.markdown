@@ -1,7 +1,7 @@
 ---
 name: Francois Hebert
 lastname: Hebert
-group: academic_staff
+group: alumni
 position: Post-doctoral fellow
 institution: California Institute of Technology
 advisor:

@@ -1,7 +1,7 @@
 ---
 name: Keefe Mitman
 lastname: Mitman
-group: postdoc
+group: postdocs
 position: NASA Hubble Fellow
 institution: Cornell University
 advisor:

@@ -1,7 +1,7 @@
 ---
 name: Kevin Barkett
 lastname: Barkett
-group: graduate_students
+group: alumni
 position: Graduate student
 institution: California Institute of Technology
 advisor:

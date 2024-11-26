@@ -1,7 +1,7 @@
 ---
 name: Patricia Schmidt
 lastname: Schmidt
-group: academic_staff
+group: alumni
 position: Postdoctoral Scholar in Physics
 institution: California Institute of Technology
 advisor:

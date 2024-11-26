@@ -1,7 +1,7 @@
 ---
 name: William Throwe
 lastname: Throwe
-group: graduate_students
+group: academic_staff
 position: Graduate student
 institution: Saul A. Teukolsky
 advisor:

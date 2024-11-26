@@ -1,7 +1,7 @@
 ---
 name: Adam Lewis
 lastname: Lewis
-group: graduate_students
+group: alumni
 position: CITA (University of Toronto)
 institution:
 advisor: Harald Pfeiffer
