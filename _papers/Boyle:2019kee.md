@@ -46,6 +46,7 @@ doi: "10.1088/1361-6382/ab34e2"
 date: 2019-04-09
 arxiv: "1904.04831"
 used_spec: true
+used_spec: true
 abstract: |
   Accurate models of gravitational waves from merging black holes are
   necessary for detectors to observe as many events as possible while

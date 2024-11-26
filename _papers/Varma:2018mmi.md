@@ -12,6 +12,7 @@ doi: "10.1103/PhysRevD.99.064045"
 date: 2018-12-19
 arxiv: "1812.07865"
 used_spec: true
+used_spec: true
 abstract: |
   Numerical relativity (NR) simulations provide the most accurate
   binary black hole gravitational waveforms, but are prohibitively
