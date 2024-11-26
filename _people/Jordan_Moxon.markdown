@@ -1,7 +1,7 @@
 ---
 name: Jordan Moxon
 lastname: Moxon
-group: academic_staff
+group: alumni
 position: Postdoctoral Scholar
 institution: California Institute of Technology
 advisor:

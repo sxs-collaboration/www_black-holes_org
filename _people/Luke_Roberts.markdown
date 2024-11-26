@@ -1,7 +1,7 @@
 ---
 name: Luke Roberts
 lastname: Roberts
-group: academic_staff
+group: alumni
 position: Postdoctoral Scholar
 institution: California Institute of Technology
 advisor:

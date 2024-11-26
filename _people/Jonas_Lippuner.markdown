@@ -1,7 +1,7 @@
 ---
 name: Jonas Lippuner
 lastname: Lippuner
-group: graduate_students
+group: alumni
 position: Graduate student
 institution: California Institute of Technology
 advisor:

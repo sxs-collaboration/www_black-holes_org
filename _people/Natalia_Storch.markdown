@@ -1,7 +1,7 @@
 ---
 name: Natalia Storch
 lastname: Storch
-group: academic_staff
+group: alumni
 position: Postdoctoral Scholar
 institution: California Institute of Technology
 advisor:

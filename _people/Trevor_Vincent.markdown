@@ -1,7 +1,7 @@
 ---
 name: Trevor Vincent
 lastname: Vincent
-group: graduate_students
+group: alumni
 position:
 institution: Canadian Institute for Theoretical Astrophysics
 advisor: Harald P. Pfeiffer

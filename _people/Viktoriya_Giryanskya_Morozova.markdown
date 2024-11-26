@@ -1,7 +1,7 @@
 ---
 name: Viktoriya Giryanskya Morozova
 lastname: Morozova
-group: academic_staff
+group: alumni
 position: Postdoctoral Scholar
 institution: California Institute of Technology
 advisor:

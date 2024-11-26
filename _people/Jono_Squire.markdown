@@ -1,7 +1,7 @@
 ---
 name: Jono Squire
 lastname: Squire
-group: academic_staff
+group: alumni
 position: Postdoctoral scholar
 institution: California Institute of Technology
 advisor:

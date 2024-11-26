@@ -1,7 +1,7 @@
 ---
 name: Sherwood Richers
 lastname: Richers
-group: graduate_students
+group: alumni
 position: Graduate student
 institution: California Institute of Technology
 advisor:
