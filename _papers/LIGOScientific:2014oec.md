@@ -42,8 +42,8 @@ abstract: |
   waveforms with early Advanced LIGO and Advanced Virgo sensitivity
   curves. Our results predict that early Advanced LIGO and Advanced
   Virgo will have a volume-weighted average sensitive distance of
-  300Mpc (1Gpc) for $10M_{\odot}+10M_{\odot}$
-  ($50M_{\odot}+50M_{\odot}$) binary black hole coalescences. We
+  300Mpc (1Gpc) for \(10M_{\odot}+10M_{\odot}\)
+  (\(50M_{\odot}+50M_{\odot}\)) binary black hole coalescences. We
   demonstrate that neglecting the component angular momenta in the
   waveform models used in matched-filtering will result in a reduction
   in sensitivity for systems with large component angular momenta.

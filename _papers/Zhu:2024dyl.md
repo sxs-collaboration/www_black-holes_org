@@ -26,10 +26,10 @@ abstract: |
   quasinormal mode amplitudes extracted from nonlinear evolution
   deviate from their linear counterparts at third order in initial
   perturbation amplitude. For perturbations leading to a change in the
-  black hole mass and spin of $\sim 5\%$, which is reasonable for a
+  black hole mass and spin of \(\sim 5\%\), which is reasonable for a
   remnant formed in an astrophysical merger, we find that nonlinear
   distortions to the complex amplitudes of some quasinormal modes can
-  be as large as $\sim 50\%$ at the peak of the waveform. Furthermore,
+  be as large as \(\sim 50\%\) at the peak of the waveform. Furthermore,
   the change in the mass and spin results in a drift in the
   quasinormal mode frequencies, which for large amplitude
   perturbations causes the nonlinear waveform to rapidly dephase with

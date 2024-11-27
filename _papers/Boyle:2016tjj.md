@@ -24,11 +24,11 @@ abstract: |
   the geometry involved, and allows for a more elegant description of
   the behavior of spin-weighted functions. In this form, the spin-
   weighted spherical harmonics have simple expressions as elements of
-  the Wigner $\mathfrak{D}$ representations, and transformations under
+  the Wigner \(\mathfrak{D}\) representations, and transformations under
   rotation are simple. Two variants of the angular-momentum operator
   are defined directly in terms of the spin group; one is the standard
-  angular-momentum operator $\mathbf{L}$, while the other is shown to
-  be related to the spin-raising operator $\eth$. Computer code is
+  angular-momentum operator \(\mathbf{L}\), while the other is shown to
+  be related to the spin-raising operator \(\eth\). Computer code is
   also included, providing an explicit implementation of the spin-
   weighted spherical harmonics in this form.
 ---

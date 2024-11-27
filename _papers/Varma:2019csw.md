@@ -24,10 +24,10 @@ abstract: |
   the second model, \RemnantModel, predicts the properties of the
   remnant black hole. These models extend previous 7-dimensional, non-
   eccentric precessing models to higher mass ratios, and have been
-  trained against 1528 simulations with mass ratios $q\leq4$ and spin
-  magnitudes $\chi_1,\chi_2 \leq 0.8$, with generic spin directions.
+  trained against 1528 simulations with mass ratios \(q\leq4\) and spin
+  magnitudes \(\chi_1,\chi_2 \leq 0.8\), with generic spin directions.
   The waveform model, NRSur7dq4, which begins about 20 orbits before
-  merger, includes all $\ell \leq 4$ spin-weighted spherical harmonic
+  merger, includes all \(\ell \leq 4\) spin-weighted spherical harmonic
   modes, as well as the precession frame dynamics and spin evolution
   of the black holes. The final black hole model, \RemnantModel,
   models the mass, spin, and recoil kick velocity of the remnant black
@@ -36,5 +36,5 @@ abstract: |
   magnitude, with errors comparable to the estimated errors in the
   numerical relativity simulations. We also show that the surrogate
   models work well even when extrapolated outside their training
-  parameter space range, up to mass ratios $q=6$.
+  parameter space range, up to mass ratios \(q=6\).
 ---

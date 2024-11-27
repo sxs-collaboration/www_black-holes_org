@@ -27,11 +27,11 @@ abstract: |
   iteratively numerically evolves the system, fits the orbit with
   analytical post-Newtonian equations, and calculates updated input
   parameters. Through SpEC numerical simulations, we demonstrate
-  $\lesssim 10^{-3}$ and $O(\rm degree)$ convergence for the orbital
-  eccentricity and the spin directions respectively in $\leq7$
-  iterations. These tests extend to binaries with mass ratios $q \leq
-  3$, eccentricities $e \leq 0.65$, and spin magnitudes $|\chi | \leq
-  0.75$. Our method for controlling the orbital and spin parameters of
+  \(\lesssim 10^{-3}\) and \(O(\rm degree)\) convergence for the orbital
+  eccentricity and the spin directions respectively in \(\leq7\)
+  iterations. These tests extend to binaries with mass ratios \(q \leq
+  3\), eccentricities \(e \leq 0.65\), and spin magnitudes \(|\chi | \leq
+  0.75\). Our method for controlling the orbital and spin parameters of
   numerical simulations can be used to produce targeted simulations in
   sparsely covered regions of the parameter space or study the
   dynamics of relativistic binaries.
