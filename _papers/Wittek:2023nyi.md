@@ -1,5 +1,5 @@
 ---
-title: "Worldtube excision method for intermediate-mass-ratio inspirals: Scalar-field model in 3+1 dimensions"
+title: "Worldtube excision method for intermediate-mass-ratio inspirals: Scalar-field model in \(3+1\) dimensions"
 authors:
   - "Wittek, Nikolas A."
   - "Dhesi, Mekhi"
@@ -25,7 +25,8 @@ abstract: |
   disparity dictates smaller time steps. The program initiated by
   Dhesi et al. [Phys. Rev. D 104, 124002 (2021)] explores a method for
   alleviating the scale disparity in simulations with mass ratios in
-  the intermediate astrophysical range (10^-4 <= q <= 10^-2), where purely
+  the intermediate astrophysical range (\(10^{-4} \leq q \leq 10^{-2}\)),
+  where purely
   perturbative methods may not be adequate. A region (“worldtube”)
   much larger than the small black hole is excised from the numerical
   domain, and replaced with an analytical model approximating a
@@ -33,7 +34,7 @@ abstract: |
   of a scalar charge in a fixed circular geodesic orbit around a
   Schwarzschild black hole, solving for the massless Klein-Gordon
   field. This is a first implementation of the worldtube excision
-  method in full 3+1
+  method in full \(3+1\)
   dimensions. We demonstrate the accuracy and efficiency of the
   method, and discuss the steps toward applying it for evolving orbits
   and, ultimately, in the binary black-hole scenario. Our

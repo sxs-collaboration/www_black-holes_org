@@ -21,7 +21,7 @@ date: 2024-11-17
 arxiv: "2411.11269"
 abstract: |
   Using high-accuracy numerical relativity waveforms, we confirm the
-  presence of numerous overtones of the $\ell=2$, $m=2$ quasinormal
+  presence of numerous overtones of the \(\ell=2\), \(m=2\) quasinormal
   mode early in the ringdown of binary black hole mergers. We do this
   by demonstrating the stability of the mode amplitudes at different
   fit times, ruling out the possibility that a linear superposition of
