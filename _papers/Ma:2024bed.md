@@ -23,7 +23,7 @@ abstract: |
   of motion, Weyl scalar computations, Bianchi identities, and balance
   laws at future null infinity. Our algorithm, tested across various
   scenarios, accurately reveals memory effects induced by both scalar
-  and tensor fields and captures Price's power-law tail ($u^{-l-2}$)
+  and tensor fields and captures Price's power-law tail (\(u^{-l-2}\))
   in scalar fields at future null infinity, in contrast to the
-  $t^{-2l-3}$ tail at future timelike infinity.
+  \(t^{-2l-3}\) tail at future timelike infinity.
 ---

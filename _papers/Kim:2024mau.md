@@ -23,6 +23,6 @@ abstract: |
   star magnetospheres. In addition to a series of challenging test
   problems, we show that our approach can—depending on the physical
   properties of the system and the numerical implementation—be up to
-  10x more efficient than conventional simulations, with a speedup of
-  2-3x for most problems we consider in practice.
+  \(10x\) more efficient than conventional simulations, with a speedup of
+  \(2-3x\) for most problems we consider in practice.
 ---
