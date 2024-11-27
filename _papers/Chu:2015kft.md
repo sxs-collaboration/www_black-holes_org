@@ -21,7 +21,7 @@ abstract: |
   comprehensively both black-hole spins up to spin magnitude of 0.9,
   and cover mass ratios 1–3. The simulations cover on average 24
   inspiral orbits, plus merger and ringdown, with low initial orbital
-  eccentricities $e\lt {10}^{-4}$. A subset of the simulations extends
+  eccentricities \(e\lt {10}^{-4}\). A subset of the simulations extends
   the coverage of non-spinning BBHs up to mass ratio q = 10.
   Gravitational waveforms at asymptotic infinity are computed with two
   independent techniques: extrapolation and Cauchy characteristic
@@ -30,7 +30,7 @@ abstract: |
   gravitational wave extraction, and errors due to the Fourier
   transformation of signals with finite length of the numerical
   waveforms are of similar magnitude, with gravitational wave
-  extraction errors dominating at noise-weighted mismatches of $\sim
-  3\times {10}^{-4}$. This set of waveforms will serve to validate and
+  extraction errors dominating at noise-weighted mismatches of \(\sim
+  3\times {10}^{-4}\). This set of waveforms will serve to validate and
   improve aligned-spin waveform models for gravitational wave science.
 ---

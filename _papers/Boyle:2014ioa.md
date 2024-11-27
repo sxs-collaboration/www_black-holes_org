@@ -36,7 +36,7 @@ abstract: |
   of asymmetry on recoils more clearly. We present post-Newtonian (PN)
   expressions for the waveform modes that include these terms,
   complete to the relative 2PN level in spin (proportional to
-  $v^4/c^4$ times a certain combination of the spins). Comparing the
+  \(v^4/c^4\) times a certain combination of the spins). Comparing the
   results of those expressions to numerical results, we find good
   qualitative agreement. We also demonstrate how these expressions can
   be used to efficiently calculate waveforms for gravitational-wave

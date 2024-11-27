@@ -1,5 +1,5 @@
 ---
-title: "Black hole-neutron star mergers for $10M_\\odot$ black holes"
+title: "Black hole-neutron star mergers for \\(10M_\\odot\\) black holes"
 authors:
   - "Foucart, F."
   - "Duez, M. D."

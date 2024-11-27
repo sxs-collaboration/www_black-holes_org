@@ -22,14 +22,14 @@ abstract: |
   gravitational waves emitted by merging black holes requires
   numerical-relativity simulations, but these simulations are
   especially challenging when one or both holes have mass m and spin S
-  exceeding the Bowen–York limit of $S/{{m}^{2}}=0.93$. We present
+  exceeding the Bowen–York limit of \(S/{{m}^{2}}=0.93\). We present
   improved methods that enable us to simulate merging, nearly extremal
-  black holes (i.e., black holes with $S/{{m}^{2}}\gt 0.93$) more
+  black holes (i.e., black holes with \(S/{{m}^{2}}\gt 0.93\)) more
   robustly and more efficiently. We use these methods to simulate an
   unequal-mass, precessing binary black hole (BBH) coalescence, where
-  the larger black hole has $S/{{m}^{2}}=0.99$. We also use these
+  the larger black hole has \(S/{{m}^{2}}=0.99\). We also use these
   methods to simulate a non-precessing BBH coalescence, where both
-  black holes have $S/{{m}^{2}}=0.994$, nearly reaching the
+  black holes have \(S/{{m}^{2}}=0.994\), nearly reaching the
   Novikov–Thorne upper bound for holes spun up by thin accretion
   disks. We demonstrate numerical convergence and estimate the
   numerical errors of the waveforms, we compare numerical waveforms

@@ -30,11 +30,11 @@ abstract: |
   are in the superrest frame of the remnant black hole allowing us to
   do a correct analysis of the ringdown spectrum. The novel prediction
   of our surrogate model is complex-valued quasinormal mode (QNM)
-  amplitudes, with median relative errors of $10^{-2}-10^{-3}$ over
+  amplitudes, with median relative errors of \(10^{-2}-10^{-3}\) over
   the parameter space. Like previous remnant surrogates, we also
   predict the remnant black hole's mass and spin. The QNM mode
   amplitude errors translate into median errors on ringdown waveforms
-  of $10^{-4}$. The high accuracy and QNM mode content provided by our
+  of \(10^{-4}\). The high accuracy and QNM mode content provided by our
   surrogate will enable high-precision ringdown analyses such as tests
   of general relativity. Our ringdown model is publicly available
   through the python package surfinBH.

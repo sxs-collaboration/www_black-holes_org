@@ -20,16 +20,16 @@ arxiv: "1411.7297"
 used_spec: true
 abstract: |
   The spin angular momentum S of an isolated Kerr black hole is
-  bounded by the surface area A of its apparent horizon: $8\pi
-  S\leqslant A$, with equality for extremal black holes. In this
+  bounded by the surface area A of its apparent horizon: \(8\pi
+  S\leqslant A\), with equality for extremal black holes. In this
   paper, we explore the extremality of individual and common apparent
   horizons for merging, rapidly spinning binary black holes. We
   consider simulations of merging black holes with equal masses M and
   initial spin angular momenta aligned with the orbital angular
   momentum, including new simulations with spin magnitudes up to
-  $S/{{M}^{2}}=0.994$. We measure the area and (using approximate
+  \(S/{{M}^{2}}=0.994\). We measure the area and (using approximate
   Killing vectors) the spin on the individual and common apparent
-  horizons, finding that the inequality $8\pi S\lt A$ is satisfied in
+  horizons, finding that the inequality \(8\pi S\lt A\) is satisfied in
   all cases but is very close to equality on the common apparent
   horizon at the instant it first appears. We also evaluate the
   Booth–Fairhurst extremality, whose value for a given apparent
@@ -41,12 +41,12 @@ abstract: |
   moderately close to extremal just after they appear. Finally,
   following Lovelace et al (2008 Phys. Rev. D 78 084017), we construct
   quasiequilibrium binary-black hole initial data with ‘overspun’
-  marginally trapped surfaces with $8\pi S\gt A$. We show that the
+  marginally trapped surfaces with \(8\pi S\gt A\). We show that the
   overspun surfaces are indeed superextremal: our lower bound on their
   Booth–Fairhurst extremality exceeds unity. However, we confirm that
   these superextremal surfaces are always surrounded by marginally
-  outer trapped surfaces (i.e., by apparent horizons) with $8\pi S\lt
-  A$. The extremality lower bound on the enclosing apparent horizon is
+  outer trapped surfaces (i.e., by apparent horizons) with \(8\pi S\lt
+  A\). The extremality lower bound on the enclosing apparent horizon is
   always less than unity but can exceed the value for an extremal Kerr
   black hole.
 ---

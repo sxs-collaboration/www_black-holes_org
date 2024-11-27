@@ -29,5 +29,5 @@ abstract: |
   hole spin-direction. Specifically, we are able to construct initial
   data sets with neutron stars spinning near centrifugal break-up, and
   with black hole spins as large as
-  ${S}_{\mathrm{BH}}/{M}_{\mathrm{BH}}^{2}=0.99$.
+  \({S}_{\mathrm{BH}}/{M}_{\mathrm{BH}}^{2}=0.99\).
 ---

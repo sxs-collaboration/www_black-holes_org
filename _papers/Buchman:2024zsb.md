@@ -26,5 +26,5 @@ abstract: |
   gravitational wave and inspiralling mass ratio 7:1 BBH simulations.
   One of our implementations in particular is shown to be extremely
   robust and to produce accuracy superior to the standard
-  freezing-Ψ$_{0}$ boundary condition usually used by SpEC.
+  freezing-Ψ\(_{0}\) boundary condition usually used by SpEC.
 ---

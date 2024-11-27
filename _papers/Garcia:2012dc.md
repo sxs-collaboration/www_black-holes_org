@@ -28,9 +28,9 @@ abstract: |
   the inspiral, merger, and ringdown of two equal-mass, nonspinning
   black holes using SKS initial data and compare with an analogous
   simulation using CF initial data. We find that the resultant
-  gravitational-waveform phases agree to within $\delta \phi \lesssim
-  10^{-2}$ radians and the amplitudes agree to within $\delta A/A
-  \lesssim 5 \times 10^{-3}$, which are within the numerical errors of
+  gravitational-waveform phases agree to within \(\delta \phi \lesssim
+  10^{-2}\) radians and the amplitudes agree to within \(\delta A/A
+  \lesssim 5 \times 10^{-3}\), which are within the numerical errors of
   the simulations. Furthermore, we find that the final mass and spin
-  of the remnant black hole agree to one part in $10^{5}
+  of the remnant black hole agree to one part in \(10^{5}\).
 ---

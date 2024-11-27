@@ -25,14 +25,14 @@ abstract: |
   the phase evolution up to 3.5 pN order are nearly always better, and
   rarely significantly worse, than 2.0 pN templates currently in use.
   For Initial LIGO we recommend a strategy using templates that
-  include a recently introduced pseudo-4.0 pN term in the low-mass ($M
-  \leq 35 \MSun$) region, and 3.5 pN templates allowing unphysical
-  values of the symmetric reduced mass $\eta$ above this. This
+  include a recently introduced pseudo-4.0 pN term in the low-mass (\(M
+  \leq 35 M_\odot\)) region, and 3.5 pN templates allowing unphysical
+  values of the symmetric reduced mass \(\eta\) above this. This
   strategy always achieves overlaps within 0.3% of the optimum, for
   the data used here. For Advanced LIGO we recommend a strategy using
-  3.5 pN templates up to $M=12 \MSun$, 2.0 pN templates up to $M=21
-  \MSun$, pseudo-4.0 pN templates up to $65 \MSun$, and 3.5 pN
-  templates with unphysical $\eta$ for higher masses. This strategy
+  3.5 pN templates up to \(M=12 M_\odot\), 2.0 pN templates up to \(M=21
+  M_\odot\), pseudo-4.0 pN templates up to \(65 M_\odot\), and 3.5 pN
+  templates with unphysical \(\eta\) for higher masses. This strategy
   always achieves overlaps within 0.7% of the optimum for Advanced
   LIGO.
 ---

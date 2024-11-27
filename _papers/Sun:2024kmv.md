@@ -24,9 +24,9 @@ abstract: |
   both fix the Bondi-Metzner-Sachs (BMS) frame of the NR waveforms to
   match that of PN theory, and optimize over the PN parameters. We
   test such a hybridization procedure including all spin-weighted
-  spherical harmonic modes with $|m|\leq \ell$ for $\ell\leq 8$, using
-  29 NR waveforms with mass ratios $q\leq 10$ and spin magnitudes
-  $|\chi_1|, |\chi_2|\leq 0.8$. We find that for spin-aligned systems,
+  spherical harmonic modes with \(|m|\leq \ell\) for \(\ell\leq 8\), using
+  29 NR waveforms with mass ratios \(q\leq 10\) and spin magnitudes
+  \(|\chi_1|, |\chi_2|\leq 0.8\). We find that for spin-aligned systems,
   the PN and NR waveforms agree very well. The difference is limited
   by the small nonzero orbital eccentricity of the NR waveforms, or
   equivalently by the lack of eccentric terms in the PN waveforms. To
@@ -35,7 +35,7 @@ abstract: |
   least 15 orbits before merger. For precessing systems, the errors
   are larger than for spin-aligned cases. The errors are likely
   limited by the absence of precession-related spin-spin PN terms.
-  Using $10^5\,M$ long NR waveforms, we find that there is no optimal
+  Using \(10^5\,M\) long NR waveforms, we find that there is no optimal
   choice of the matching window within this time span, because the
   hybridization result for precessing cases is always better if using
   earlier or longer matching windows. We provide the mean orbital
