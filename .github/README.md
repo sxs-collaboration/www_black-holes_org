@@ -105,8 +105,8 @@ on the page we're writing.
 - [ ] "Featured Video" in sidebar?
 - [ ] Streamline CSS, so that only the necessary elements get served: one for homepage, another for
       everything else; maybe get rid of Bulma?
-- [ ] Styling on the about-sxs/people page is very broken
-- [ ] Style audio so that it's visible
+- [x] Styling on the about-sxs/people page is very broken
+- [x] Style audio so that it's visible
 - [ ] Switch to the SVG logo, using
       [Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text=IMULATING%20ETREME%20PACETIMES&preview.text_type=custom&query=ubuntu)
       for the title and
