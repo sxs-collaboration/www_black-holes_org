@@ -27,6 +27,10 @@
         <div class="email"><i class="fa-solid fa-envelope"></i>
         <a href="mailto:{{ member.email }}">{{ member.email }}</a></div>
         {%- endif -%}
+        {%- if member.website -%}
+        <div class="website"><i class="fa-solid fa-house"></i>
+        <a href="{{ member.website }}">{{ member.website }}</a></div>
+        {%- endif -%}
         {%- if member.phone -%}
         <div class="phone"><i class="fa-solid fa-phone"></i> {{ member.phone }}</div>
         {%- endif -%}
