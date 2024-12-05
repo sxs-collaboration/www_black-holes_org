@@ -1,5 +1,5 @@
 ---
-name: Guillermo
+name: Guillermo Lara
 lastname: Lara
 group: postdocs
 position: Postdoctoral Researcher
