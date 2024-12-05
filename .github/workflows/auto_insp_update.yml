@@ -1,0 +1,38 @@
+# Try to automatically update papers from INSPIRE
+
+name: Attempt to automatically update papers
+
+on:
+  workflow_dispatch: # This allows us to manually trigger
+  schedule:
+    # Hour 11 of every day
+    - cron: "0 11 * * *"
+
+jobs:
+  update:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install sxs dateparser
+    - name: Run inspSXSUpdateByDate
+      run: |
+        cd _papers
+        python inspSXSUpdateByDate.py
+    - name: Create PR
+      uses: peter-evans/create-pull-request@v7
+      with:
+        branch: gh-action/autoINSPUpdate
+        add-paths: _papers/*.md
+        delete-branch: true
+        commit-message: Auto paper update
+        title: "Attempt to auto update papers from INSPIRE"
+        body: "New paper updates found!"
