@@ -1,5 +1,5 @@
 ---
-title: "Worldtube excision method for intermediate-mass-ratio inspirals: Scalar-field model in \(3+1\) dimensions"
+title: "Worldtube excision method for intermediate-mass-ratio inspirals: Scalar-field model in 3+1 dimensions"
 authors:
   - "Wittek, Nikolas A."
   - "Dhesi, Mekhi"
