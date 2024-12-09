@@ -30,10 +30,10 @@ abstract: |
   display="inline"><mo>ℓ</mo><mo>≤</mo><mn>8</mn></math>, using 29 NR
   waveforms with mass ratios <math
   display="inline"><mi>q</mi><mo>≤</mo><mn>10</mn></math> and spin
-  magnitudes <math display="inline"><mrow><mo stretchy="false">|</mo><
-  msub><mrow><mi>χ</mi></mrow><mrow><mn>1</mn></mrow></msub><mo
-  stretchy="false">|</mo><mo>,</mo><mo stretchy="false">|</mo><msub><m
-  row><mi>χ</mi></mrow><mrow><mn>2</mn></mrow></msub><mo
+  magnitudes <math display="inline"><mrow><mo stretchy="false">|</mo>
+  <msub><mrow><mi>χ</mi></mrow><mrow><mn>1</mn></mrow></msub><mo
+  stretchy="false">|</mo><mo>,</mo><mo stretchy="false">|</mo><msub>
+  <mrow><mi>χ</mi></mrow><mrow><mn>2</mn></mrow></msub><mo
   stretchy="false">|</mo><mo>≤</mo><mn>0.8</mn></mrow></math>. We find
   that for spin-aligned systems, the PN and NR waveforms agree very
   well. The difference is limited by the small nonzero orbital
