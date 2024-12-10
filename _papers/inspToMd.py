@@ -47,7 +47,8 @@ def write_insp_resp_to_md(responses):
         abstract_str = md['abstracts'][0]['value']
         abstract_str = fill(abstract_str,
                             initial_indent='  ',
-                            subsequent_indent='  ')
+                            subsequent_indent='  ',
+                            break_long_words=False)
         with open(f"{texkey}.md", 'w') as f:
             f.write(f"""---
 title: "{title}"
