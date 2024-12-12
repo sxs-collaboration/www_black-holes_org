@@ -1,5 +1,5 @@
 ---
-name: Nick Corso
+name: Nicholas Corso
 lastname: Corso
 group: graduate_students
 position: PhD Candidate
