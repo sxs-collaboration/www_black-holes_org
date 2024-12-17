@@ -13,9 +13,21 @@ specialties: General relativistic hydrodynamics, numerical methods
 ##### Research Projects
 
 I am working on developing theoretical models for dissipative and resistive
-general relativistic magnetohydrodynamics inspired by 14-moment methods
+general relativistic magnetohydrodynamics (GRMHD) inspired by 14-moment methods
 for application to, among other things,
-pulsar magnteospheres and low-luminosity black hole accretion disks.
+pulsar magnetospheres and low-luminosity black hole accretion disks.
+
+For my PhD work at Vanderbilt University/Oak Ridge National Laboratory/University
+of Tennessee, Knoxville under the guidance of Kelly Holley--Bockelmann,
+Eirik Endeve, and Anthony Mezzacappa,
+I helped to develop a module for the
+[thornado](https://endeve.github.io/thornado) codebase that solves the GRHD
+equations using Runge--Kutta discontinuous Galerkin methods,
+primarily for application to core-collapse supernova simulations.
+I also was the primary driver behind coupling thornado to
+[amrex](https://amrex-codes.github.io/amrex), which is a software framework
+that allows application codes to make use of MPI parallelism and block-structured
+adaptive mesh refinement.
 
 ##### Biography
 
