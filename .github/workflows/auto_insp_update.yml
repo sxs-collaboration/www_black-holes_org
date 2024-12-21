@@ -31,6 +31,7 @@ jobs:
       uses: peter-evans/create-pull-request@v7
       with:
         branch: gh-action/autoINSPUpdate
+        branch-suffix: timestamp
         add-paths: _papers/*.md
         delete-branch: true
         commit-message: Auto paper update
