@@ -157,43 +157,8 @@ The following publications have made use of SpEC. For their abstracts
 and additional papers, see the [SXS Papers page]({{ site.baseurl }}{%
 link for-researchers/sxs-papers.markdown %}).
 
-<!-- Lots of code duplication between this and sxs-papers.markdown!!! -->
-<div id="year_link">
-{% capture written_year %}'None'{% endcapture %}
-{%- assign sorted = site.papers | sort: 'date' -%}
-{%- assign paper_count = 0 -%}
-{%- for paper in sorted reversed %}
-  {% if paper.used_spec %}
-  {%- assign paper_count = paper_count|plus:1 -%}
-  {% capture year %}{{ paper.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-  <a href="#{{ year }}">{{ year }}</a>
-  {% endif %}
-  {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-{%- endfor -%}
-</div>
 
-{% capture written_year %}'None'{% endcapture %}
-{%- assign sorted = site.papers | sort: 'date' -%}
-{%- for paper in sorted reversed %}
-  {% if paper.used_spec %}
-  {% capture year %}{{ paper.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-<h2 id="{{ year | slugify }}" class="paper_year"><a href="#{{ year | slugify }}">#{{ year }}</a></h2>
-  {% endif %}
-  {% capture written_year %}{{ year }}{% endcapture %}
-<div class="paper">
-  <h3>{{ paper_count }}. {{ paper.title }}</h3>
-  {%- assign paper_count = paper_count|minus:1 -%}
-  <p class="paper_authors">{{ paper.authors | join: ", "}}</p>
-  {% if paper.jref %}
-  <p class="paper_jref">
-  {% if paper.doi %}<a href="http://dx.doi.org/{{ paper.doi }}">{% endif %}{{ paper.jref }}{% if paper.doi %}</a>{% endif %}
-  </p>
-  {% endif %}
-  <p class="paper_arxiv"><i class="ai ai-arxiv"></i>
-  [<a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>]</p>
-</div>
-  {% endif %}
-{%- endfor -%}
+{% include paper-list.html
+    numbered=true
+    filter_field="used_spec"
+    suppress_abstracts=true %}
