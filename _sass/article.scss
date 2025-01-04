@@ -55,6 +55,10 @@ article {
         list-style-position: inside;
     }
 
+    ul {
+        list-style-type: disc;
+    }
+
     figure {
         &.small-right {
             float: right;

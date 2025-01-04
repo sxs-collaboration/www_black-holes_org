@@ -60,6 +60,7 @@
 - url: /for-researchers
   submenu:
     - url: sxs-papers
+    - url: spec
     - url: simulation-highlights
     - url: initial-data
     - url: useful-links
