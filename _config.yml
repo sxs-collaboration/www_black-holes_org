@@ -50,6 +50,7 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 sass:
   style: compressed
