@@ -1,0 +1,44 @@
+{%- assign sorted = site.papers | sort: 'date' -%}
+{%- if include.filter_field -%}
+{%- assign sorted = sorted | where: include.filter_field, "true" -%}
+{%- endif -%}
+
+<div id="year_link">
+{% capture written_year %}'None'{% endcapture %}
+{%- assign paper_count = 0 -%}
+{%- for paper in sorted reversed %}
+  {%- assign paper_count = paper_count|plus:1 -%}
+  {% capture year %}{{ paper.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+  <a href="#{{ year }}">{{ year }}</a>
+  {% endif %}
+  {% capture written_year %}{{ year }}{% endcapture %}
+{%- endfor -%}
+</div>
+
+{% capture written_year %}'None'{% endcapture %}
+{%- for paper in sorted reversed %}
+  {% capture year %}{{ paper.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+<h2 id="{{ year | slugify }}" class="paper_year"><a href="#{{ year | slugify }}">#{{ year }}</a></h2>
+  {% endif %}
+  {% capture written_year %}{{ year }}{% endcapture %}
+<div class="paper">
+  <h3>{%- if include.numbered -%}{{ paper_count }}. {% endif %}{{ paper.title }}</h3>
+  {%- assign paper_count = paper_count|minus:1 -%}
+  <p class="paper_authors">{{ paper.authors | join: ", "}}</p>
+  {% if paper.jref %}
+  <p class="paper_jref">
+  {% if paper.doi %}<a href="http://dx.doi.org/{{ paper.doi }}">{% endif %}{{ paper.jref }}{% if paper.doi %}</a>{% endif %}
+  </p>
+  {% endif %}
+  <p class="paper_arxiv"><i class="ai ai-arxiv"></i>
+  [<a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>]</p>
+  {%- unless include.suppress_abstracts -%}
+  <details>
+  <summary>Abstract</summary>
+  <div class="paper_abstract">{{ paper.abstract }}</div>
+  </details>
+  {%- endunless -%}
+</div>
+{%- endfor -%}
