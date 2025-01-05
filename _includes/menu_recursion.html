@@ -8,11 +8,17 @@
 {%- endif %}
 {%- assign itempage = site.pages | where_exp: "item", "item.url == itemurl" | first %}
 {%- if menuitem.url == "/" -%}{%- assign tabindex="0" -%}{%- else -%}{%- assign tabindex="-1" -%}{%- endif -%}
+{%- if menuitem.url contains "://" -%}
+  {%- assign prefix = "" -%}
+  {%- assign itemurl = menuitem.url -%}
+{%- else -%}
+  {%- assign prefix = site.baseurl -%}
+{%- endif -%}
 
 {%- if menuitem.submenu -%}
 <div class="navbar-item has-dropdown is-hoverable">
 {%- endif -%}
-    <a class="{{ class }}" href="{{ site.baseurl }}{{ itemurl }}" tabindex={{ tabindex }}>
+    <a class="{{ class }}" href="{{ prefix }}{{ itemurl }}" tabindex={{ tabindex }}>
         {{ menuitem.title | default: itempage.title }}
         {%- if itempage.subtitle -%}
         <br><span class="menu-subtitle">{{ itempage.subtitle }}</span>
