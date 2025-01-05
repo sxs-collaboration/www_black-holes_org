@@ -1,19 +1,23 @@
 {% for menuitem in include.menu %}
 {%- if menuitem.submenu %}
 {%- assign itemurl = include.baseurl | append: menuitem.url | append: "/" %}
+{%- assign class = "navbar-link" -%}
 {%- else %}
 {%- assign itemurl = include.baseurl | append: menuitem.url %}
+{%- assign class = "navbar-item" -%}
 {%- endif %}
 {%- assign itempage = site.pages | where_exp: "item", "item.url == itemurl" | first %}
 {%- if menuitem.url == "/" -%}{%- assign tabindex="0" -%}{%- else -%}{%- assign tabindex="-1" -%}{%- endif -%}
 
 {%- if menuitem.submenu -%}
 <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link" href="{{ site.baseurl }}{{ itemurl }}" tabindex={{ tabindex }}>
+{%- endif -%}
+    <a class="{{ class }}" href="{{ site.baseurl }}{{ itemurl }}" tabindex={{ tabindex }}>
         {{ menuitem.title | default: itempage.title }}
         {%- if itempage.subtitle -%}
         <br><span class="menu-subtitle">{{ itempage.subtitle }}</span>
         {%- endif %}
+{%- if menuitem.submenu -%}
         <span class="border-fixer"></span>
     </a>
     <div class="navbar-dropdown" role="menu" aria-label="{{ menuitem.title | default: itempage.title }}">
@@ -21,11 +25,6 @@
     </div>
 </div>
 {%- else -%}
-    <a class="navbar-item" href="{{ site.baseurl }}{{ itemurl }}" tabindex={{ tabindex }}>
-        {{ menuitem.title | default: itempage.title }}
-        {%- if itempage.subtitle -%}
-        <br><span class="menu-subtitle">{{ itempage.subtitle }}</span>
-        {%- endif %}
     </a>
 {%- endif -%}
 
