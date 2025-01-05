@@ -59,6 +59,10 @@
 
 - url: /for-researchers
   submenu:
+    - title: Waveform Catalog
+      url: https://data.black-holes.org/waveforms/index.html
+    - title: Surrogate Waveforms
+      url: https://data.black-holes.org/surrogates/index.html
     - url: sxs-papers
     - url: spec
     - url: simulation-highlights
