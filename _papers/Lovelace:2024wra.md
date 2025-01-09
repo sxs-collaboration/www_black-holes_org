@@ -32,8 +32,8 @@ authors:
   - "Tellez, Daniel"
   - "Teukolsky, Saul A."
   - "Wittek, Nikolas A."
-jref:
-doi:
+jref: "Class.Quant.Grav. 42, 035001 (2025)"
+doi: "10.1088/1361-6382/ad9f19"
 date: 2024-09-30
 arxiv: "2410.00265"
 abstract: |
