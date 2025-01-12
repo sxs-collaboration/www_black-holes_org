@@ -39,9 +39,10 @@ sxs_insp_names = [
     "Nils.L.Vu.1",
 
     # Students
-    "K.C.Nelli.1",
-    "Y.Kim.62",
     "A.Khairnar.1",
+    "Y.Kim.62",
+    "Peter.J.Nee.1",
+    "K.C.Nelli.1",
 ]
 
 ############################################################
