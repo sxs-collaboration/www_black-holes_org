@@ -31,9 +31,13 @@ abstract: |
   to the evaluation of the time-domain microlensing amplification
   factor $\widetilde{F}(t)$, for arbitrary lens configurations. We
   show this by constructing $\widetilde{F}(t)$ for two lens models,
-  viz. point-mass lens, and singular isothermal sphere. We benchmark
-  the evaluation times, and accuracy, of the surrogate microlensed
-  templates, and show that indeed surrogate modeling is a powerful
-  tool to make large-scale parameter estimation in the context of
-  microlensed GWs practicable.
+  viz. point-mass lens, and singular isothermal sphere, which notably
+  includes logarithmic divergence behaviour. We find both surrogates
+  reproduce the original lens models accurately, with mismatches
+  $\lesssim 5 \times 10^{-4}$ across a range of plausible microlensed
+  binary black hole sources observed by the Einstein Telescope. This
+  surrogate is between 5 and $10^3$ times faster than the underlying
+  lensing models, and can be evaluated in about 100 ms. The accuracy
+  and efficiency attained by our surrogate models will enable
+  practical parameter estimation analyses of microlensed GWs.
 ---
