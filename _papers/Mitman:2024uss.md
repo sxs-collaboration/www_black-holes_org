@@ -16,7 +16,6 @@ jref: "Class.Quant.Grav. 41, 223001 (2024)"
 doi: "10.1088/1361-6382/ad83c2"
 date: 2024-05-14
 arxiv: "2405.08868"
-used_spec: true
 abstract: |
   Gravitational memory effects and the BMS freedoms exhibited at
   future null infinity have recently been resolved and utilized in
