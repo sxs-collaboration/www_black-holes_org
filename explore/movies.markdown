@@ -145,9 +145,9 @@ speeds up --- just so it doesn't take so long --- and we see nice
 spiral-shaped waves. Gradually, the black holes begin to orbit faster
 and faster. As they do, the waves become more and more intense. If you
 watch carefully, you can see the circles on the top and sides
-oscillating, <a href="index.php?Itemid=184" title="Gravitational Wave
-AStronomy">just as you would expect from a passing gravitational
-wave</a>.
+oscillating, [just as you would expect from a passing gravitational
+wave]({{ site.baseurl }}{% link
+the-science/gravitational-wave-astronomy/gravitational-waves.md %}).
 
 ## Precessing Black Hole-Neutron Star Merger
 
