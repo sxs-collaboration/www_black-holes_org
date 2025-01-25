@@ -160,16 +160,18 @@ waves should also be very powerful.
 
 ### Detector Sounds
 
-<a href="index.php?Itemid=189" title="Gravitational Wave
-Detectors">Gravitational Wave Detectors</a> are designed to be
-extraordinarily sensitive to the tiniest motions of their
-components. Nothing on Earth can be truly isolated from the rest of
-the Earth, however, which means that any detector's components will be
-moving. This will produce <a href="index.php?Itemid=190" title="a
-great deal of noise">a great deal of noise</a> noise in the detector's
-output. Things like earthquakes, and trucks rumbling along nearby
-highways will produce deep-pitched noise. Just as importantly, lack of
-laser power will produce high-pitched noise.
+[Gravitational Wave Detectors]({{ site.baseurl }}{% link
+the-science/gravitational-wave-astronomy/a-totally-new-kind-of-observatory.markdown
+%}) are designed to be extraordinarily sensitive to the tiniest
+motions of their components. Nothing on Earth can be truly isolated
+from the rest of the Earth, however, which means that any detector's
+components will be moving. This will produce [a great deal of
+noise]({{ site.baseurl }}{% link
+the-science/gravitational-wave-astronomy/needles-in-the-haystack.markdown
+%}) noise in the detector's output. Things like earthquakes, and
+trucks rumbling along nearby highways will produce deep-pitched
+noise. Just as importantly, lack of laser power will produce
+high-pitched noise.
 
 
 {% include sound-described.html
