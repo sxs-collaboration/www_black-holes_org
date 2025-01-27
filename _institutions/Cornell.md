@@ -8,6 +8,3 @@ logo_title: Cornell University Astronomy Department
 logo_w:     106
 logo_h:     106
 ---
-
-<a href="index.php?option=com_content&amp;view=article&amp;id=140:visiting-cornell&amp;catid=21:for-researchers&amp;Itemid=353">Visiting
-Cornell</a>
