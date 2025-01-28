@@ -19,7 +19,7 @@ strong enough to detect on Earth. The sound produced will be a single,
 simple tone.
 
 {% include sound-described.html
-    src="sound/Periodic.wav"
+    src="/sound/Periodic.wav"
     type="audio/x-wav"
     description="The steady tone of a pulsar, spinning almost
     endlessly in space"
@@ -35,7 +35,7 @@ settles back down to its quiet, simple state, it will shake off
 gravitational waves.
 
 {% include sound-described.html
-    src="sound/Ringdown_10_0.7.wav"
+    src="/sound/Ringdown_10_0.7.wav"
     type="audio/x-wav"
     description="The gently fading ringing of a black hole ten times
     more massive than our own Sun, as it settles down after a
@@ -43,7 +43,7 @@ gravitational waves.
 %}
 
 {% include sound-described.html
-    src="sound/Ringdown_20_0.7.wav"
+    src="/sound/Ringdown_20_0.7.wav"
     type="audio/x-wav"
     description="A black hole twenty times more massive than our own
     Sun"
@@ -51,28 +51,28 @@ gravitational waves.
 
 
 {% include sound-described.html
-    src="sound/Ringdown_40_0.7.wav"
+    src="/sound/Ringdown_40_0.7.wav"
     type="audio/x-wav"
     description="A black hole forty times more massive than our own
     Sun"
 %}
 
 {% include sound-described.html
-    src="sound/Ringdown_10_0.998.wav"
+    src="/sound/Ringdown_10_0.998.wav"
     type="audio/x-wav"
     description="A quickly-spinning black hole ten times more massive
     than our own Sun"
 %}
 
 {% include sound-described.html
-    src="sound/Ringdown_20_0.998.wav"
+    src="/sound/Ringdown_20_0.998.wav"
     type="audio/x-wav"
     description="A quickly-spinning black hole twenty times more
     massive than our own Sun"
 %}
 
 {% include sound-described.html
-    src="sound/Ringdown_40_0.998.wav"
+    src="/sound/Ringdown_40_0.998.wav"
     type="audio/x-wav"
     description="A quickly-spinning black hole forty times more
     massive than our own Sun"
@@ -92,7 +92,7 @@ behavior here.
 
 
 {% include sound-described.html
-    src="sound/Inspiral.wav"
+    src="/sound/Inspiral.wav"
     type="audio/x-wav"
     description="The meeting of two black holes, each ten times as
     massive as the Sun"
@@ -109,20 +109,20 @@ observations of the system.
 
 
 {% include sound-described.html
-    src="sound/A.wav"
+    src="/sound/A.wav"
     type="audio/x-wav"
     description="The progressively closer encounter of two black holes"
 %}
 
 {% include sound-described.html
-    src="sound/C.wav"
+    src="/sound/C.wav"
     type="audio/x-wav"
     description="The knocking inspiral of two black holes, as their
     orbit draws them closer and closer"
 %}
 
 {% include sound-described.html
-    src="sound/E.wav"
+    src="/sound/E.wav"
     type="audio/x-wav"
     description="The chirping inspiral of two black holes"
 %}
@@ -137,7 +137,7 @@ waves should also be very powerful.
 
 
 {% include sound-described.html
-    src="sound/Supernova.wav"
+    src="/sound/Supernova.wav"
     type="audio/x-wav"
     description="The brief thud of a supernova's gravitational waves"
 %}
@@ -145,7 +145,7 @@ waves should also be very powerful.
 ### The First Moments
 
 {% include sound-described.html
-    src="sound/Stochastic.wav"
+    src="/sound/Stochastic.wav"
     type="audio/x-wav"
     description="The \"white noise\" of our Universe's early life"
 %}
@@ -153,7 +153,7 @@ waves should also be very powerful.
 ### Exotic Possibilities
 
 {% include sound-described.html
-    src="sound/Cusp.wav"
+    src="/sound/Cusp.wav"
     type="audio/x-wav"
     description="The cracking whip of a cosmic string"
 %}
@@ -175,7 +175,7 @@ high-pitched noise.
 
 
 {% include sound-described.html
-    src="sound/h.mp3"
+    src="/sound/h.mp3"
     type="audio/mpeg"
     description="The tremendous racket of the world's most sensitive microphone"
 %}
