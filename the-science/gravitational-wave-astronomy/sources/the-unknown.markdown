@@ -3,6 +3,7 @@ order: 3
 title: The Unknown
 subtitle: Unimagined marvels await
 sidebar_quote: hamlet
+paginate_from_menu: true
 ---
 
 Certainly the most intriguing prospect behind observing gravitational waves is the great

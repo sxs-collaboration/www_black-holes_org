@@ -4,7 +4,7 @@ title: The Warped Point of View
 subtitle: Where "now" depends on how heavy you are
 date: 2013-01-30
 sidebar_quote: hamlet
-next: /the-science/gravitational-wave-astronomy/gravitational-waves
+paginate_from_menu: true
 ---
 
 Einstein saw a beautiful idea in his notion of curved space and time. He saw that the falling

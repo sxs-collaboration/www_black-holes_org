@@ -3,6 +3,7 @@ title: Gravitational Lensing
 joomla_id: 176
 joomla_url: lensing
 date: 2014-11-05 14:50:52.000000000 +00:00
+paginate_from_menu: true
 ---
 
 {% include image.html class="small-right"

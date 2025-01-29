@@ -1,0 +1,21 @@
+{%- if menu_pages -%}
+{%- else -%}
+  {%- assign menu_pages = "" | split: "," -%}
+{%- endif -%}
+
+{%- for menuitem in include.menu -%}
+  {%- if menuitem.url contains "://" -%}
+    {%- assign menu_pages = menu_pages | push: menuitem.url -%}
+  {%- else -%}
+    {%- assign itemurl = include.baseurl | append: menuitem.url -%}
+    {%- if menuitem.submenu -%}
+      {%- assign itemurl = itemurl | append: "/" -%}
+    {%- endif -%}
+    {%- assign itempage = site.pages | where_exp: "item", "item.url == itemurl" | first -%}
+    {%- assign menu_pages = menu_pages | push: itempage -%}
+  {%- endif -%}
+  {%- if menuitem.submenu -%}
+    {%- assign itemurl = include.baseurl | append: menuitem.url | append: "/" -%}
+    {%- include flatten-menu.html menu=menuitem.submenu baseurl=itemurl -%}
+  {%- endif -%}
+{%- endfor -%}

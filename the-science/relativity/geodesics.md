@@ -4,6 +4,7 @@ title: Geodesics
 subtitle: The straightest lines in curved space
 date: 2013-01-30
 sidebar_quote: machado
+paginate_from_menu: true
 ---
 
 One of the most important duties of Physics is to predict how things move. Newton wrote his First

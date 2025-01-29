@@ -4,6 +4,7 @@ subtitle: Describing How Mass Warps Spacetime
 joomla_id: 38
 joomla_url: einsteins-equations
 date: 2013-04-15 06:43:05.000000000 +00:00
+paginate_from_menu: true
 ---
 
 <aside markdown="1">

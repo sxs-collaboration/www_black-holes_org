@@ -1,5 +1,6 @@
 ---
 title: Downloads
+paginate_from_menu: true
 ---
 
 Download the SXS themed desktop wallpaper!

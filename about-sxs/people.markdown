@@ -1,5 +1,6 @@
 ---
 title: Members of the SXS collaboration
+paginate_from_menu: true
 ---
 Please click on the name tabs to read more about our group members.
 

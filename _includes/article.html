@@ -11,7 +11,11 @@
 
                 {{ content }}
 
-                {% include next-prev.html %}
+                {%- if page.paginate_from_menu -%}
+                  {% include next-prev-from-flattened-menu.html %}
+                {%- else -%}
+                  {% include next-prev.html %}
+                {%- endif -%}
             </div>
 
             {%- if page.url != '/404' -%}

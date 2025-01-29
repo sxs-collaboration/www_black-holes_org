@@ -4,6 +4,7 @@ title: Our Motivation
 joomla_id: 4
 joomla_url: our-motivation
 date: 2013-01-31 01:41:43.000000000 +00:00
+paginate_from_menu: true
 ---
 ## The reasons we work in Numerical Relativity
 ### The Golden Age of General Relativity

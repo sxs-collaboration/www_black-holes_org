@@ -2,6 +2,7 @@
 order: 2
 title: A Totally New Kind of Astronomy
 subtitle: A different perspective on the universe
+paginate_from_menu: true
 ---
 
 In the rich, velvety darkness of prehistoric night, humans no doubt gazed up at the starry sky in

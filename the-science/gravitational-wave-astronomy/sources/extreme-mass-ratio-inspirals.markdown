@@ -5,6 +5,7 @@ subtitle: An Elegant Pas de Deux
 joomla_id: 126
 joomla_url: extreme-mass-ratio-inspirals
 date: 2013-11-23 03:18:20.000000000 +00:00
+paginate_from_menu: true
 ---
 
 ## An Elegant Pas de Deux, Setting Off Waves Ringing Out Across the Cosmos

@@ -4,6 +4,7 @@ title: The Disputed Center of the Universe
 subtitle: An ancient struggle to exalt the earth
 date: 2013-01-30
 sidebar_quote: caesar
+paginate_from_menu: true
 ---
 
 Occasionally, in trying to understand something, we can be our own worst enemy. We may start off

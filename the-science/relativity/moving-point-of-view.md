@@ -4,6 +4,7 @@ title: The Moving Point of View
 subtitle: Where "now" depends on how fast you're moving
 date: 2013-01-30
 sidebar_quote: looking_glass
+paginate_from_menu: true
 ---
 
 Einstein's revolutionary solution to the problems we've just seen starts out with a very simple
