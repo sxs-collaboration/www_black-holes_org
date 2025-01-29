@@ -5,6 +5,7 @@ subtitle: Matter meets vacuum in a most dramatic fashion
 joomla_id: 162
 joomla_url: black-holes-and-neutron-stars
 date: 2014-10-11 14:49:13.000000000 +00:00
+paginate_from_menu: true
 ---
 ## Star Birth, Death, Rebirth
 

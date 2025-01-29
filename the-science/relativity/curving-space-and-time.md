@@ -4,6 +4,7 @@ title: Curving Space and Time
 subtitle: Warping slices of reality
 date: 2013-01-30
 sidebar_quote: childe_harold_183
+paginate_from_menu: true
 ---
 
 <blockquote class="animated fadeInDown">

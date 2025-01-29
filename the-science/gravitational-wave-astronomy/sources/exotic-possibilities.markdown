@@ -2,6 +2,7 @@
 order: 2
 title: Exotic Possibilities
 subtitle: Objects that physicists are just beginning to imagine
+paginate_from_menu: true
 ---
 
 Scientists seek to extend our understanding of the laws of physics by

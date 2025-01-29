@@ -2,6 +2,7 @@
 order: 4
 title: Needles in the Haystack
 subtitle: Hearing the cosmic symphony
+paginate_from_menu: true
 ---
 
 The gravitational-wave detectors now being built and operated are the

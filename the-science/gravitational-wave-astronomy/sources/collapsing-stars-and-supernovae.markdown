@@ -5,6 +5,7 @@ subtitle: The Death Throes of Stars
 joomla_id: 127
 joomla_url: collapsing-stars-and-supernovae
 date: 2013-11-23 03:21:26.000000000 +00:00
+paginate_from_menu: true
 ---
 ## The Death Throes of Stars; The Most Violent Explosions in the Universe Today
 

@@ -4,7 +4,7 @@ title: Gravitational Waves
 subtitle: Ripples in the fabric of spacetime
 date: 2013-01-30
 sidebar_quote: childe_harold_182
-previous: /the-science/relativity/warped-point-of-view
+paginate_from_menu: true
 ---
 
 <blockquote class="animated fadeInDown">

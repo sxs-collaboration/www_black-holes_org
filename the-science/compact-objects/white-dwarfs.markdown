@@ -4,6 +4,7 @@ subtitle: The Oldest and Coldest of Stars
 joomla_id: 21
 joomla_url: white-dwarfs
 date: 2013-02-01 05:30:48.000000000 +00:00
+paginate_from_menu: true
 ---
 
 Small objects (baseballs or stones, for example) don't have much

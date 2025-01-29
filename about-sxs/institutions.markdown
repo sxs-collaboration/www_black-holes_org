@@ -4,6 +4,7 @@ title: Our Institutions
 joomla_id: 179
 joomla_url: our-institutions
 date: 2016-02-03 21:54:39.000000000 +00:00
+paginate_from_menu: true
 ---
 The SXS project is a collaborative research effort involving members
 from multiple institutions. These links give you more information

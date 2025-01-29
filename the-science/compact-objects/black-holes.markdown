@@ -4,6 +4,7 @@ subtitle: The Very End of Space and Time
 joomla_id: 116
 joomla_url: black-holes
 date: 2013-04-16 07:25:19.000000000 +00:00
+paginate_from_menu: true
 ---
 
 <blockquote class="animated fadeInDown">

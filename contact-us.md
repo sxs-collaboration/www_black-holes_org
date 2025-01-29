@@ -1,5 +1,6 @@
 ---
 sidebar_quote: chinese_proverb
+paginate_from_menu: true
 ---
 
 # Contact us

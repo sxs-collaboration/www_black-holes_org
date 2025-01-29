@@ -4,6 +4,7 @@ subtitle: The Beacons of the Universe
 joomla_id: 115
 joomla_url: neutron-stars-and-pulsars
 date: 2013-04-16 07:14:00.000000000 +00:00
+paginate_from_menu: true
 ---
 
 Keep piling on more weight, and at some point the electrons and

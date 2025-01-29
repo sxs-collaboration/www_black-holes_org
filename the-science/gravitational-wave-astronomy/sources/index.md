@@ -2,6 +2,7 @@
 order: 1
 title: Sources of Gravitational Waves
 subtitle: Stirring up the ripples
+paginate_from_menu: true
 ---
 
 <p>Gravitational waves, like the ones shown distorting the boat on the last page, pass through the Earth constantly. Every ship that ever plied the ocean has run into both water waves and gravitational waves. The only difference is that gravitational waves are typically so extraordinarily small in amplitude that it is nearly impossible to notice them.</p>

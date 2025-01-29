@@ -4,6 +4,7 @@ title: Movies
 joomla_id: 120
 joomla_url: movies
 date: 2013-04-17 02:58:03.000000000 +00:00
+paginate_from_menu: true
 ---
 For more videos from the SXS Collaboration, please visit our [YouTube
 page](https://www.youtube.com/c/SXSCollaboration)!

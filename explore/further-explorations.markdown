@@ -4,6 +4,7 @@ title: Further Explorations
 joomla_id: 24
 joomla_url: further-explorations
 date: 2013-02-01 06:07:12.000000000 +00:00
+paginate_from_menu: true
 ---
 <h3>Suggestions for Further Exploration</h3>
 <h4 class="icon-book">&nbsp;Books</h4>

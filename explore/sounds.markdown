@@ -4,6 +4,7 @@ title: Sounds
 joomla_id: 121
 joomla_url: sounds
 date: 2013-08-04 05:10:27.000000000 +00:00
+paginate_from_menu: true
 ---
 Listen to a variety of sounds that scientists hope to hear with
 Gravitational Waves (Thanks to <a
