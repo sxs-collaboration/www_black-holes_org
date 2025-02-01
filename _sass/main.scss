@@ -12,3 +12,14 @@ main {
         background-color: $palepeachsolid;
     }
 }
+
+.button {
+    background-color: $terracotta;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 3px $peach;
+    font-weight: bold;
+}

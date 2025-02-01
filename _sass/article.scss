@@ -161,3 +161,50 @@ aside {
         font-size: 90%;
     }
 }
+
+blockquote {
+    max-width: 360px;
+    margin-left: 20px;
+    .quote {
+        background: lighten($offwhite, 10%);
+        font-family: Georgia,'Times New Roman',serif;
+        font-style: italic;
+        font-size: 120%;
+        padding: 15px 20px 3px;
+        border-radius: 10px;
+    }
+    .quote:after {
+        content:'';
+        display: block;
+        position: relative;
+        bottom: -15px;
+        left: 280px;
+        width: 0px;
+        height: 0px;
+        border-width: 12px 12px 0px;
+        border-style: solid;
+        border-color: lighten($offwhite, 10%) transparent;
+    }
+    .source {
+        text-align: right;
+    }
+}
+
+.animated {
+    -webkit-animation-duration:1s;
+    animation-duration:1s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both;
+    animation-delay:.5s;
+    -webkit-animation-delay:.5s;
+}
+
+@keyframes fadeInDown {
+    0% {opacity:0; transform:translateY(-20px);}
+    100% {opacity:1; transform:translateY(0);}
+}
+
+.fadeInDown {
+    -webkit-animation-name:fadeInDown;
+    animation-name:fadeInDown;
+}
