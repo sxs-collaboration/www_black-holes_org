@@ -35,7 +35,13 @@ nonetheless. It turns out that this is also the fastest route; a "straight line"
 shortest distance between two points, even if it's a straight line that curves. This is, basically,
 the path that flights from New York to Rome actually follow.
 
- <object style="float: right; margin: 0 0 0 15px;" data="flash/geo4.swf" type="application/x-shockwave-flash" height="360" width="280"> <param name="movie" value="flash/geo4.swf" /> <param value="transparent" name="wmode" /> </object> 
+<script type="text/javascript" src="{{ site.baseurl }}/js/swf2js.js"></script>
+<script type="text/javascript">
+    swf2js.load('{{ site.baseurl }}/flash/geo4.swf',
+    {tagId: "swfId", width: "280", height: "360"});
+</script>
+
+ <object id="swfId" style="float: right; margin: 0 0 0 15px;" data="flash/geo4.swf" type="application/x-shockwave-flash" height="360" width="280"> <param name="movie" value="flash/geo4.swf" /> <param value="transparent" name="wmode" /> </object> 
 
 We've just described geodesics in space; the plane's path follows a geodesic along the
 two-dimensional surface of the Earth. Geodesics can also be paths through time. In our charts of the

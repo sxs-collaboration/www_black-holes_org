@@ -26,7 +26,13 @@ at the same moment as the light bounces off the mirror. We can see this in the c
 the point where the red and blue lines cross is at the same level as the point where the yellow line
 turns back.
 
-<object data="flash/astro3.swf" type="application/x-shockwave-flash" height="540" width="580"><param name="wmode" value="transparent" /><param name="movie" value="flash/astro3.swf" /></object>
+<script type="text/javascript" src="{{ site.baseurl }}/js/swf2js.js"></script>
+<script type="text/javascript">
+    swf2js.load('{{ site.baseurl }}/flash/astro3.swf',
+    {tagId: "swfId", width: "580", height: "540"});
+</script>
+
+<object id="swfId" data="flash/astro3.swf" type="application/x-shockwave-flash" height="540" width="580"><param name="wmode" value="transparent" /><param name="movie" value="flash/astro3.swf" /></object>
 
 Of course, we remember that the two astronauts just have different viewpoints, which should be
 treated equally. That means that we should make another chart for the second astronaut. Just as the
