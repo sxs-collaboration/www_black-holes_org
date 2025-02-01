@@ -6,6 +6,11 @@ date: 2013-01-30
 sidebar_quote: childe_harold_183
 ---
 
+<blockquote class="animated fadeInDown">
+<p class="quote">Dark-heaving—boundless,<br />endless, and sublime,<br />The image of eternity—<br />the Throne of the Invisible...</p>
+<p class="source">From Lord Byron's <em>Childe Harold's Pilgrimage</em><br />Canto IV, Stanza 183</p>
+</blockquote>
+
 For his first revolution, Einstein unified space and time, and showed that a given observer just
 took a slice out of this spacetime. Each of the slices was flat: a one-dimensional slice was just a
 straight line; a two-dimensional slice was a flat sheet. In a similar way, the three-dimensional
