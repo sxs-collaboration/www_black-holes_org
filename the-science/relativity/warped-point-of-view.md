@@ -48,7 +48,7 @@ spacetime. He devised an elegant — though extremely complicated — set of equ
 Einstein's equations, appropriately. They can be written in a beautifully simple form:
 
 G=8πT.
-{:class="equation"}
+{: .equation }
 
 The "G" on the left side represents all the curvature of spacetime at a point, while the "T" on the
 right represents the mass at a point and its properties, and the same equation holds at every point

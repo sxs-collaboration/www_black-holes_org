@@ -190,6 +190,14 @@ blockquote {
     }
 }
 
+table.data {margin:0 auto 20px;}
+.data thead {background: lighten($bluegreen, 10%); color: white;}
+.data th {padding:4px 10px;
+          background: lighten($bluegreen, 10%); color: white;
+          text-align: center;}
+.data td {background: lighten($offwhite, 10%); padding:4px 12px;}
+.data tr {border-top: lighten($bluegreen, 10%) solid 1px;}
+
 .animated {
     -webkit-animation-duration:1s;
     animation-duration:1s;

@@ -27,6 +27,69 @@ to have Jekyll and all the dependencies installed.
    time, do `bundle exec jekyll serve`.  To build the deployment into
    the `_site` subdirectory, do `bundle exec jekyll build`.
 
+## Your details in /about-sxs/people
+
+Please feel free to add yourself to the SXS members page! This page is
+generated from all files in the directory `_people/`. To start, create
+a file e.g. `_people/My_Name.markdown`, with contents:
+
+```markdown
+---
+name: Given Middle Surname
+lastname: Surname
+group: (faculty|academic_staff|postdocs|graduate_students|alumni)
+position: My position title
+address: My address
+institution: My institution
+email: My email
+website: https://just/a/plain/url
+phone: My phone number
+advisor: My advisor
+specialties: My specialties
+---
+
+#### Biography
+
+When I was young, I looked up at the stars...
+
+```
+
+The `lastname` field is for sorting purposes, while the `name` field
+is how your name will be displayed.
+
+If you want to include a photo, it *must* be in
+`/images/people/My_Name.jpg`, and this must be the exact same
+`My_Name` as the markdown file above.
+
+It is important for the `group:` field to take on *exactly* one of the
+values in the list `faculty, academic_staff, postdocs,
+graduate_students, alumni`. If not, you won't appear in the list.
+
+It's also possible to have multiple affiliations. In this case, put
+your info associated to each affiliation under the `affiliations:`
+group as follows:
+
+```yml
+affiliations:
+    - position: Position 1 title
+      address: My address 1
+      institution: My institution 1
+      email: My email 1
+      website: My web site 1
+      phone: My phone 1
+    - position: Position 2 title
+      address: My address 2
+      institution: My institution 2
+      email: My email 2
+      website: My web site 2
+      phone: My phone 2
+    ...
+```
+
+Each affiliation can have any subset of the fields `position`,
+`address`, `institution`, `email`, `website`, and `phone`.  If a field
+is omitted, it will be suppressed in the output.
+
 ## Writing your own posts
 
 One of the goals of making this website more usable is to encourage SXS members to write entries
@@ -76,6 +139,72 @@ points to get it published:
 
 7. Remember to link to the *free* (presumably arXiv) version of your paper.
 
+## Links in jekyll
+
+The [Jekyll docs on
+linking](https://jekyllrb.com/docs/liquid/tags/#links). When making
+internal links to pages, use the `{% link ... %}` tag, as follows:
+
+```
+[text of link]({{ site.baseurl }}{% link real/path/to/file.md %})
+```
+
+where `real/path/to/file.md` is the path in the filesystem, based at
+the root of this repo.  At build time, Jekyll will check that this
+path actually exists, and substitute its permalink (so we can later
+change the url without rewriting all links to that page).
+
+## Including math
+
+We use the [MathJax](https://www.mathjax.org/) javascript library to
+render LaTeX math in the user's browser on the fly.  Just like regular
+LaTeX, math can be either inline, like $E=mc^2$, or "display" mode,
+like
+
+$$
+E=mc^2.
+$$
+
+We are using the [default MathJax options for
+delimiters](https://docs.mathjax.org/en/latest/input/tex/delimiters.html).
+For inline math, MathJax expects `\( latex code \)`, or `$$ latex code $$`. For
+display math, MathJax expects
+
+```
+\[
+latex code.
+\]
+```
+
+However, note that [kramdown (the markdown variant used here) has its
+own set of backslash
+escapes](https://kramdown.gettalong.org/syntax.html#automatic-and-manual-escaping). Therefore,
+if you want to use `\( latex \)` or `\[ latex \]` in markdown-parsed
+blocks, you must escape the backslashes.  Using `$$ latex $$` does not
+require escaping the delimiters.
+
+Note that [kramdown recognizes certain blocks as HTML and
+does not parse
+them](https://kramdown.gettalong.org/syntax.html#html-blocks), meaning
+that within HTML blocks you don't need to escape backslashes.  This
+is most useful for long displaymath equations.  The simplest solution
+is to just wrap them in a `<div> ... </div>` pair, e.g.
+
+```
+<div>\[
+display mode latex.
+\]</div>
+```
+
+MathJax will also automatically render blocks in
+`\begin{env}...\end{env}` without delimiters, so if you use the align
+environment, you can actually get away with
+
+```
+<div>\begin{align}
+aligned equation latex.
+\end{align}</div>
+```
 
 ## Embedding Youtube videos
 
@@ -124,6 +253,11 @@ on the page we're writing.
 
 
 ## Fonts used on the SXS website
+
+For some icons (e.g. the email envelope on the people page, speaker
+icon for sounds), we use [Font Awesome
+6.6.0](https://fontawesome.com/).  For the arXiv icon, we use
+[Academicons](https://jpswalsh.github.io/academicons/).
 
 [The following is from the style guide written by our original web developer, Yvonne Tang.]
  

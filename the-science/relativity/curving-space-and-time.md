@@ -30,7 +30,7 @@ One familiar fact from this exploration is the formula for the circumference of 
 its radius. We remember the number π — pronounced "pie", roughly 3.14159 — showing up in the formula
 
 Circumference = 2 × π × Radius
-{:class="equation"}
+{: .equation }
 
 To use this formula, we make a circle in a particular way. Choose any point, and tie one end of a
 length of rope to that point. Stretch the rope taut, and rotate around the center point, tracing out
@@ -49,7 +49,7 @@ Now, to think about curvature in three dimensions, we recall another high-school
 the surface area of a sphere in terms of its radius:
 
 Area = 4 × π × Radius × Radius = 4 × π × (Radius)<sup>2</sup>.
-{:class="equation"}
+{: .equation }
 
 To use this formula, we make a sphere just as we made a circle, but we move everywhere the rope will
 let us. The places where the free end of the rope reach define a sphere. If we want to cover this
