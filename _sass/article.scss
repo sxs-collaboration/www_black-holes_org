@@ -72,14 +72,17 @@ article {
             }
         }
         &.right {
-            width: 50%;
+            width: calc(50% - 20px);
             float: right;
             margin-left: 20px;
         }
         &.left {
-            width: 50%;
+            width: calc(50% - 20px);
             float: left;
             margin-right: 20px;
+        }
+        &.captionless {
+            figcaption {display: none;}
         }
         img {
             margin: 5px 0 10px 0;

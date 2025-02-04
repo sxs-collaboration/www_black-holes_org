@@ -7,6 +7,11 @@ sidebar_quote: childe_harold_182
 previous: /the-science/relativity/warped-point-of-view
 ---
 
+<blockquote class="animated fadeInDown">
+<p class="quote">No amount of experimentation can ever prove me right; a single experiment can prove me wrong.</p>
+<p class="source">Albert Einstein</p>
+</blockquote>
+
 In the section on Relativity, we've seen how space and time can curve. Near the Earth, this
 curvature is fairly constant. The "pull of gravity" we experience is basically the same at any two
 points in time. There is a gentle variation in the pull, however. This fact is made clear in the
