@@ -1,10 +1,10 @@
 ---
 title: Black Holes
+subtitle: The Very End of Space and Time
 joomla_id: 116
 joomla_url: black-holes
 date: 2013-04-16 07:25:19.000000000 +00:00
 ---
-## The Very End of Space and Time
 
 <blockquote class="animated fadeInDown">
 <p class="quote">Now, here, you see, it takes all the running you can do, to keep in the same place. If you want to get somewhere else, you must run twice as fast as that.</p>

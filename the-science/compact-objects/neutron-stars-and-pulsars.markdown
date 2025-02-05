@@ -1,12 +1,10 @@
 ---
-layout: post
 title: Neutron Stars and Pulsars
+subtitle: The Beacons of the Universe
 joomla_id: 115
 joomla_url: neutron-stars-and-pulsars
 date: 2013-04-16 07:14:00.000000000 +00:00
 ---
-
-## The Beacons of the Universe
 
 Keep piling on more weight, and at some point the electrons and
 protons in a white dwarf are crushed together and neutralize each

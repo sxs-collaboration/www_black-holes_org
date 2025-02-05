@@ -1,11 +1,10 @@
 ---
-layout: post
 title: Why Numerical Relativity?
+subtitle: Calculating Physics
 joomla_id: 39
 joomla_url: why-numerical-relativity
 date: 2013-04-15 06:52:55.000000000 +00:00
 ---
-## Calculating Physics
 
 Einstein gave us a beautiful, and — in some sense — very elegant
 description of physics with his equation

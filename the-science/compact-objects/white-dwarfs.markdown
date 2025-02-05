@@ -1,11 +1,10 @@
 ---
-layout: post
 title: White Dwarfs
+subtitle: The Oldest and Coldest of Stars
 joomla_id: 21
 joomla_url: white-dwarfs
 date: 2013-02-01 05:30:48.000000000 +00:00
 ---
-## The Oldest and Coldest of Stars
 
 Small objects (baseballs or stones, for example) don't have much
 gravitational pull because they are so light. Thus, they can easily

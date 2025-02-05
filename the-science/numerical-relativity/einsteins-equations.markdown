@@ -1,11 +1,10 @@
 ---
-layout: post
 title: Einstein's Equations
+subtitle: Describing How Mass Warps Spacetime
 joomla_id: 38
 joomla_url: einsteins-equations
 date: 2013-04-15 06:43:05.000000000 +00:00
 ---
-## Describing How Mass Warps Spacetime
 
 <aside markdown="1">
 - [Review the meaning of warped space and time]({{ site.baseurl }}{%

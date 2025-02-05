@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Extreme Mass-Ratio Inspirals
+subtitle: An Elegant Pas de Deux
 joomla_id: 126
 joomla_url: extreme-mass-ratio-inspirals
 date: 2013-11-23 03:18:20.000000000 +00:00
 ---
-### An Elegant Pas de Deux, Setting Off Waves Ringing Out Across the Cosmos
 
+## An Elegant Pas de Deux, Setting Off Waves Ringing Out Across the Cosmos
 
 {% include image.html class="right"
    url="/images/compact_objects/emri_small.jpg"

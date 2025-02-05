@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Computer Simulations
+subtitle: Giving the Problem to a Computer
 joomla_id: 40
 joomla_url: computer-simulations
 date: 2013-04-15 06:57:49.000000000 +00:00

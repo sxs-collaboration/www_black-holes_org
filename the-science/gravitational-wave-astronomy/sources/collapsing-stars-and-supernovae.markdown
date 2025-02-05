@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Collapsing Stars and Supernovae
+subtitle: The Death Throes of Stars
 joomla_id: 127
 joomla_url: collapsing-stars-and-supernovae
 date: 2013-11-23 03:21:26.000000000 +00:00
 ---
-### The Death Throes of Stars; The Most Violent Explosions in the Universe Today
+## The Death Throes of Stars; The Most Violent Explosions in the Universe Today
 
 <blockquote class="animated fadeInDown">
 <p class="quote">In the 1st year of the <span class="no-tooltip">period</span> Chih-ho, the 5th moon, the day chi-ch'ou, a guest star appeared...</p>
