@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Black Holes and Neutron Stars
+subtitle: Matter meets vacuum in a most dramatic fashion
 joomla_id: 162
 joomla_url: black-holes-and-neutron-stars
 date: 2014-10-11 14:49:13.000000000 +00:00
 ---
-### Star Birth, Death, Rebirth
+## Star Birth, Death, Rebirth
 
 Stars are part of a complex, balanced cycle of birth, death, and
 rebirth. A young generation of stars condenses from the gas thrown off
@@ -15,7 +16,7 @@ composition and mass. In their final stage they disperse most of their
 matter into space through supernovae, strong winds, or violent
 pulsations. The next generation of stars forms from this recycled gas.
 
-### Neutron Stars Lock Up Matter Forever
+## Neutron Stars Lock Up Matter Forever
 
 But in each successive generation, some stars end as neutron stars,
 each one as heavy as our solar system (that includes you, Pluto!), but
@@ -25,7 +26,7 @@ neutron star never collapses, it never explodes. It doesn't burn
 anything, it just gets colder and colder. It is one of the few
 terminal graveyards for stellar matter.
 
-### Well, Not Neutron Stars in Binaries
+## Well, Not Neutron Stars in Binaries
 
 But in fact, some neutron stars, after sitting dormant for a billion
 years, go through a spectacular, though brief, resurrection. Neutron
@@ -36,7 +37,7 @@ companion black hole. To understand this process, the merger of a
 neutron star and a black hole, let's follow the life of one imaginary
 representative binary.
 
-### Birth, Evolution, Two SNe
+## Birth, Evolution, Two SNe
 
 Our star system is born when a collapsing cloud of gas, recycled from
 the previous generation, fragments into two distinct young stars. This
@@ -62,7 +63,7 @@ several times every day, with a separation about 10 times that of the
 Earth and Moon. They orbit much faster than the Earth and Moon because
 their masses are so much greater.
 
-### Orbit Evolution, Begin Merger
+## Orbit Evolution, Begin Merger
 
 Next comes a long, uneventful inspiral. With masses this large, moving
 this fast, the curvature of spacetime actually ripples in
@@ -75,7 +76,7 @@ could fit onto Africa. They orbit 5 times every second. In another 10
 minutes they could easily fit inside Lake Victoria, and they are
 orbiting more than 100 times per second. They are just about to merge.
 
-### Tidal Disruption
+## Tidal Disruption
 
 {% include image.html class="right"
    url="/images/compact_objects/tidal_disruption.png"
@@ -101,7 +102,7 @@ away from the black hole, as seen in the next image.
      medium."
 %}
 
-### Outflow: Kilonova and R-Process
+## Outflow: Kilonova and R-Process
 
 The erupting action is so powerful that some of the matter, maybe 1/10
 of the mass of the Sun, flies off into space, as an expanding tail,
@@ -127,7 +128,7 @@ so much that it begins to shine, like a dim star. This is called a
 kilonova, and it lasts for about a week before the material cools back
 down and goes dark.
 
-### Accretion Disk: Life and Behavior
+## Accretion Disk: Life and Behavior
 
 But let's return back in time and space to the black hole, right after
 the star disrupts. What happens to the rest of the matter? Much of it
@@ -152,7 +153,7 @@ losing matter to the black hole until the disk is gone.
 %}
 
 
-### Accretion & Radiation
+## Accretion & Radiation
 
 The process of accretion is very important for the final stage of the
 black hole–neutron star merger. As the disk swirls around the black
@@ -168,7 +169,7 @@ escaping. So unlike a star, which radiates photons, visible to the
 human eye, the accretion disk shines predominantly with neutrinos,
 exotic particles that can escape, but which we can't see.
 
-### Neutrinos
+## Neutrinos
 
 Neutrinos are extremely lightweight particles, so lightweight they're
 always kicked at high speed (the speed of light, actually) from the
@@ -185,7 +186,7 @@ accretion disk is composed of! Because they can escape, and photons
 cannot, neutrinos rather than photons are the important radiating
 particle in black hole–neutron star mergers.
 
-### The End
+## The End
 
 From the moment our NS disrupts to when the last bit of the accretion
 disk falls down the black hole, less than a second passes. During this
