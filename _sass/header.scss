@@ -95,14 +95,19 @@ header {
         font-size: 77%;
     }
 
-    // Lay out the menus properly
-    .navbar-item.is-hoverable:hover .navbar-dropdown .navbar-dropdown {
-        display: none;
+    // Lay out the menus properly.
+    // When we have a very small viewport (mobile), don't use hovering
+    // to expose submenus -- just show it all
+    @include desktop {
+        .navbar-item.is-hoverable:hover .navbar-dropdown .navbar-dropdown {
+            display: none;
+        }
+
+        .navbar-dropdown .navbar-item.is-hoverable:hover > .navbar-dropdown {
+            display: block;
+        }
     }
 
-    .navbar-dropdown .navbar-item.is-hoverable:hover > .navbar-dropdown {
-        display: block;
-    }
     .navbar-dropdown .navbar-item .navbar-dropdown {
         top: -10px;
         @include desktop {
