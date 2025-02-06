@@ -1,7 +1,7 @@
 ---
 order: 3
+title: Numerical relativity
 paginate_from_menu: true
 ---
 
-# Numerical relativity
-
+{%- include submenu-listing.html -%}

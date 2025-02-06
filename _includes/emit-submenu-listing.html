@@ -1,0 +1,22 @@
+<ol class="submenu-listing fa-ul">
+{%- for menuitem in include.menu -%}
+{%- if menuitem.submenu %}
+{%- assign itemurl = include.baseurl | append: menuitem.url | append: "/" %}
+{%- else %}
+{%- assign itemurl = include.baseurl | append: menuitem.url %}
+{%- endif %}
+{%- assign itempage = site.pages | where_exp: "item", "item.url == itemurl" | first %}
+{%- if menuitem.url contains "://" -%}
+  {%- assign prefix = "" -%}
+  {%- assign itemurl = menuitem.url -%}
+{%- else -%}
+  {%- assign prefix = site.baseurl -%}
+{%- endif -%}
+<li class="submenu-entry">
+<a class="submenu-entry-link" href="{{ prefix }}{{ itemurl }}">
+<span class="fa-li"><i class="fa-solid fa-angle-right"></i></span>
+{{- menuitem.title | default: itempage.title -}}
+</a>
+</li>
+{%- endfor -%}
+</ol>

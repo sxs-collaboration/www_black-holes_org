@@ -1,7 +1,7 @@
 ---
 order: 3
+title: For researchers
 paginate_from_menu: true
 ---
 
-# For researchers
-
+{%- include submenu-listing.html -%}

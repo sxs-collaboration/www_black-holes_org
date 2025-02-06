@@ -5,6 +5,9 @@ main {
     background: #e5e4d0 url($img + "/site/main_background.png") repeat 0 0;
 }
 
+.pagination {
+    margin-top: 1em;
+}
 
 .pagination-next, .pagination-previous {
     background-color: $peach;

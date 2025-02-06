@@ -1,7 +1,7 @@
 ---
 order: 1
+title: Gravitational-wave astronomy
 paginate_from_menu: true
 ---
 
-# Gravitational-wave astronomy
-
+{%- include submenu-listing.html -%}

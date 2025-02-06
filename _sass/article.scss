@@ -246,3 +246,23 @@ table.data {margin:0 auto 20px;}
     -webkit-animation-name:fadeInDown;
     animation-name:fadeInDown;
 }
+
+ol.submenu-listing {
+    list-style-position: initial;
+    li.submenu-entry {
+        padding: 10px;
+        font-weight: bold;
+        list-style-type: none;
+        a.submenu-entry-link {
+            color: $purplebrown;
+          }
+    }
+
+    li.submenu-entry:nth-of-type(odd) {
+        background-color: $palegrey;
+    }
+
+    li.submenu-entry:hover {
+        background-color: lighten($palegrey, 10%);
+    }
+}
