@@ -1,6 +1,7 @@
 ---
 order: 1
+title: Explore
 paginate_from_menu: true
 ---
 
-# Explore
+{%- include submenu-listing.html -%}

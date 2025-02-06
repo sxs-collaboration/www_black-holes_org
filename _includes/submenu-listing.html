@@ -1,0 +1,19 @@
+{%- assign themenu = include.menu | default: site.data.menu -%}
+
+{%- for menuitem in themenu -%}
+  {%- if menuitem.url contains "://" -%}
+    {%- assign itemurl = menuitem.url -%}
+  {%- else -%}
+    {%- assign itemurl = include.baseurl | append: menuitem.url -%}
+    {%- if menuitem.submenu -%}
+      {%- assign itemurl = itemurl | append: "/" -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- if itemurl == page.url -%}
+    {%- include emit-submenu-listing.html menu=menuitem.submenu baseurl=itemurl -%}
+  {%- else -%}
+  {%- endif -%}
+  {%- if menuitem.submenu -%}
+    {%- include submenu-listing.html menu=menuitem.submenu baseurl=itemurl -%}
+  {%- endif -%}
+{%- endfor -%}
