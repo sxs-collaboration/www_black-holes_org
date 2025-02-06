@@ -228,7 +228,7 @@ on the page we're writing.
 - [x] Add Prev/Next buttons in the main pages
 - [x] Randomly select a sidebar quote for pages that don't have one specified
 - [x] Create menu automatically from ~~pages~~ `_data/menu.yml`
-- [ ] Fix menu on mobile devices
+- [x] Fix menu on mobile devices
 - [ ] Fix navigation coins on homepage, so that they're in rows of 4, 2, or 1
 - [ ] Add navigation coins in the sidebar for articles
 - [ ] "Featured Video" in sidebar?
@@ -248,8 +248,10 @@ on the page we're writing.
       [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from), which is allowed on github
 - [ ] Update old `.markdown` files to actually use markdown and have correct front matter
 - [ ] Make the FAQ something like [the old one](https://www.black-holes.org/explore/faq)
-- [ ] Correct Next/Prev buttons to use `_data/menu.yml`
+- [x] Correct Next/Prev buttons to use `_data/menu.yml`
 - [ ] Convert old Flash animations to use CSS or JavaScript
+      (temporarily using swf2js, see #103; but
+      [ruffle](https://github.com/ruffle-rs/ruffle) may be superior)
 
 
 ## Fonts used on the SXS website
