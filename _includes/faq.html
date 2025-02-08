@@ -1,0 +1,11 @@
+{%- for question in site.faq -%}
+{%- if question.group == include.group -%}
+<div class="bio">
+  <details id="{{ question.question | slugify }}">
+    <summary>{{ question.question }}</summary>
+    {{ question.content }}
+  </details>
+</div>
+<div style="clear:both;"></div>
+{%- endif -%}
+{%- endfor -%}
