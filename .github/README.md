@@ -230,7 +230,7 @@ on the page we're writing.
 - [x] Create menu automatically from ~~pages~~ `_data/menu.yml`
 - [x] Fix menu on mobile devices
 - [ ] Fix navigation coins on homepage, so that they're in rows of 4, 2, or 1
-- [ ] Add navigation coins in the sidebar for articles
+- [x] Add navigation coins in the sidebar for articles
 - [ ] "Featured Video" in sidebar?
 - [ ] Streamline CSS, so that only the necessary elements get served: one for homepage, another for
       everything else; maybe get rid of Bulma?
@@ -247,9 +247,9 @@ on the page we're writing.
 - [ ] Add redirects for old ugly pages with
       [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from), which is allowed on github
 - [ ] Update old `.markdown` files to actually use markdown and have correct front matter
-- [ ] Make the FAQ something like [the old one](https://www.black-holes.org/explore/faq)
+- [-] Make the FAQ something like [the old one](https://www.black-holes.org/explore/faq)
 - [x] Correct Next/Prev buttons to use `_data/menu.yml`
-- [ ] Convert old Flash animations to use CSS or JavaScript
+- [-] Convert old Flash animations to use CSS or JavaScript
       (temporarily using swf2js, see #103; but
       [ruffle](https://github.com/ruffle-rs/ruffle) may be superior)
 
