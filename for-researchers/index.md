@@ -1,6 +1,6 @@
 ---
 order: 3
-title: For researchers
+title: For Researchers
 paginate_from_menu: true
 ---
 
