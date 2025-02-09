@@ -31,6 +31,7 @@
                 {%- endif -%}
 
                 <div class="column">
+                    {%- unless page.suppress_sidebar_four_areas -%}
                     <aside>
                       <div class="4areas-">
                         <h1>Four Areas of Science</h1>
@@ -41,6 +42,7 @@
 <a href="{{ site.baseurl }}{% link the-science/numerical-relativity/einsteins-equations.markdown %}" title="Numerical Relativity"> <img alt="Numerical Relativity" src="{{ site.baseurl }}/images/site/homepage_coin_nr.png" height="100" width="100" /> </a>
                       </div>
                     </aside>
+                    {%- endunless -%}
                     <aside>
                         <div class="sidebar-quote">
                             <h1>Inspiration</h1>

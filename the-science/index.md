@@ -1,6 +1,7 @@
 ---
 order: 0
 paginate_from_menu: true
+suppress_sidebar_four_areas: true
 ---
 
 # The Four Areas of Science We Study
