@@ -5,7 +5,7 @@
 
 {%- for menuitem in include.menu -%}
   {%- if menuitem.url contains "://" -%}
-    {%- assign menu_pages = menu_pages | push: menuitem.url -%}
+    {%- comment -%}{%- assign menu_pages = menu_pages | push: menuitem.url -%}{%- endcomment -%}
   {%- else -%}
     {%- assign itemurl = include.baseurl | append: menuitem.url -%}
     {%- if menuitem.submenu -%}
