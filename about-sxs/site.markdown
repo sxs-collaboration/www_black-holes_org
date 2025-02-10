@@ -1,3 +1,6 @@
+---
+paginate_from_menu: true
+---
 # About This Site
 
 This site was made possible by the generous support of **Michael Scott**.
