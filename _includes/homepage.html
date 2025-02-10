@@ -97,7 +97,7 @@
             <div class="columns">
                 {% for post in site.posts limit:2 %}
                     <div class="column content">
-                        <h2 class="title is-4">{{ post.title }}</h2>
+                        <h2 class="title is-4"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
                         <p class="dt-published">Created on {{ post.date | date: "%B %-d, %Y" }}</p>
                         <div class="latest-research">{{ post.excerpt }}</div>
                         <p><a href="{{ site.baseurl }}{{ post.url }}">Read more…</a></p>

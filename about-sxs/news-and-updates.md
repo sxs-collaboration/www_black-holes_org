@@ -1,7 +1,7 @@
 # News and Updates
 
 {% for post in site.posts %}
-## {{ post.title }}
+## [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 
 Created on {{ post.date | date: "%B %-d, %Y" }}
 {: class="dt-published"}
