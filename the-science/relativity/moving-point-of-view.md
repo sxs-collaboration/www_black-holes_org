@@ -1,5 +1,4 @@
 ---
-order: 2
 title: The Moving Point of View
 subtitle: Where "now" depends on how fast you're moving
 date: 2013-01-30

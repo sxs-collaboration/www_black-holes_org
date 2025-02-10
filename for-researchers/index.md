@@ -1,5 +1,4 @@
 ---
-order: 3
 title: For Researchers
 paginate_from_menu: true
 ---

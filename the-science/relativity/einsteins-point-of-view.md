@@ -1,5 +1,4 @@
 ---
-order: 1
 title: Einstein's Point of View
 subtitle: The struggle lost, Einstein pushes further
 date: 2013-01-30

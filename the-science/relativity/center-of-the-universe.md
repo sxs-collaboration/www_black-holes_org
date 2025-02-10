@@ -1,5 +1,4 @@
 ---
-order: 0
 title: The Disputed Center of the Universe
 subtitle: An ancient struggle to exalt the earth
 date: 2013-01-30

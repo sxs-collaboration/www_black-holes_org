@@ -1,5 +1,4 @@
 ---
-order: 3
 title: A Totally New Kind of Observatory
 subtitle: Measuring the tiniest of fluctuations in spacetime
 paginate_from_menu: true

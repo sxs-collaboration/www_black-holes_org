@@ -1,5 +1,4 @@
 ---
-order: 1
 title: Explore
 paginate_from_menu: true
 ---

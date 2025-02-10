@@ -1,5 +1,4 @@
 ---
-order: 1
 title: Sources of Gravitational Waves
 subtitle: Stirring up the ripples
 paginate_from_menu: true

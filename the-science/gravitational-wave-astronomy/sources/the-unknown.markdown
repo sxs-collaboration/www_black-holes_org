@@ -1,5 +1,4 @@
 ---
-order: 3
 title: The Unknown
 subtitle: Unimagined marvels await
 sidebar_quote: hamlet

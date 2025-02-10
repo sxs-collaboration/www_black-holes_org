@@ -1,21 +1,14 @@
-{%- if page.order -%}
-{%- assign directory = page.url | split: '/' | pop | join: '/' -%}
-{%- assign dirpages = site.pages | where_exp: "item", "item.url contains directory" | sort: "order" -%}
-{%- assign lastorder = dirpages.size | minus: 1 -%}
+{%- if page.previous or page.next -%}
 <nav class="pagination is-centered" role="navigation" aria-label="pagination">
     {%- if page.previous -%}
-    <a href="{{ site.baseurl }}{{ page.previous }}" class="pagination-previous" aria-label="Previous page">Previous page</a>
-    {%- elsif page.order > 0 -%}
-    {%- assign prevorder = page.order | minus: 1 -%}
-    {%- assign prev = dirpages[prevorder] -%}
-    <a href="{{ site.baseurl }}{{ prev.url }}" class="pagination-previous" aria-label="Previous page">Previous page</a>
+    <a href="{{ site.baseurl }}{{ page.previous.url }}" class="pagination-previous" aria-label="Previous page" title="{{ page.previous.title | markdownify | strip_html }}">Previous page</a>
+    {%- else -%}
+    <a href="#" class="pagination-previous" aria-label="Previous page" disabled>Previous page</a>
     {%- endif -%}
     {%- if page.next -%}
-    <a href="{{ site.baseurl }}{{ page.next }}" class="pagination-next" aria-label="Next page">Next page</a>
-    {%- elsif page.order < lastorder -%}
-    {%- assign nextorder = page.order | plus: 1 -%}
-    {%- assign next = dirpages[nextorder] -%}
-    <a href="{{ site.baseurl }}{{ next.url }}" class="pagination-next" aria-label="Next page">Next page</a>
+    <a href="{{ site.baseurl }}{{ page.next.url }}" class="pagination-next" aria-label="Next page" title="{{ page.next.title | markdownify | strip_html }}">Next page</a>
+    {%- else -%}
+    <a href="#" class="pagination-next" aria-label="Next page" disabled>Next page</a>
     {%- endif -%}
 </nav>
 {%- endif -%}

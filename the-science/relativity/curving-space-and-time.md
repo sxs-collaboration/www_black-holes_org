@@ -1,5 +1,4 @@
 ---
-order: 3
 title: Curving Space and Time
 subtitle: Warping slices of reality
 date: 2013-01-30

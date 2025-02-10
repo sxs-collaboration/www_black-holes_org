@@ -1,5 +1,4 @@
 ---
-order: 0
 title: Gravitational Waves
 subtitle: Ripples in the fabric of spacetime
 date: 2013-01-30

@@ -1,5 +1,4 @@
 ---
-order: 2
 title: A Totally New Kind of Astronomy
 subtitle: A different perspective on the universe
 paginate_from_menu: true

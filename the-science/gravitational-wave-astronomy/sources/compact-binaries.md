@@ -1,5 +1,4 @@
 ---
-order: 0
 title: Compact Binaries
 subtitle: Pairs of dead stars locked in a mad, whirling dance
 paginate_from_menu: true

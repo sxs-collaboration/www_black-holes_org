@@ -1,5 +1,4 @@
 ---
-order: 1
 title: The First Moments
 subtitle: "The birth of the universe: the most violent explosion ever"
 paginate_from_menu: true
