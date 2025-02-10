@@ -12,7 +12,7 @@
   {%- if i_prev >= 0 -%}
     {%- assign prev = menu_pages[i_prev] -%}
     {%- if prev.url -%}
-      <a href="{{ site.baseurl }}{{ prev.url }}" class="pagination-previous" aria-label="Previous page">Previous page</a>
+      <a href="{{ site.baseurl }}{{ prev.url }}" class="pagination-previous" aria-label="Previous page" title="{{ prev.title | markdownify | strip_html }}">Previous page</a>
     {%- else -%}
       <a href="#" class="pagination-previous" aria-label="Previous page" disabled>Previous page</a>
     {%- endif -%}
@@ -23,7 +23,7 @@
   {%- if i_next < menu_pages.size -%}
     {%- assign next = menu_pages[i_next] -%}
     {%- if next.url -%}
-      <a href="{{ site.baseurl }}{{ next.url }}" class="pagination-next" aria-label="Next page">Next page</a>
+      <a href="{{ site.baseurl }}{{ next.url }}" class="pagination-next" aria-label="Next page" title="{{ next.title | markdownify | strip_html }}">Next page</a>
     {%- else -%}
       <a href="#" class="pagination-next" aria-label="Next page" disabled>Next page</a>
     {%- endif -%}
