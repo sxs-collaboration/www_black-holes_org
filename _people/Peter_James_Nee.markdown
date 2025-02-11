@@ -21,4 +21,4 @@ I am currently a PhD researcher under the supervision of Prof. Harald Pfeiffer a
 
 ##### Selected Publications
 
-See my <a href="Inspire account">https://inspirehep.net/authors/2632058?ui-citation-summary=true</a>.
+See my [InspireHEP](https://inspirehep.net/authors/2632058?ui-citation-summary=true).
