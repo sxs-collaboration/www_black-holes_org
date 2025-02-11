@@ -48,6 +48,11 @@
     <div class="advisor">Advisor: {{ member.advisor }}</div>
     {%- endif -%}
 
+    {%- if member.specialties -%}
+    <h5 class="specialties">Specialty areas</h5>
+    {{ member.specialties }}
+    {%- endif -%}
+
     {{ member.content }}
   </details>
 </div>
