@@ -9,8 +9,8 @@ authors:
   - "Kidder, Lawrence E."
   - "Throwe, William"
   - "Vu, Nils L."
-jref:
-doi:
+jref: "Class.Quant.Grav. 42, 055006 (2025)"
+doi: "10.1088/1361-6382/adaf6f"
 date: 2024-09-09
 arxiv: "2409.06141"
 abstract: |
