@@ -1,4 +1,7 @@
 <!-- Inspired by https://jekyllcodex.org/without-plugin/breadcrumbs/ and https://bulma.io/documentation/components/breadcrumb/ -->
+{%- assign post_urls = site.posts | map: "url" -%}
+{%- assign page_urls = site.pages | map: "url" -%}
+{%- assign all_urls = post_urls | concat: page_urls | sort -%}
 <nav class="breadcrumb" aria-label="breadcrumbs">
     {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
     <ul>
@@ -7,7 +10,11 @@
         {% if forloop.last %}
         <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
         {% else %}
-        <li><a href="{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize | replace:'Gravitational wave astronomy','Gravitational-wave astronomy' }}</a></li>
+        {%- assign crumb_limit = forloop.index | plus: 1 -%}
+        {%- capture cur_url -%}
+        {% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}
+        {%- endcapture -%}
+        <li><a {% if all_urls contains cur_url -%}href="{{ site.baseurl }}{{ cur_url }}"{%- else -%}disabled{%- endif -%}>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize | replace:'Gravitational wave astronomy','Gravitational-wave astronomy' }}</a></li>
         {% endif %}
         {% endfor %}
     </ul>

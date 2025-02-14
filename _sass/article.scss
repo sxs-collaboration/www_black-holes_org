@@ -4,6 +4,12 @@
     font-size: 90%;
 }
 
+.breadcrumb a[disabled] {
+    cursor: default;
+    pointer-events: none;
+    color: inherit;
+}
+
 main.article {
     padding: 0 12px;
 }
