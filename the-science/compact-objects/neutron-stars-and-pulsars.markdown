@@ -113,4 +113,4 @@ time.
     almost endlessly in space"
 %}
 
-[More Sounds...]({{ site.baseurl }}{% link explore/sounds.markdown %})
+[More Sounds...]({{ site.baseurl }}{% link explore/sounds.markdown %}){: .button }
