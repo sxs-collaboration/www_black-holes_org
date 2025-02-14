@@ -1,3 +1,6 @@
+---
+paginate_from_menu: true
+---
 # News and Updates
 
 {% for post in site.posts %}

@@ -1,3 +1,6 @@
+---
+paginate_from_menu: true
+---
 # Glossary
 
 {% assign word_groups = site.glossary | group_by_exp: "word", "word.title | slice: 0 | upcase" | sort_natural: "name" %}
