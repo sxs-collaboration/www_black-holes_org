@@ -208,7 +208,7 @@ holes.
 {% include image.html class="right-quarter"
    url="/images/compact_objects/M87_jet.jpg"
    description="The active galactic nucleus of M87 produced this
-     30,000,000,000,000,000 mile-long jet, as seen by the Hubble Space
+     30,000,&shy;000,&shy;000,&shy;000,000 mile-long jet, as seen by the Hubble Space
      Telescope."
 %}
 {% include image.html class="right-quarter"
