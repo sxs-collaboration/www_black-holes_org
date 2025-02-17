@@ -83,17 +83,17 @@ space. But curved spacetime is more complicated! It turns out that at
 "future null infinity," there are an infinite number of
 "angle-dependent translations" to fix! What does that mean?
 
+{% include image.html class="right"
+   url="/images/posts/hybridization-PN-BMS/scri-cylinder-ST.jpeg"
+   description=""
+%}
+
 This is called the "BMS group," after Bondi, van der Burg, Metzner,
 and Sachs (van der Burg seems to have been dropped from the
 initialism). Basically, because observers at future null infinity
 ("scri") can't synchronize their clocks, you can smoothly reslice the
 time function on scri. That's called a supertranslation, which looks
-vaguely like this:
-
-{% include image.html class="right"
-   url="/images/posts/hybridization-PN-BMS/scri-cylinder-ST.jpeg"
-   description=""
-%}
+vaguely like this blue cylinder.
 
 Ok, you say, I've got to fix the 10 Poincaré parameters and an
 infinite number of supertranslation freedoms (which in practice is 76
@@ -106,11 +106,12 @@ The problem is, the way masses and spins are defined in post-Newtonian
 theory is very different from how they're defined in numerical
 relativity, and there's actually no deep reason for them to
 agree. Basically, it's the same parameter space, but with different
-coordinates.
+coordinates:
 
-{% include image.html class="right"
+{% include image.html class=""
    url="/images/posts/hybridization-PN-BMS/PN-NR-coords.jpeg"
-   description=""
+   description="Each point in this infinite-dimensional parameter
+   space is an entire four-dimensional spacetime."
 %}
 
 What we really need to do is let the *observables* tell us where we
@@ -134,7 +135,7 @@ this procedure works on 29 NR simulations that have mass ratios from
 1-10, with spins up to 80% of max, that are precessing, and do between
 60-100+ orbits. In units that relativists know, up to 10⁵M long!
 
-Here's the kind of thing you can get from Dongze's code. Top three
+Below is the kind of thing you can get from Dongze's code. Top three
 panels are different modes of the same waveform. The matching window
 is between the vertical lines. Optimizing gets BMS-transformed PN to
 agree with NR, with residuals in the bottom 3 panels.
@@ -162,7 +163,7 @@ reduction" to make binaries as circular as possible. But it's
 imperfect. There is still some residual eccentricity, but we've been
 trying to compare these NR waveforms against quasicircular PN
 waveforms. Even though the eccentricity might be tiny (say,
-$$10^-5$$), it still has a measurable effect on the waveform, and we
+$$10^{-5}$$), it still has a measurable effect on the waveform, and we
 aren't trying to model it on the PN side of things. So, eccentricity
 is our dominant limitation for spin-aligned (non-precessing) systems.
 
