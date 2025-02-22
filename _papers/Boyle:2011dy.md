@@ -3,7 +3,7 @@ title: "Uncertainty in hybrid gravitational waveforms: Optimizing initial orbita
 authors: "Boyle, Michael"
 jref: "Phys.Rev.D 84, 064013 (2011)"
 doi: "10.1103/PhysRevD.84.064013"
-date: 2011-03
+date: 2011-03-01
 arxiv: "1103.5088"
 abstract: |
   A general method is presented for estimating the uncertainty in
