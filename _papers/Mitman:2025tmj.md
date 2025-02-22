@@ -12,6 +12,7 @@ jref:
 doi:
 date: 2025-02-19
 arxiv: "2502.14025"
+used_spec: true
 abstract: |
   The Simulating eXtreme Spacetimes Collaboration's code SpEC can now
   routinely simulate binary black hole mergers undergoing $\sim25$
