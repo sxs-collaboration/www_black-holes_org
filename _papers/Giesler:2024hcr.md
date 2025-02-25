@@ -19,6 +19,7 @@ jref:
 doi:
 date: 2024-11-17
 arxiv: "2411.11269"
+used_spec: true
 abstract: |
   Using high-accuracy numerical relativity waveforms, we confirm the
   presence of numerous overtones of the \(\ell=2\), \(m=2\) quasinormal
@@ -27,7 +28,7 @@ abstract: |
   fit times, ruling out the possibility that a linear superposition of
   modes unphysically fits a highly nonlinear part of the waveform. We
   also find a number of previously unidentified subdominant second-
-  order quasinormal modes in the $(2,2)$ mode. Even though these modes
+  order quasinormal modes in the \((2,2)\) mode. Even though these modes
   are mathematically nonlinear, they nevertheless confirm the validity
   of perturbation theory as a good approximation for describing much
   of the ringdown.

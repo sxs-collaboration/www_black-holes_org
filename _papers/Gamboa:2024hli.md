@@ -36,8 +36,8 @@ abstract: |
   simulations, produced by the Simulating eXtreme Spacetimes
   Collaboration. Importantly, for NR waveforms with initial GW
   eccentricities below 0.5, the maximum (2,2)-mode unfaithfulness
-  across the total mass range 20-200 $M_\odot$ is consistently below
-  or close to $1 \%$, with a median value of $ \sim 0.02 \% $,
+  across the total mass range 20-200 \(M_\odot\) is consistently below
+  or close to 1%, with a median value of ~0.02% ,
   reflecting an accuracy improvement of approximately an order of
   magnitude compared to the previous-generation SEOBNRv4EHM and the
   state-of-the-art TEOBResumS-Dalí eccentric model. In the quasi-

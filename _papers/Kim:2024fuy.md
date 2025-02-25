@@ -29,6 +29,6 @@ abstract: |
   wind if the swallowed magnetic dipole moment is inclined to the spin
   axis. We predict two types of transients from this scenario: (1) a
   fast radio burst emitted by the shocks as they expand to large radii
-  and (2) an X/gamma-ray burst emitted by the $e^\pm$ outflow heated
+  and (2) an X/gamma-ray burst emitted by the \(e^\pm\) outflow heated
   by magnetic dissipation.
 ---

@@ -25,9 +25,9 @@ abstract: |
   magnetic energy is greater than the rest mass energy—for different
   strengths of the guide field orthogonal to the alternating
   component. We extract an empirical prescription for the effective
-  resistivity, ηeff=αB0∣J∣p/∣J∣p+1+entcp+1, where B$_{0}$ is the
+  resistivity, ηeff=αB0∣J∣p/∣J∣p+1+entcp+1, where \(B_{0}\) is the
   reconnecting magnetic field strength, J is the current density,
-  n$_{t}$ is the lab-frame total number density, e is the elementary
+  \(n_{t}\) is the lab-frame total number density, e is the elementary
   charge, and c is the speed of light. The guide field dependence is
   encoded in α and p, which we fit to PIC data. This resistivity
   formulation—which relies only on single-fluid MHD

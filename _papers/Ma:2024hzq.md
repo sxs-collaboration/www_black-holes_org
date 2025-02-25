@@ -22,7 +22,7 @@ abstract: |
   we use CCM to resolve a late-time power-law tail in the
   gravitational wave from a head-on collision, and show that the tail
   is highly suppressed in a quasi-circular binary. Our results for the
-  two extreme cases (orbital eccentricity $=0,1$) support the fact
+  two extreme cases (orbital eccentricity =0,1) support the fact
   that tails increase with orbital eccentricity. Therefore, CCM paves
   the way for a detailed understanding of tails in eccentric systems.
   For the head-on case, we find that the tail behavior is consistent

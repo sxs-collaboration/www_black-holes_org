@@ -25,15 +25,15 @@ abstract: |
   with comparable accuracy, and provides insights into the meaning and
   role of the various network settings and hyperparameters as well as
   the structure of the physical process. Moreover, NRSur7dq4Remnant_NN
-  results in evaluation speedups of up to $8$ times on a single CPU
-  and a further improvement of $2,000$ times when evaluated in batches
+  results in evaluation speedups of up to 8 times on a single CPU
+  and a further improvement of 2,000 times when evaluated in batches
   on a GPU. To determine the training set size, we propose an
   iterative enrichment strategy that efficiently samples the parameter
   space using much smaller training sets than naive sampling.
-  NRSur7dq4Remnant_NN requires $O(10^4)$ training data, so neural
+  NRSur7dq4Remnant_NN requires \(O(10^4)\) training data, so neural
   network-based surrogates are ideal for speeding-up models that
   support such large training datasets, but at the moment cannot
   directly be applied to numerical relativity catalogs that are
-  $O(10^3)$ in size. The optimization strategy is available through
+  \(O(10^3)\) in size. The optimization strategy is available through
   the gwbonsai package.
 ---
