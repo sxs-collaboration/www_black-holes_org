@@ -39,4 +39,9 @@ jobs:
         delete-branch: true
         commit-message: Auto paper update
         title: "Attempt to auto update papers from INSPIRE"
-        body: "New paper updates found!"
+        body: |
+          New paper updates found!
+
+          Please check the following:
+          - [ ] If this paper used spec, include `used_spec: true` in the yaml header
+          - [ ] Does the math render correctly?
