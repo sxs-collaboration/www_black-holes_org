@@ -43,5 +43,5 @@ jobs:
           New paper updates found!
 
           Please check the following:
-          - [ ] If this paper used spec, include `used_spec: true` in the yaml header
+          - [ ] If this paper used spec, include `used_spec: true` in the yaml header of the markdown file for the paper
           - [ ] Does the math render correctly?
