@@ -41,13 +41,9 @@
               {%- assign sorted = site.institutions | sort: 'name' -%}
               {%- for inst in sorted -%}
               <a target="_blank" rel="noopener" href="{{ inst.home_url }}" title="{{ inst.logo_title }}">
-                <img src="{{ site.baseurl }}/images/institutions/{{ inst.logo_src }}"
+                <img class="inst-logo" src="{{ site.baseurl }}/images/institutions/{{ inst.logo_src }}"
                      {%- if inst.logo_alt %}
                        alt="{{ inst.logo_alt }}"
-                     {% endif -%}{%- if inst.logo_w %}
-                       width="{{ inst.logo_w }}"
-                     {% endif -%}{%- if inst.logo_h %}
-                       height="{{ inst.logo_h }}"
                      {% endif -%} />
               </a>
               {%- endfor -%}

@@ -13,7 +13,7 @@ about our members' homes.
 {%- assign sorted = site.institutions | sort: 'name' -%}
 {%- for inst in sorted %}
 <div class="institution">
-  <h2>{{ inst.name }}</h2>
+  <h2 class="inst-name">{{ inst.name }}
 
   <img class="inst_logo_r" src="{{ site.baseurl }}/images/institutions/{{ inst.logo_src }}"
   {%- if inst.logo_alt %}
@@ -23,11 +23,11 @@ about our members' homes.
   {% endif -%}{%- if inst.logo_h %}
        height="{{ inst.logo_h }}" 
   {% endif -%}/>
+  </h2>
 
   <a href="{{ inst.home_url }}">{{ inst.home_link_text }}</a>
 
   {{ inst.content }}
 
 </div>
-<div style="clear:both;" />
 {%- endfor -%}

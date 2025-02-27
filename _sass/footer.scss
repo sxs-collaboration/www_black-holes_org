@@ -34,6 +34,12 @@ footer {
             transition: all .2s linear 0s;
         }
 
+        img.inst-logo {
+            max-height: 100px;
+            max-width: 180px;
+        }
+
+
         img:hover {
             opacity: 1;
             transition: all .4s linear 0s;
