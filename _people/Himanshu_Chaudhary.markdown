@@ -13,7 +13,7 @@ specialties: Numerical Relativity
 
 ##### Research profile
 
-I work on [SpEC](https://sxs-collaboration.github.io/www_black-holes_org/for-researchers/spec), mostly trying to improve our binary black hole simulations. 
+I work on [SpEC](https://www.black-holes.org/for-researchers/spec), mostly trying to improve our binary black hole simulations. 
 
 ##### Biography
 
