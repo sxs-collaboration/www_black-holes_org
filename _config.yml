@@ -27,7 +27,6 @@ description: >-
     spacetimes to gain a better understanding of Relativity, and the physics of
     exotic objects in the distant cosmos.
 baseurl: "/" # the subpath of your site, e.g. /blog
-domain: "moble.github.io"
 url: "https://www.black-holes.org" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: SXSProject
 github_username:  sxs-collaboration
