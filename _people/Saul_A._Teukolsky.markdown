@@ -37,6 +37,11 @@ stellar dynamics; and planets around pulsars.
 ##### Selected Publications
 
 <ul>
+<li>Overtones and Nonlinearities in Binary Black Hole Ringdowns.
+M. Giesler, S. Ma, K. Mitman, N. Oshita, S. A. Teukolsky, M. Boyle, N. Deppe,
+L. E. Kidder, J. Moxon, K. C. Nelli, H. P. Pfeiffer, M. A. Scheel, W. Throwe,
+and N. L. Vu. (2025). [<a
+href="http://arxiv.org/abs/2411.11269" target="_blank">http://arxiv.org/abs/2411.11269</a>]</li> 
 <li>The SpECTRE Cauchy-Characteristic Evolution System for Rapid, Precise Waveform
 Extraction. J. Moxon, M. A. Scheel, S. A. Teukolsky, N. Deppe, N. Fischer, F. Hebert,
 L. E. Kidder, and W. Throwe. Phys. Rev. D, 107, 064013 (2023).
@@ -47,11 +52,6 @@ M. Giesler, M. A. Scheel, and S. A. Teukolsky. Phys. Rev. Lett., 127,
 011103 (2021).
 [<a
 href="http://arxiv.org/abs/2012.04486" target="_blank">http://arxiv.org/abs/2012.04486</a>]</li>
-<li>Overtones and Nonlinearities in Binary Black Hole Ringdowns.
-M. Giesler, S. Ma, K. Mitman, N. Oshita, S. A. Teukolsky, M. Boyle, N. Deppe,
-L. E. Kidder, J. Moxon, K. C. Nelli, H. P. Pfeiffer, M. A. Scheel, W. Throwe,
-and N. L. Vu. (2025). [<a
-href="http://arxiv.org/abs/2411.11269" target="_blank">http://arxiv.org/abs/2411.11269</a>]</li> 
 <li>Numerical Recipes: The Art of Scientific Computing, W. H. Press, S. A. Teukolsky, W. T.
 Vetterling and B. P. Flannery (3rd ed., Cambridge University Press, New York 2007). [<a
 href="http://www.nr.com/" target="_blank">http://www.nr.com/</a>]</li>
