@@ -26,7 +26,11 @@ description: >-
     institutions. Our goal is the simulation of black holes and other extreme
     spacetimes to gain a better understanding of Relativity, and the physics of
     exotic objects in the distant cosmos.
-baseurl: "/" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
+# LCS: We don't set baseurl above.  The main repo is deployed to /,
+# while forks are deployed to
+# username.github.io/www_black-holes_org. The github action will set
+# the variable appropriately.
 url: "https://www.black-holes.org" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: SXSProject
 github_username:  sxs-collaboration
