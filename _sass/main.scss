@@ -8,6 +8,29 @@ main {
 .pagination {
     margin-top: 1em;
     clear: both;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    display: block;
+    float: left;
+    margin-left: -1px;
+    a {
+        background-color: $peach;
+        &:hover {
+            background-color: $palepeachsolid;
+        }
+    }
+  }
+
+  a[disabled] {
+      pointer-events: none;
+      cursor: not-allowed;
+  }
 }
 
 .pagination-next, .pagination-previous {
