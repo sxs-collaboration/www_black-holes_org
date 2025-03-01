@@ -5,7 +5,7 @@ suppress_sidebar_four_areas: true
 
 # The Four Areas of Science We Study
 
-<br clear="all">
+<br style="clear:both">
 
 <div class="iconlink science"><a href="{{ site.baseurl }}{% link the-science/relativity/center-of-the-universe.md %}" title="Relativity"><img alt="Relativity" src="{{ site.baseurl }}/images/site/homepage_coin_relativity.jpg"></a>
 <div class="icontext">
@@ -31,5 +31,3 @@ suppress_sidebar_four_areas: true
 <p>Giving the Problem to a Computer</p>
 </div>
 </div>
-
-<br clear="all">

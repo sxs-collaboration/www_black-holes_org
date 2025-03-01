@@ -3,7 +3,7 @@ title: Explore
 paginate_from_menu: true
 ---
 
-<br clear=all>
+<br style="clear:both">
 
 <div class="iconlink"><a href="{{ site.baseurl }}{% link explore/movies.markdown %}" title="Movies"><img alt="videos" src="{{ site.baseurl }}/images/site/homepage_explore_videos.png" /></a>
 <div class="icontext">
@@ -41,5 +41,3 @@ paginate_from_menu: true
 <p>Check out related books and websites</p>
 </div>
 </div>
-
-<br clear=all>
