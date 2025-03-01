@@ -38,9 +38,10 @@ $body-background-color: $palegrey;
 // $input-shadow: none;
 $gap: 100px;
 $navbar-height-num: 65;
-$navbar-margin: 13;
-$navbar-padding: 0;
-$navbar-height: $navbar-height-num + px;
+$navbar-margin: 13px;
+$navbar-padding: 0px;
+$navbar-padding-vertical: 16px;
+$navbar-height: 65px;
 $navbar-background-color: $terracotta;
 
 $navbar-item-color: $offwhite;
@@ -60,7 +61,7 @@ $input-color: $offwhite;
 $input-background-color: $palepeach;
 $input-border-color: $clay;
 
-$footer-padding: ($navbar-margin + 7.5) + px 0;
+$footer-padding: ($navbar-margin + 7.5px) 0;
 $footer-color: $offwhite;
 
 

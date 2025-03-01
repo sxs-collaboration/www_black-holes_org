@@ -17,8 +17,8 @@
 }
 
 .trim > .container {
-    height: ($navbar-height-num - 2*$navbar-margin) + px;
-    min-height: ($navbar-height-num - 2*$navbar-margin) + px;
-    padding: $navbar-padding + px 0;
-    margin-top: $navbar-margin + px;
+    height: $navbar-height - 2*$navbar-margin;
+    min-height: $navbar-height - 2*$navbar-margin;
+    padding: $navbar-padding 0;
+    margin-top: $navbar-margin;
 }
