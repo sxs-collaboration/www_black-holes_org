@@ -55,12 +55,17 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-paginate
 
 sass:
   style: compressed
 
 # Don't add the output extension (.html) to the url of posts
 permalink: /:categories/:year/:month/:day/:title
+
+# Pagination settings
+paginate: 5 # amount of posts to show
+paginate_path: "/news/page:num/"
 
 ### Exclude from processing.
 # The following items will not be processed, by default.

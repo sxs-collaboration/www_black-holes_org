@@ -1,0 +1,17 @@
+---
+layout: page
+title: News and Updates
+---
+
+{% for post in paginator.posts %}
+<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+<div class="dt-published">
+Created on {{ post.date | date: "%B %-d, %Y" }}
+</div>
+
+<div class="latest-research">{{ post.excerpt }}</div>
+<a href="{{ site.baseurl }}{{ post.url }}">Read more…</a>
+{% endfor %}
+
+{% include paginator.html %}

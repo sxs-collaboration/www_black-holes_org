@@ -1,5 +1,8 @@
 - url: /
 
+- url: /news/
+  title: News
+
 - url: /the-science
   title: The Science
   submenu:
@@ -49,7 +52,6 @@
 
 - url: /about-sxs
   submenu:
-    - url: news-and-updates
     - url: motivation
     - url: people
     - url: institutions
