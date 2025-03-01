@@ -10,7 +10,7 @@
     {% if file_exists.size == 0 %}
       {% assign img_path = '/images/people/placeholder.jpg' %}
     {% endif %}
-    <img class="member_photo" src="{{ site.baseurl }}/{{ img_path }}" alt="{{ member.name }}" />
+    <img class="member_photo" src="{{ site.baseurl }}{{ img_path }}" alt="{{ member.name }}" />
 
     {%- if member.affiliations -%}
     {%- assign affils = member.affiliations -%}
