@@ -1,6 +1,6 @@
 ---
 name:       Cornell University
-home_url:   http://astro.cornell.edu/
+home_url:   https://astro.cornell.edu/
 home_link_text:  Cornell astronomy homepage
 logo_src:   cornell_new_s.png
 logo_alt:   Cornell

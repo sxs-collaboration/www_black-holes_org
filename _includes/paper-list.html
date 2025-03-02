@@ -29,7 +29,7 @@
   <p class="paper_authors">{{ paper.authors | join: ", "}}</p>
   {% if paper.jref %}
   <p class="paper_jref">
-  {% if paper.doi %}<a href="http://dx.doi.org/{{ paper.doi }}">{% endif %}{{ paper.jref }}{% if paper.doi %}</a>{% endif %}
+  {% if paper.doi %}<a href="https://dx.doi.org/{{ paper.doi }}">{% endif %}{{ paper.jref }}{% if paper.doi %}</a>{% endif %}
   </p>
   {% endif %}
   <p class="paper_arxiv"><i class="ai ai-arxiv"></i>

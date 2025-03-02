@@ -1,6 +1,6 @@
 ---
 name:       Max Planck Institute for Gravitational Physics 
-home_url:   http://www.aei.mpg.de/
+home_url:   https://www.aei.mpg.de/
 home_link_text:  Albert Einstein Institute homepage
 logo_src:   ae_engli_white_small.png
 logo_alt:   Albert Einstein Institute

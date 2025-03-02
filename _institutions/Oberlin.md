@@ -1,6 +1,6 @@
 ---
 name:       Oberlin College
-home_url:   http://new.oberlin.edu/arts-and-sciences/departments/physics/index.dot
+home_url:   https://www.oberlin.edu/arts-and-sciences/departments/physics-and-astronomy
 home_link_text:  Oberlin Physics and Astronomy homepage
 logo_src:   oberlin_s.png
 logo_alt:   Oberlin College

@@ -27,7 +27,7 @@ anti-aligned and of magnitude 0.5. This simulation is descrbed in
 [Phys. Rev. D **82**,
 064031](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.82.064031),
 also available at
-[arXiv:gr-qc/0907.0869](http://arxiv.org/abs/0907.0869).
+[arXiv:gr-qc/0907.0869](https://arxiv.org/abs/0907.0869).
 
 {% include youtube-embed.html id="4nM6kf2OAFw" %}
 
@@ -37,7 +37,7 @@ The spins have magnitude 0.95, are parallel to each other, but are
 anti-aligned with the orbital angular momentum. This simulation is
 described in [Phys. Rev. D **83**,
 024010](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.83.024010),
-also available at [arXiv:1010.2777](http://arxiv.org/abs/1010.2777).
+also available at [arXiv:1010.2777](https://arxiv.org/abs/1010.2777).
 
 * The evolution of the spin function (imaginary part, χ, of the
 Penrose-Rindler complex curvature, κ) on the apparent horizons
@@ -64,7 +64,7 @@ initial momenta of the BHs and the spins. This simulation will be
 detailed a future publication in progress; it is discussed in
 [Phys. Rev. Lett. **106**,
 151101](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.106.151101),
-also available at [arXiv:1012.4869](http://arxiv.org/abs/1012.4869).
+also available at [arXiv:1012.4869](https://arxiv.org/abs/1012.4869).
 
 * The evolution of E<sub>nn</sub>, the tendexes, in the apparent horizons
 
@@ -112,7 +112,7 @@ radians (out of roughly 200 radians, i.e. a fractional phase error of
 
 Tehnical details of the simulation on which this movie is based can be
 found in [a paper by the Caltech-Cornell
-group](http://www.arxiv.org/abs/0810.1767). Note that slightly
+group](https://www.arxiv.org/abs/0810.1767). Note that slightly
 different data is used in that paper; the spatial slices are chosen
 without the "crinkles".
 
@@ -184,6 +184,6 @@ timescales.
 This movie shows the event horizons of two black holes merging into a
 single black hole. The holes have a 2:1 mass ratio, with spins of
 approximately 0.4 in random directions. The merger simulation has been
-published in [arXiv:gr-qc/0909.3557](http://arxiv.org/abs/0909.3557),
+published in [arXiv:gr-qc/0909.3557](https://arxiv.org/abs/0909.3557),
 by Bela Szilagyi, Lee Lindblom and Mark Scheel at Caltech. The event
 horizon tracking was performed by Michael Cohen at Caltech.
