@@ -146,9 +146,9 @@ In the late 1970s, gravitational-wave detection seemed a greater
 challenge than numerical relativity, so scientists initiated a
 wave-detection program. Their efforts have given rise to the [Laser
 Interferometer Gravitational Wave Observatory
-(LIGO)](http://www.ligo.caltech.edu/), and its lower-frequency,
+(LIGO)](https://www.ligo.caltech.edu/), and its lower-frequency,
 space-based cousin, the [NASA-ESA Laser Interferometer Space Antenna
-(LISA)](http://lisa.nasa.gov/). LIGO is now operating near its design
+(LISA)](https://lisa.nasa.gov/). LIGO is now operating near its design
 sensitivity and could detect waves from black holes this year. NSF has
 recently approved funding to upgrade the LIGO detectors near the end
 of this decade, bringing us to a sensitivity where we are confident of

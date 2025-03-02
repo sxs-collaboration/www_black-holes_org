@@ -38,13 +38,13 @@ results!
 %}
 
 We have written code to produce images of stars from a star catalog,
-such as the [2MASS catalog](http://www.ipac.caltech.edu/2mass/). We
+such as the [2MASS catalog](https://www.ipac.caltech.edu/2mass/). We
 take each star's location and its [magnitude in different color
-bands](http://en.wikipedia.org/wiki/Photometric_system) from the
+bands](https://en.wikipedia.org/wiki/Photometric_system) from the
 catalog. To generate the image, we need to know from where light
 enters each pixel of the camera as well as the redshift of the
 light. More details are provided in [our
-paper](http://arxiv.org/abs/1410.7775). This is an image showing the
+paper](https://arxiv.org/abs/1410.7775). This is an image showing the
 Milky Way using our star rendering code.
 
 With our camera pointing in the same direction as the previous image,
@@ -69,7 +69,7 @@ else, as depicted earlier.
 
 Light passing closer to the shadow is being deflected even more by the
 black hole.  There is a large ring structure around the shadow called
-an [Einstein ring](http://en.wikipedia.org/wiki/Einstein_ring).  This
+an [Einstein ring](https://en.wikipedia.org/wiki/Einstein_ring).  This
 is where light from directly on the opposite side of the black hole is
 deflected around the hole on its way to the camera.  It makes a ring
 due to the symmetry, but we even see such a ring in cases where the
@@ -104,7 +104,7 @@ what a binary black hole merger would look like.
 In the following video, we see the last three orbits of a three to one
 mass ratio binary with arbitrarily chosen spins on both black holes.
 The details of this merger can be found in [Taylor *et
-al.*](http://journals.aps.org/prd/abstract/10.1103/PhysRevD.88.124010)
+al.*](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.88.124010)
 as case 4.  The stars used are the same as the ones used in the single
 black hole image above.  The camera is located above the orbital plane
 of the binary looking down.
@@ -123,7 +123,7 @@ individually.  Near both shadows we see a smaller shadow, which is
 called an eyebrow due to its shape.  These secondary shadows
 correspond to one black hole casting a shadow which is lensed by the
 other black hole on the way to the camera.  [Our
-paper](http://arxiv.org/abs/1410.7775) explores these smaller shadows
+paper](https://arxiv.org/abs/1410.7775) explores these smaller shadows
 in more detail, finding that there are in fact an infinite number of
 these shadows, but we can only resolve a few in this video.
 
@@ -179,7 +179,7 @@ flashes of brightness!
 
 While looking at black holes in front of a field of stars, it is easy
 to lose your bearings.  In [our
-paper](http://arxiv.org/abs/1410.7775), we frequently color sections
+paper](https://arxiv.org/abs/1410.7775), we frequently color sections
 of the sky with a grid to more easily understand the deflection of
 light by the black holes.  A more fun way to accomplish this is by
 using a recognizable image.  Instead of using stars, we therefore use
