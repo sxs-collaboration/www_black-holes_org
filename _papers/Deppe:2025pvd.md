@@ -14,7 +14,6 @@ jref:
 doi:
 date: 2025-02-27
 arxiv: "2502.20584"
-used_spec: true
 abstract: |
   We study the impact of quantum corrections to gravitational
   waveforms on the gravitational wave memory effect. In certain
@@ -30,7 +29,7 @@ abstract: |
   imprints of this phenomenon is crucial. In this work, we pursue this
   goal by calculating corrections to the null memory arising from
   echo-like features, formulated in terms of the Newman-Penrose scalar
-  \(\Psi_0\). We demonstrate that the morphology of the resulting
+  ${\Psi}_0$. We demonstrate that the morphology of the resulting
   features is model-independent rendering them conceptually much
   easier to detect in real interferometer data than the raw echo. The
   corresponding signal-to-noise ratio of echo-induced features
