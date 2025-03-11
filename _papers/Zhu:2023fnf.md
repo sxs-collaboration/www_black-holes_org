@@ -22,7 +22,6 @@ jref:
 doi:
 date: 2023-12-13
 arxiv: "2312.08588"
-used_spec: true
 abstract: |
   The spectroscopic study of black hole quasinormal modes in
   gravitational-wave ringdown observations is hindered by our
@@ -41,8 +40,8 @@ abstract: |
   simulations. Additional structure in the amplitudes is connected to
   the system's kick velocity and other asymmetries in the orbital
   dynamics. We find that the ringdowns of precessing systems need not
-  be dominated by the \({(\ell,m)=(2,\pm 2)}\) quasinormal modes, and
-  that instead the \((2,\pm 1)\) or \((2,0)\) quasinormal modes can
+  be dominated by the ${(\ell,m)=(2,\pm 2)}$ quasinormal modes, and
+  that instead the $(2,\pm 1)$~or~$(2,0)$ quasinormal modes can
   dominate. Our results are consistent with a ringdown analysis of the
   LIGO-Virgo gravitational wave signal GW190521, and may also help in
   understanding phenomenological inspiral-merger-ringdown waveform
