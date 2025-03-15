@@ -17,7 +17,6 @@ jref:
 doi:
 date: 2025-03-12
 arxiv: "2503.09678"
-used_spec: true
 abstract: |
   Using gravitational waves to probe the geometry of the ringing
   remnant black hole formed in a binary black hole coalescence is a
@@ -31,7 +30,7 @@ abstract: |
   improves upon previous ones in three ways: it fits over the two-
   sphere, enabling a complete model of the strain; it performs a
   reverse-search in time for QNMs using a more robust nonlinear least
-  squares routine called <code>VarPro</code>; and it checks the variance
+  squares routine called \texttt{VarPro}; and it checks the variance
   of QNM amplitudes, which we refer to as ``stability'', over an
   interval matching the natural time scale of each QNM. Using this
   algorithm, we not only demonstrate the stability of a multitude of
@@ -42,7 +41,7 @@ abstract: |
   suggests that the source of remnant black hole perturbations is
   roughly independent of the overtone index in a given angular
   harmonic across binary parameter space, at least for overtones with
-  \(n\leq 2\). This finding may hint at the spatiotemporal structure of
+  $n\leq2$. This finding may hint at the spatiotemporal structure of
   ringdown perturbations in black hole coalescences, as well as the
   regime of validity of perturbation theory in the ringdown of these
   events. Our algorithm is made publicly available at the following
