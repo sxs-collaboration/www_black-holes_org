@@ -13,8 +13,9 @@ jref: "Phys.Rev.D 102, 104007 (2020)"
 doi: "10.1103/PhysRevD.102.104007"
 date: 2020-08-06
 arxiv: "2007.11562"
-used_spec: true
 insp_recid: 1808430
+used_spec: true
+used_spectre: true
 abstract: |
   We present the first numerical relativity waveforms for binary black
   hole mergers produced using spectral methods that show both the

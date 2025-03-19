@@ -19,8 +19,9 @@ jref: "Phys.Rev.Lett. 130, 081402 (2023)"
 doi: "10.1103/PhysRevLett.130.081402"
 date: 2022-08-15
 arxiv: "2208.07380"
-used_spec: true
 insp_recid: 2136603
+used_spec: true
+used_spectre: true
 abstract: |
   The gravitational wave strain emitted by a perturbed black hole (BH)
   ringing down is typically modeled analytically using first-order BH

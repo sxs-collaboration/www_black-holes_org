@@ -17,8 +17,9 @@ jref: "Phys.Rev.D 103, 024031 (2021)"
 doi: "10.1103/PhysRevD.103.024031"
 date: 2020-11-02
 arxiv: "2011.01309"
-used_spec: true
 insp_recid: 1827859
+used_spec: true
+used_spectre: true
 abstract: |
   Accurate models of gravitational waves from merging binary black
   holes are crucial for detectors to measure events and extract new

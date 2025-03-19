@@ -18,8 +18,9 @@ jref: "Phys.Rev.D 103, 064007 (2021)"
 doi: "10.1103/PhysRevD.103.064007"
 date: 2020-10-27
 arxiv: "2010.14518"
-used_spec: true
 insp_recid: 1826630
+used_spec: true
+used_spectre: true
 abstract: |
   The availability of accurate numerical waveforms is an important
   requirement for the creation and calibration of reliable waveform

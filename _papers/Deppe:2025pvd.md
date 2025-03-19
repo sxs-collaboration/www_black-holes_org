@@ -14,8 +14,9 @@ jref:
 doi:
 date: 2025-02-27
 arxiv: "2502.20584"
-used_spec: true
 insp_recid: 2895773
+used_spec: true
+used_spectre: true
 abstract: |
   We study the impact of quantum corrections to gravitational
   waveforms on the gravitational wave memory effect. In certain

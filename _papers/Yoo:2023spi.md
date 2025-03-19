@@ -20,8 +20,9 @@ jref: "Phys.Rev.D 108, 064027 (2023)"
 doi: "10.1103/PhysRevD.108.064027"
 date: 2023-06-05
 arxiv: "2306.03148"
-used_spec: true
 insp_recid: 2666498
+used_spec: true
+used_spectre: true
 abstract: |
   Numerical relativity simulations provide the most precise templates
   for the gravitational waves produced by binary black hole mergers.

@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.111.024061"
 date: 2024-06-12
 arxiv: "2406.08410"
 insp_recid: 2797442
+used_spectre: true
 abstract: |
   Recent efforts to numerically simulate compact objects in
   alternative theories of gravity have largely focused on the time-
