@@ -10,6 +10,7 @@ doi: "10.1088/1361-6382/ac8864"
 date: 2021-09-23
 arxiv: "2109.11645"
 insp_recid: 1927791
+used_spectre: true
 abstract: |
   We present a discontinuous Galerkin (DG)–finite difference (FD)
   hybrid scheme that allows high-order shock capturing with the DG

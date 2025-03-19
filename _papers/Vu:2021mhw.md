@@ -17,6 +17,7 @@ doi: "10.1088/1361-6382/acad62"
 date: 2021-11-12
 arxiv: "2111.06893"
 insp_recid: 1968785
+used_spectre: true
 abstract: |
   Brownian coating thermal noise in detector test masses is limiting
   the sensitivity of current gravitational-wave detectors on Earth.

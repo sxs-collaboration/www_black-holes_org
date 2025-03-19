@@ -44,4 +44,5 @@ jobs:
 
           Please check the following:
           - [ ] If this paper used spec, include `used_spec: true` in the yaml header of the markdown file for the paper
+          - [ ] If this paper used spectre, include `used_spectre: true` in the yaml header of the markdown file for the paper
           - [ ] Does the math render correctly?

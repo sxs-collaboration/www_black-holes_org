@@ -17,8 +17,9 @@ jref: "Phys.Rev.D 109, 124030 (2024)"
 doi: "10.1103/PhysRevD.109.124030"
 date: 2024-02-05
 arxiv: "2402.02819"
-used_spec: true
 insp_recid: 2755503
+used_spec: true
+used_spectre: true
 abstract: |
   The ringdown portion of a binary black hole merger consists of a sum
   of modes, each containing an infinite number of tones that are

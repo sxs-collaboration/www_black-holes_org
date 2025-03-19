@@ -11,6 +11,7 @@ doi: "10.1103/PhysRevD.109.123019"
 date: 2024-04-01
 arxiv: "2404.01531"
 insp_recid: 2773472
+used_spectre: true
 abstract: |
   Relativistic plasmas around compact objects can sometimes be
   approximated as being force-free. In this limit, the plasma inertia

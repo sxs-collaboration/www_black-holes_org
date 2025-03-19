@@ -21,8 +21,9 @@ jref: "Phys.Rev.D 109, 104050 (2024)"
 doi: "10.1103/PhysRevD.109.104050"
 date: 2024-01-01
 arxiv: "2401.00805"
-used_spec: true
 insp_recid: 2742446
+used_spec: true
+used_spectre: true
 abstract: |
   We investigate quadratic quasinormal mode coupling in black hole
   spacetime through numerical experiments of single perturbed black

@@ -26,6 +26,8 @@ doi:
 date: 2024-12-09
 arxiv: "2412.06887"
 insp_recid: 2857808
+used_spec: true
+used_spectre: true
 abstract: |
   We uncover late-time gravitational-wave tails in fully nonlinear 3+1
   dimensional numerical relativity simulations of merging black holes,
