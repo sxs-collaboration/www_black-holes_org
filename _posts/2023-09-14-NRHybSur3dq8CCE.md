@@ -25,7 +25,7 @@ kind of BBH emitted the GW that we observed.
 
 The type of waveform model which most faithfully represents numerical relativity (NR) waveforms
 that one can build are NR surrogate models: waveform models that are trained directly on
-NR waveform rather than making assumptions about what the waveform should look like.
+NR waveforms rather than by making assumptions about what the waveforms should look like.
 
 Up until now, NR surrogate models have been trained on waveforms that have been extracted
 to future null infinity (i.e., a place far away from the BBH that is a fairly nice
@@ -42,7 +42,7 @@ gravitational wave physics that we expect to observe from BBHs.
 
 So what are memory effects? The most common memory effect is known as the displacement memory and
 it corresponds to the permanent net displacement that two initially comoving observers
-will experience due to gravitatiional radiation.
+will experience due to gravitational radiation.
 
 {% include image.html class="right-third"
    url="/images/posts/NRHybSur3dq8CCE/memory.jpeg"
@@ -55,10 +55,10 @@ an infinite number of symmetries at future null infinity that we call BMS symmet
 
 Therefore, memory is closely connected to various conservation laws of GR (thanks Emmy Noether!).
 And, because conservation laws help us understand quantum formulations of classical theories, perhaps
-memory can help us formulate a quantum theory of gravity...?
+memory can help us formulate a quantum theory of gravity...
 
 Back to NR waveforms! Fortunately, there is an alternative waveform extraction technique, CCE,
-that does resolve memory! So let's just build a NR surrogate model using CCE waveforms.
+that does resolve memory! So let's just build an NR surrogate model using CCE waveforms.
 
 {% include image.html class="right-third"
    url="/images/posts/NRHybSur3dq8CCE/othermodelsvsCCE.jpeg"
@@ -67,7 +67,7 @@ versus what CCE predicts."
 %}
 
 Or, even better, since NR waveforms are finite in length and therefore don't cover the
-entire frequency band of our detectors, let's instead build a NR surrogate model using
+entire frequency band of our detectors, let's instead build an NR surrogate model using
 hybridization (i.e., a stitching together) of CCE and post-Newtonian (PN) waveforms.
 
 {% include image.html class="right-third"
