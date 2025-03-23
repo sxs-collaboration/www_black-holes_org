@@ -13,6 +13,7 @@ doi: "10.3847/1538-4357/ac1737"
 date: 2021-03-30
 arxiv: "2103.16588"
 used_spec: true
+insp_recid: 1854750
 abstract: |
   Neutrino transport and neutrino−matter interactions are known to
   play an important role in the evolution of neutron star mergers and

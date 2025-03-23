@@ -21,6 +21,7 @@ doi:
 date: 2025-03-12
 arxiv: "2503.09569"
 used_spec: true
+insp_recid: 2899400
 abstract: |
   Understanding the characteristics of the remnant black hole formed
   in a binary black hole merger is crucial for conducting

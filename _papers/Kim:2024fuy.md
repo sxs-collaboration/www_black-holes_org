@@ -9,6 +9,7 @@ jref:
 doi:
 date: 2024-12-07
 arxiv: "2412.05760"
+insp_recid: 2857361
 abstract: |
   The merger of a black hole (BH) and a neutron star (NS) in most
   cases is expected to leave no material around the remnant BH;

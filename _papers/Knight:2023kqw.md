@@ -13,6 +13,7 @@ doi: "10.1103/PhysRevD.110.023034"
 date: 2023-07-06
 arxiv: "2307.03250"
 used_spec: true
+insp_recid: 2675172
 abstract: |
   In numerical simulations of binary neutron star systems, the
   equation of state of the dense neutron star matter is an important

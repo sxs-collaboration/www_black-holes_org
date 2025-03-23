@@ -8,6 +8,7 @@ doi: "10.1088/1361-6382/aa6854"
 date: 2017-05-01
 arxiv: "1611.07531"
 used_spec: true
+insp_recid: 1499839
 abstract: |
   Parameter estimates of GW150914 were obtained using Bayesian
   inference, based on three semi-analytic waveform models for binary

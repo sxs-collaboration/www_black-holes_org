@@ -11,6 +11,7 @@ doi: "10.1088/0264-9381/32/24/245010"
 date: 2015-12-01
 arxiv: "1506.01689"
 used_spec: true
+insp_recid: 1374618
 abstract: |
   Construction of binary black hole initial data is a prerequisite for
   numerical evolutions of binary black holes. This paper reports

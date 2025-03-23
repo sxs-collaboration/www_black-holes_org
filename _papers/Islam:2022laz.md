@@ -15,6 +15,7 @@ doi: "10.1103/PhysRevD.106.104025"
 date: 2022-04-04
 arxiv: "2204.01972"
 used_spec: true
+insp_recid: 2063398
 abstract: |
   We present a reduced-order surrogate model of gravitational
   waveforms from nonspinning binary black hole systems with comparable

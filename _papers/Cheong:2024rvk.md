@@ -14,6 +14,7 @@ doi: "10.1103/PhysRevD.110.043015"
 date: 2024-02-28
 arxiv: "2402.18529"
 used_spec: true
+insp_recid: 2762946
 abstract: |
   The conformal flatness approximation to the Einstein equations has
   been successfully used in many astrophysical applications such as

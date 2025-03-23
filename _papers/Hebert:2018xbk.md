@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.98.044041"
 date: 2018-04-05
 arxiv: "1804.02003"
 used_spec: true
+insp_recid: 1666386
 abstract: |
   Simulations of relativistic hydrodynamics often need both high
   accuracy and robust shock-handling properties. The discontinuous

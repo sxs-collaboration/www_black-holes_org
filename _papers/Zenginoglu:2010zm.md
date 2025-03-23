@@ -8,6 +8,7 @@ doi: "10.1103/PhysRevD.81.124010"
 date: 2010-06-01
 arxiv: "1004.0760"
 used_spec: true
+insp_recid: 851007
 abstract: |
   We present the numerical implementation of a clean solution to the
   outer boundary and radiation extraction problems within the 3+1

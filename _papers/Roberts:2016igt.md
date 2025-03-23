@@ -15,6 +15,7 @@ doi: "10.1093/mnras/stw2622"
 date: 2017-02-01
 arxiv: "1601.07942"
 used_spec: true
+insp_recid: 1418461
 abstract: |
   During the merger of a black hole and a neutron star, baryonic mass
   can become unbound from the system. Because the ejected material is

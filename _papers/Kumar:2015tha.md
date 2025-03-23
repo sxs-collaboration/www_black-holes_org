@@ -14,6 +14,7 @@ doi: "10.1103/PhysRevD.92.102001"
 date: 2015-11-01
 arxiv: "1507.00103"
 used_spec: true
+insp_recid: 1380593
 abstract: |
   Coalescing binaries of neutron stars and black holes are one of the
   most important sources of gravitational waves for the upcoming

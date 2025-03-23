@@ -17,6 +17,7 @@ doi: "10.1103/PhysRevD.89.042002"
 date: 2014-02-01
 arxiv: "1310.7949"
 used_spec: true
+insp_recid: 1262670
 abstract: |
   Gravitational waves from coalescing stellar-mass black hole binaries
   (BBHs) are expected to be detected by the Advanced Laser

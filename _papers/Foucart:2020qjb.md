@@ -12,6 +12,7 @@ doi: "10.3847/2041-8213/abbb87"
 date: 2020-08-18
 arxiv: "2008.08089"
 used_spec: true
+insp_recid: 1812336
 abstract: |
   Gravitational waves and electromagnetic signals from merging neutron
   star binaries provide valuable information about the the properties

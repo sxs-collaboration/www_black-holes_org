@@ -26,6 +26,7 @@ jref: "Class.Quant.Grav. 41, 245002 (2024)"
 doi: "10.1088/1361-6382/ad88cf"
 date: 2024-06-27
 arxiv: "2406.19038"
+insp_recid: 2802590
 abstract: |
   We present a discontinuous Galerkin-finite difference hybrid scheme
   that allows high-order shock capturing with the discontinuous

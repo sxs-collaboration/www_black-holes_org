@@ -9,6 +9,7 @@ doi: "10.1088/0264-9381/32/23/235018"
 date: 2015-12-01
 arxiv: "1502.06987"
 used_spec: true
+insp_recid: 1346387
 abstract: |
   We present gauge invariant spectral Cauchy characteristic
   extraction. We compare gravitational waveforms extracted from a

@@ -7,6 +7,7 @@ jref: "Phys.Rev.D 110, 124046 (2024)"
 doi: "10.1103/PhysRevD.110.124046"
 date: 2024-06-04
 arxiv: "2406.02837"
+insp_recid: 2794833
 abstract: |
   Dynamo processes are ubiquitous in astrophysical systems. In
   relativistic astrophysical systems, such as accretion disks around

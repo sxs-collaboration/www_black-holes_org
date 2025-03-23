@@ -13,6 +13,7 @@ doi: "10.1103/PhysRevD.95.104023"
 date: 2017-05-01
 arxiv: "1701.00550"
 used_spec: true
+insp_recid: 1507663
 abstract: |
   We present the first surrogate model for gravitational waveforms
   from the coalescence of precessing binary black holes. We call this

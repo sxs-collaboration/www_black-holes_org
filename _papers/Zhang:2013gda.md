@@ -8,6 +8,7 @@ doi: "10.1103/PhysRevD.88.084033"
 date: 2013-10-22
 arxiv: "1309.1141"
 used_spec: true
+insp_recid: 1252712
 abstract: |
   At the beginning of binary black hole simulations, there is a pulse
   of spurious radiation (or junk radiation) resulting from the initial

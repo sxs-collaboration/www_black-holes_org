@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.74.064016"
 date: 2006-09-13
 arxiv: "gr-qc/0606037"
 used_spec: true
+insp_recid: 718808
 abstract: |
   We construct approximate analytical solutions to the constraint
   equations of general relativity for binary black holes of arbitrary

@@ -21,6 +21,7 @@ doi: "10.1103/PhysRevD.99.024049"
 date: 2018-09-12
 arxiv: "1809.04349"
 used_spec: true
+insp_recid: 1693662
 abstract: |
   We identify various contributors of systematic effects in the
   measurement of the neutron star (NS) tidal deformability and

@@ -12,6 +12,7 @@ jref: "Phys.Rev.D 111, 043036 (2025)"
 doi: "10.1103/PhysRevD.111.043036"
 date: 2024-10-27
 arxiv: "2410.20681"
+insp_recid: 2843264
 abstract: |
   We investigate the influence of inelastic neutrino microphysics in
   general-relativistic magnetohydrodynamics simulations of a

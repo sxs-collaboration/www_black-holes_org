@@ -15,6 +15,7 @@ doi: "10.1103/PhysRevD.96.024058"
 date: 2017-05-19
 arxiv: "1705.07089"
 used_spec: true
+insp_recid: 1600578
 abstract: |
   A generic, noneccentric binary black hole (BBH) system emits
   gravitational waves (GWs) that are completely described by seven

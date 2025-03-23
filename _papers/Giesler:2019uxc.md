@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevX.9.041060"
 date: 2019-03-19
 arxiv: "1903.08284"
 used_spec: true
+insp_recid: 1725950
 abstract: |
   It is possible to infer the mass and spin of the remnant black hole
   from binary black hole mergers by comparing the ringdown

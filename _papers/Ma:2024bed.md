@@ -13,6 +13,7 @@ jref: "Class.Quant.Grav. 42, 055006 (2025)"
 doi: "10.1088/1361-6382/adaf6f"
 date: 2024-09-09
 arxiv: "2409.06141"
+insp_recid: 2826975
 abstract: |
   Cauchy-characteristic evolution (CCE) is a powerful method for
   accurately extracting gravitational waves at future null infinity.

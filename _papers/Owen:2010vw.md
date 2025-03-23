@@ -6,6 +6,7 @@ doi: "10.1103/PhysRevD.81.124042"
 date: 2010-06-23
 arxiv: "1004.3768"
 used_spec: true
+insp_recid: 852505
 abstract: |
   We study the issue of algebraic classification of the Weyl curvature
   tensor, with a particular focus on numerical relativity

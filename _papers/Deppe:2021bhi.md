@@ -41,6 +41,7 @@ jref: "Phys.Rev.D 105, 123031 (2022)"
 doi: "10.1103/PhysRevD.105.123031"
 date: 2021-09-24
 arxiv: "2109.12033"
+insp_recid: 1927843
 abstract: |
   Discontinuous Galerkin methods are popular because they can achieve
   high order where the solution is smooth, because they can capture

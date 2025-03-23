@@ -11,6 +11,7 @@ doi: "10.1088/0264-9381/27/11/114106"
 date: 2010-06-01
 arxiv: "0912.3528"
 used_spec: true
+insp_recid: 840557
 abstract: |
   The merger dynamics of a black hole-neutron star (BHNS) binary is
   influenced by the neutron star equation of state (EoS) through the

@@ -5,6 +5,7 @@ jref: "PhD thesis, University of Cambridge"
 doi: ""
 date: 2005-09-13
 arxiv: "gr-qc/0601064"
+insp_recid: 701963
 abstract: |
   This thesis is concerned with formulations of the Einstein equations
   in axisymmetric spacetimes which are suitable for numerical

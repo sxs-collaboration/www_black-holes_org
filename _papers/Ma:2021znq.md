@@ -11,6 +11,7 @@ doi: "10.1103/PhysRevD.104.084003"
 date: 2021-07-10
 arxiv: "2107.04890"
 used_spec: true
+insp_recid: 1881722
 abstract: |
   We use numerical relativity to study the merger and ringdown stages
   of “superkick” binary black hole systems (those with equal mass and

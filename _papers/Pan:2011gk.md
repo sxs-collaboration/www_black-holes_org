@@ -13,6 +13,7 @@ doi: "10.1103/PhysRevD.84.124052"
 date: 2011-12-01
 arxiv: "1106.1021"
 used_spec: true
+insp_recid: 912668
 abstract: |
   We calibrate an effective-one-body (EOB) model to numerical-
   relativity simulations of mass ratios 1, 2, 3, 4, and 6, by

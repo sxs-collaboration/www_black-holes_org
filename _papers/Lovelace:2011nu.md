@@ -10,6 +10,7 @@ doi: "10.1088/0264-9381/29/4/045003"
 date: 2012-02-01
 arxiv: "1110.2229"
 used_spec: true
+insp_recid: 939455
 abstract: |
   Motivated by the possibility of observing gravitational waves from
   merging black holes whose spins are nearly extremal (i.e., 1 in

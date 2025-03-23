@@ -13,6 +13,7 @@ doi: "10.1103/PhysRevD.97.104065"
 date: 2017-11-02
 arxiv: "1711.00926"
 used_spec: true
+insp_recid: 1634401
 abstract: |
   The final stage of a binary black hole merger is ringdown, in which
   the system is described by a Kerr black hole with quasinormal mode

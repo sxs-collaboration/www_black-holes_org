@@ -11,6 +11,7 @@ doi: "10.1103/PhysRevD.89.064060"
 date: 2014-03-01
 arxiv: "1312.0600"
 used_spec: true
+insp_recid: 1267161
 abstract: |
   We report on simulations in general relativity of magnetized disks
   onto black hole binaries. We vary the binary mass ratio from 1:1 to

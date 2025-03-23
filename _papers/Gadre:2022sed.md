@@ -10,6 +10,7 @@ jref: "Phys.Rev.D 110, 124038 (2024)"
 doi: "10.1103/PhysRevD.110.124038"
 date: 2022-03-01
 arxiv: "2203.00381"
+insp_recid: 2040708
 abstract: |
   We present a surrogate model of SEOBNRv4PHM, a fully precessing
   time-domain effective-one-body waveform model including subdominant

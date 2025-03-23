@@ -14,6 +14,7 @@ doi: "10.1088/0264-9381/32/10/105009"
 date: 2015-05-01
 arxiv: "1412.1803"
 used_spec: true
+insp_recid: 1332742
 abstract: |
   Astrophysical black holes could be nearly extremal (that is,
   rotating nearly as fast as possible), therefore, nearly extremal

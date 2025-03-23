@@ -7,6 +7,7 @@ jref: "J. Hyperbolic Differential Eqs. 2, 839-883 (2005)"
 doi: "10.1142/S0219891605000634"
 date: 2005-12-01
 arxiv: "gr-qc/0412115"
+insp_recid: 667860
 abstract: |
   Outer boundary conditions for strongly and symmetric hyperbolic
   formulations of 3D Einstein's field equations with a live gauge

@@ -17,6 +17,7 @@ doi: "10.1103/PhysRevD.88.084005"
 date: 2013-10-01
 arxiv: "1309.0544"
 used_spec: true
+insp_recid: 1252544
 abstract: |
   We compute the periastron advance using the effective-one-body
   formalism for binary black holes moving on quasicircular orbits and

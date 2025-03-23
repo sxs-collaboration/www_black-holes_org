@@ -13,6 +13,7 @@ doi: "10.1088/0264-9381/32/6/065002"
 date: 2015-03-01
 arxiv: "1410.7775"
 used_spec: true
+insp_recid: 1324905
 abstract: |
   We present a method of calculating the strong-field gravitational
   lensing caused by many analytic and numerical spacetimes. We use

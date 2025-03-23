@@ -16,6 +16,7 @@ doi: "10.1103/PhysRevD.91.124021"
 date: 2015-06-01
 arxiv: "1502.04146"
 used_spec: true
+insp_recid: 1344975
 abstract: |
   We present a first simulation of the post-merger evolution of a
   black hole-neutron star binary in full general relativity using an

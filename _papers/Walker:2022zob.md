@@ -10,6 +10,7 @@ doi: "10.1088/1361-6382/acb3a7"
 date: 2022-08-04
 arxiv: "2208.02927"
 used_spec: true
+insp_recid: 2132765
 abstract: |
   Numerical relativity (NR) simulations of binary black hole (BBH)
   systems provide the most accurate gravitational wave predictions,

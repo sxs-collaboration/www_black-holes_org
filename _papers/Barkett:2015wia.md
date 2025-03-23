@@ -18,6 +18,7 @@ doi: "10.1103/PhysRevD.93.044064"
 date: 2016-02-01
 arxiv: "1509.05782"
 used_spec: true
+insp_recid: 1394142
 abstract: |
   Gravitational waves from binary neutron star (BNS) and black
   hole/neutron star (BHNS) inspirals are primary sources for detection

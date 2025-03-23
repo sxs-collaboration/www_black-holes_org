@@ -13,6 +13,7 @@ doi: "10.1103/PhysRevD.86.084054"
 date: 2012-10-01
 arxiv: "1206.2943"
 used_spec: true
+insp_recid: 1118257
 abstract: |
   Initial data for numerical evolutions of binary-black holes have
   been dominated by 'conformally flat' (CF) data (i.e., initial data

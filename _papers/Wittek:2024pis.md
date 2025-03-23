@@ -15,6 +15,7 @@ jref:
 doi:
 date: 2024-10-29
 arxiv: "2410.22290"
+insp_recid: 2843544
 abstract: |
   Worldtube excision is a method of reducing computational burden in
   Numerical Relativity simulations of binary black holes in situations

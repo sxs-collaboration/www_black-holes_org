@@ -13,6 +13,7 @@ doi: "10.1103/PhysRevLett.115.121102"
 date: 2015-02-01
 arxiv: "1502.07758"
 used_spec: true
+insp_recid: 1346815
 abstract: |
   Simulating a binary black hole coalescence by solving Einstein’s
   equations is computationally expensive, requiring days to months of

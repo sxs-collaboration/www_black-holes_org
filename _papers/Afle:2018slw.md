@@ -21,6 +21,7 @@ doi: "10.1103/PhysRevD.98.083014"
 date: 2018-03-20
 arxiv: "1803.07695"
 used_spec: true
+insp_recid: 1663462
 abstract: |
   Spin-orbit resonances have important astrophysical implications as
   the evolution and subsequent coalescence of supermassive black hole

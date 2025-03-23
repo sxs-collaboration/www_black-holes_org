@@ -8,6 +8,7 @@ jref: "Phys.Rev. D65, 084039 (2002)"
 doi: "10.1103/PhysRevD.65.084039"
 date: 2002-04-09
 arxiv: "astro-ph/0109352"
+insp_recid: 563196
 abstract: |
   Nonlinear evolution of the gravitational radiation (GR) driven
   instability in the r-modes of neutron stars is studied by full

@@ -10,6 +10,7 @@ doi: "10.1088/0264-9381/26/7/075009"
 date: 2009-03-10
 arxiv: "0811.3593"
 used_spec: true
+insp_recid: 803267
 abstract: |
   We present an implementation of absorbing boundary conditions for
   the Einstein equations based on the recent work of Buchman and

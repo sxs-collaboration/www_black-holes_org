@@ -9,6 +9,7 @@ doi: "10.1093/mnras/stz644"
 date: 2018-12-11
 arxiv: "1812.04641"
 used_spec: true
+insp_recid: 1708769
 abstract: |
   Mergers of compact binaries containing two neutron stars (NS–NS), or
   a neutron star and a stellar mass black hole (NS–BH), are likely

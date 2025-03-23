@@ -14,6 +14,7 @@ doi: "10.1103/PhysRevResearch.1.033015"
 date: 2019-05-22
 arxiv: "1905.09300"
 used_spec: true
+insp_recid: 1736519
 abstract: |
   Only numerical relativity simulations can capture the full
   complexities of binary black hole mergers. These simulations,

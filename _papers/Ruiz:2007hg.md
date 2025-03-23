@@ -7,6 +7,7 @@ authors:
 date: 2007-07-18
 doi: "10.1088/0264-9381/24/24/012"
 arxiv: "0707.2797"
+insp_recid: 756233
 abstract: |
   We analyze Einstein's vacuum field equations in generalized harmonic
   coordinates on a compact spatial domain with boundaries. We specify

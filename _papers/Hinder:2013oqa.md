@@ -62,6 +62,7 @@ doi: "10.1088/0264-9381/31/2/025012"
 date: 2013-01-01
 arxiv: "1307.5307"
 used_spec: true
+insp_recid: 1243594
 abstract: |
   The Numerical–Relativity–Analytical–Relativity (NRAR) collaboration
   is a joint effort between members of the numerical relativity,

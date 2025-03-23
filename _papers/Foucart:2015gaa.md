@@ -16,6 +16,7 @@ doi: "10.1103/PhysRevD.93.044019"
 date: 2016-02-01
 arxiv: "1510.06398"
 used_spec: true
+insp_recid: 1399326
 abstract: |
   Neutron star mergers are among the most promising sources of
   gravitational waves for advanced ground-based detectors. These

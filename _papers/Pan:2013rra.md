@@ -14,6 +14,7 @@ doi: "10.1103/PhysRevD.89.084006"
 date: 2014-04-01
 arxiv: "1307.6232"
 used_spec: true
+insp_recid: 1244299
 abstract: |
   We describe a general procedure to generate spinning, precessing
   waveforms that include inspiral, merger and ringdown stages in the

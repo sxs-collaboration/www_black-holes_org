@@ -5,6 +5,7 @@ jref: "Ph.D. thesis, Cornell University, 2003"
 doi: ""
 date: 2003-08-01
 arxiv: "gr-qc/0510016"
+insp_recid: 694013
 abstract: |
   We discuss the initial value problem of general relativity in its
   recently unified Lagrangian and Hamiltonian pictures and present a

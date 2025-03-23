@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.89.044044"
 date: 2014-02-01
 arxiv: "1312.0701"
 used_spec: true
+insp_recid: 1267200
 abstract: |
   This paper develops a method for solving Einstein's equation
   numerically on multicube representations of manifolds with arbitrary

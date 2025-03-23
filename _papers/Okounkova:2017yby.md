@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.96.044020"
 date: 2017-05-22
 arxiv: "1705.07924"
 used_spec: true
+insp_recid: 1600952
 abstract: |
   Testing general relativity in the nonlinear, dynamical, strong-field
   regime of gravity is one of the major goals of gravitational wave

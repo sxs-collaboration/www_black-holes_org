@@ -9,6 +9,7 @@ doi: "10.1088/1361-6382/aafcdf"
 date: 2018-10-11
 arxiv: "1810.05306"
 used_spec: true
+insp_recid: 1698267
 abstract: |
   We present a scheme for generating first-order metric perturbation
   initial data for an arbitrary background and source. We then apply

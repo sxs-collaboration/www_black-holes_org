@@ -30,6 +30,7 @@ doi: "10.1103/PhysRevD.108.124035"
 date: 2023-03-31
 arxiv: "2303.18039"
 used_spec: true
+insp_recid: 2647776
 abstract: |
   We present SEOBNRv5HM, a more accurate and faster inspiral-merger-
   ringdown gravitational waveform model for quasicircular, spinning,

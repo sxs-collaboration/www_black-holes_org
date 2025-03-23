@@ -10,6 +10,7 @@ doi:
 date: 2014-09-15
 arxiv: "1409.4431"
 used_spec: true
+insp_recid: 1317220
 abstract: |
   Gravitational waves from precessing black-hole binaries exhibit
   features that are absent in nonprecessing systems. The most

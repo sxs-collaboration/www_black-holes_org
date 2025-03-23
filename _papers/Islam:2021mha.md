@@ -15,6 +15,7 @@ doi: "10.1103/PhysRevD.103.064022"
 date: 2021-01-27
 arxiv: "2101.11798"
 used_spec: true
+insp_recid: 1843210
 abstract: |
   We develop new strategies to build numerical relativity surrogate
   models for eccentric binary black hole systems, which are expected

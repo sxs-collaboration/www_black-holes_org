@@ -18,6 +18,7 @@ doi:
 date: 2025-03-12
 arxiv: "2503.09678"
 used_spec: true
+insp_recid: 2899832
 abstract: |
   Using gravitational waves to probe the geometry of the ringing
   remnant black hole formed in a binary black hole coalescence is a

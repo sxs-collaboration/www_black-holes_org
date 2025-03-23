@@ -14,6 +14,7 @@ doi: "10.1103/PhysRevD.86.084049"
 date: 2012-10-01
 arxiv: "1208.3034"
 used_spec: true
+insp_recid: 1127588
 abstract: |
   When one splits spacetime into space plus time, the Weyl curvature
   tensor (which equals the Riemann tensor in vacuum) splits into two

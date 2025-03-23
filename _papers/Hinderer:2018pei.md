@@ -19,6 +19,7 @@ doi: "10.1103/PhysRevD.100.063021"
 date: 2018-08-11
 arxiv: "1808.03836"
 used_spec: true
+insp_recid: 1686804
 abstract: |
   The discovery of GW170817 with gravitational waves (GWs) and
   electromagnetic (EM) radiation is prompting new questions in strong-

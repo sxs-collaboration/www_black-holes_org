@@ -8,6 +8,7 @@ doi: "10.1103/PhysRevD.94.064035"
 date: 2016-09-01
 arxiv: "1606.01262"
 used_spec: true
+insp_recid: 1467402
 abstract: |
   We compare GW150914 directly to simulations of coalescing binary
   black holes in full general relativity, including several performed

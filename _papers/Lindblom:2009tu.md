@@ -8,6 +8,7 @@ doi: "10.1103/PhysRevD.80.084019"
 date: 2009-10-01
 arxiv: "0904.4873"
 used_spec: true
+insp_recid: 819140
 abstract: |
   A new gauge driver is introduced for the GH (generalized harmonic)
   representation of Einstein's equation. This new driver allows a

@@ -14,6 +14,7 @@ jref: "Phys.Rev.D 110, 024033 (2024)"
 doi: "10.1103/PhysRevD.110.024033"
 date: 2024-03-13
 arxiv: "2403.08705"
+insp_recid: 2768426
 abstract: |
   One of the most promising avenues to perform numerical evolutions in
   theories beyond general relativity is the fixing-the-equations

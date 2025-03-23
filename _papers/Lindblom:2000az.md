@@ -8,6 +8,7 @@ jref: "Phys.Rev.Lett. 86, 1152-1155 (2001)"
 doi: "10.1103/PhysRevLett.86.1152"
 date: 2001-02-07
 arxiv: "astro-ph/0010653"
+insp_recid: 536060
 abstract: |
   The evolution of a neutron-star r-mode driven unstable by
   gravitational radiation (GR) is studied here using numerical

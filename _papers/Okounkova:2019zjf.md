@@ -11,6 +11,7 @@ doi: "10.1103/PhysRevD.101.104016"
 date: 2019-11-06
 arxiv: "1911.02588"
 used_spec: true
+insp_recid: 1763787
 abstract: |
   We produce the first astrophysically relevant numerical binary black
   hole gravitational waveform in a higher-curvature theory of gravity

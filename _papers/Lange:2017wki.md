@@ -32,6 +32,7 @@ doi: "10.1103/PhysRevD.96.104041"
 date: 2017-05-27
 arxiv: "1705.09833"
 used_spec: true
+insp_recid: 1601491
 abstract: |
   We present and assess a Bayesian method to interpret gravitational
   wave signals from binary black holes. Our method directly compares

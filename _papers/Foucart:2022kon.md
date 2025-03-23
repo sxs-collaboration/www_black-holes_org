@@ -13,6 +13,7 @@ doi: "10.1103/PhysRevD.107.103055"
 date: 2022-10-11
 arxiv: "2210.05670"
 used_spec: true
+insp_recid: 2164126
 abstract: |
   Recent gravitational wave observations of neutron-star-neutron-star
   and neutron-star-black-hole binaries appear to indicate that massive

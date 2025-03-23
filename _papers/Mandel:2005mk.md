@@ -5,6 +5,7 @@ jref: "Phys.Rev. D72, 084025 (2005)"
 doi: "10.1103/PhysRevD.72.084025"
 date: 2005-10-25
 arxiv: "gr-qc/0505149"
+insp_recid: 683589
 abstract: |
   The most promising way to compute the gravitational waves emitted by
   binary black holes (BBHs) in their last dozen orbits, where

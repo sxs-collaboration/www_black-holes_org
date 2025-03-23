@@ -26,6 +26,7 @@ doi: "10.1103/PhysRevD.95.044028"
 date: 2017-02-01
 arxiv: "1611.03703"
 used_spec: true
+insp_recid: 1497502
 abstract: |
   We improve the accuracy of the effective-one-body (EOB) waveforms
   that were employed during the first observing run of Advanced LIGO

@@ -8,6 +8,7 @@ jref: "Class.Quant.Grav. 22, 5283-5322 (2005)"
 doi: "10.1088/0264-9381/22/24/006"
 date: 2005-12-21
 arxiv: "gr-qc/0507004"
+insp_recid: 686458
 abstract: |
   The need to smoothly cover a computational domain of interest
   generically requires the adoption of several grids. To solve the

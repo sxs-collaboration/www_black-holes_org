@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.98.104011"
 date: 2018-08-24
 arxiv: "1808.08228"
 used_spec: true
+insp_recid: 1691246
 abstract: |
   We present improvements to the construction of binary black hole
   initial data used in the Spectral Einstein Code (SpEC). We introduce

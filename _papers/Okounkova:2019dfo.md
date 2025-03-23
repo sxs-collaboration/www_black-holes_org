@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.100.104026"
 date: 2019-06-20
 arxiv: "1906.08789"
 used_spec: true
+insp_recid: 1740939
 abstract: |
   We produce the first numerical relativity binary black hole
   gravitational waveforms in a higher-curvature theory beyond general

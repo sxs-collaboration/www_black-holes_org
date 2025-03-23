@@ -8,6 +8,7 @@ jref: "Phys. Rev. D 71, 064009 (2005)"
 doi: "10.1103/PhysRevD.71.064009"
 date: 2005-03-11
 arxiv: "gr-qc/0412014"
+insp_recid: 666109
 abstract: |
   We use the numerical solution describing the evolution of a
   perturbed black string presented in Choptuik et al. (2003) to

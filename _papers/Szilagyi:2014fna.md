@@ -6,6 +6,7 @@ doi: "10.1142/S0218271814300146"
 date: 2014-05-01
 arxiv: "1405.3693"
 used_spec: true
+insp_recid: 1296235
 abstract: |
   As a network of advanced-era gravitational wave detectors is nearing
   its design sensitivity, efficient and accurate waveform modeling

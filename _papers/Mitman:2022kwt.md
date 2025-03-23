@@ -17,6 +17,7 @@ doi: "10.1103/PhysRevD.106.084029"
 date: 2022-08-08
 arxiv: "2208.04356"
 used_spec: true
+insp_recid: 2133893
 abstract: |
   The Bondi-van der Burg-Metzner-Sachs (BMS) group, which uniquely
   describes the symmetries of asymptotic infinity and therefore of the

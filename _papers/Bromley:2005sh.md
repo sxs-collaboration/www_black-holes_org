@@ -8,6 +8,7 @@ jref: "Phys. Rev. D 71, 104017 (2005)"
 doi: "10.1103/PhysRevD.71.104017"
 date: 2005-05-13
 arxiv: "gr-qc/0502034"
+insp_recid: 676474
 abstract: |
   The periodic standing wave (PSW) method for the binary inspiral of
   black holes and neutron stars computes exact numerical solutions for

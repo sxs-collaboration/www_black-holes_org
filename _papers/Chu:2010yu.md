@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.83.104018"
 date: 2011-05-01
 arxiv: "1011.2601"
 used_spec: true
+insp_recid: 877070
 abstract: |
   We present numerical simulations of a Kerr black hole perturbed by a
   pulse of ingoing gravitational radiation. For strong perturbations

@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.86.084020"
 date: 2012-10-01
 arxiv: "1208.0630"
 used_spec: true
+insp_recid: 1125844
 abstract: |
   We investigate the suitability and properties of a quasi-Kinnersley
   tetrad and a geometrically motivated coordinate system as tools for

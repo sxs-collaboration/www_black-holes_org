@@ -19,6 +19,7 @@ jref: "J.Comput.Phys. 335, 7061 (2017)"
 doi: "10.1016/j.jcp.2016.12.059"
 date: 2016-08-31
 arxiv: "1609.00098"
+insp_recid: 1484813
 abstract: |
   We introduce a new relativistic astrophysics code, SpECTRE, that
   combines a discontinuous Galerkin method with a task-based

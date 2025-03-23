@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.102.024031"
 date: 2019-11-23
 arxiv: "1911.10440"
 used_spec: true
+insp_recid: 1766900
 abstract: |
   The tidal deformations of neutron stars within an inspiraling
   compact binary alter the orbital dynamics, imprinting a signature on

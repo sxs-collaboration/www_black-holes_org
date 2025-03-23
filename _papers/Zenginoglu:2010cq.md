@@ -6,6 +6,7 @@ doi: "10.1016/j.jcp.2010.12.016"
 date: 2011-03-01
 arxiv: "1008.3809"
 used_spec: true
+insp_recid: 865912
 abstract: |
   We show how to solve hyperbolic equations numerically on unbounded
   domains by compactification, thereby avoiding the introduction of an

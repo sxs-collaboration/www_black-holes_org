@@ -6,6 +6,7 @@ doi: "10.1103/PhysRevD.86.124007"
 date: 2012-12-01
 arxiv: "1207.6304"
 used_spec: true
+insp_recid: 1123887
 abstract: |
   Determining the final result of black hole-neutron star mergers, and
   in particular the amount of matter remaining outside the black hole

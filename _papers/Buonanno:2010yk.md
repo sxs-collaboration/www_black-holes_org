@@ -11,6 +11,7 @@ doi: "10.1103/PhysRevD.83.104034"
 date: 2011-05-01
 arxiv: "1012.1549"
 used_spec: true
+insp_recid: 879675
 abstract: |
   Building initial conditions for generic binary black-hole evolutions
   without initial spurious eccentricity remains a challenge for

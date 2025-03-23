@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.86.084033"
 date: 2012-10-01
 arxiv: "1206.3015"
 used_spec: true
+insp_recid: 1118258
 abstract: |
   This paper presents techniques and results for simulations of
   unequal mass, non-spinning black hole binaries with pseudo-spectral

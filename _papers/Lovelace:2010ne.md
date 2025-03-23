@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.83.024010"
 date: 2011-01-01
 arxiv: "1010.2777"
 used_spec: true
+insp_recid: 873135
 abstract: |
   Astrophysically realistic black holes may have spins that are nearly
   extremal (i.e., close to 1 in dimensionless units). Numerical

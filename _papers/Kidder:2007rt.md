@@ -5,6 +5,7 @@ jref: "Phys. Rev. D 77, 044016 (2008)"
 doi: "10.1103/PhysRevD.77.044016"
 date: 2007-10-02
 arxiv: "0710.0614"
+insp_recid: 762805
 abstract: |
   The increasing sophistication and accuracy of numerical simulations
   of compact binaries (especially binary black holes) presents the

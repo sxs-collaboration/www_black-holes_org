@@ -20,6 +20,7 @@ doi:
 date: 2024-11-17
 arxiv: "2411.11269"
 used_spec: true
+insp_recid: 2849537
 abstract: |
   Using high-accuracy numerical relativity waveforms, we confirm the
   presence of numerous overtones of the \(\ell=2\), \(m=2\) quasinormal

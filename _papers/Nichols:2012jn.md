@@ -14,6 +14,7 @@ doi: "10.1103/PhysRevD.86.104028"
 date: 2012-11-12
 arxiv: "1208.3038"
 used_spec: true
+insp_recid: 1127589
 abstract: |
   In recent papers, we and colleagues have introduced a way to
   visualize the full vacuum Riemann curvature tensor using frame-drag

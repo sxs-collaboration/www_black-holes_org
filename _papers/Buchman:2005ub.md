@@ -7,6 +7,7 @@ jref: "Phys. Rev. D72, 124014 (2005)"
 doi: "10.1103/PhysRevD.72.124014"
 date: 2005-12-15
 arxiv: "gr-qc/0508111"
+insp_recid: 690927
 abstract: |
   A first order symmetric hyperbolic tetrad formulation of the
   Einstein equations developed by Estabrook and Wahlquist and put into

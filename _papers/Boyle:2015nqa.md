@@ -6,6 +6,7 @@ doi: "10.1103/PhysRevD.93.084031"
 date: 2016-04-01
 arxiv: "1509.00862"
 used_spec: true
+insp_recid: 1391637
 abstract: |
   Gravitational-wave data is gauge dependent. While we can restrict
   the class of gauges in which such data may be expressed, there will

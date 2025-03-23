@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.78.084017"
 date: 2008-10-10
 arxiv: "0805.4192"
 used_spec: true
+insp_recid: 786720
 abstract: |
   There is a significant possibility that astrophysical black holes
   with nearly-extremal spins exist. Numerical simulations of such

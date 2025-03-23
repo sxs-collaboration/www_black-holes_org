@@ -12,6 +12,7 @@ doi: "10.1103/PhysRevD.110.083028"
 date: 2024-07-22
 arxiv: "2407.15989"
 used_spec: true
+insp_recid: 2810424
 abstract: |
   Binary neutron star mergers play an important role in nuclear
   astrophysics: Their gravitational wave and electromagnetic signals

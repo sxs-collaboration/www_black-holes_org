@@ -25,6 +25,7 @@ doi: "10.1103/PhysRevD.79.084025"
 date: 2009-04-01
 arxiv: "0901.2437"
 used_spec: true
+insp_recid: 811172
 abstract: |
   We quantify the consistency of numerical-relativity black-hole-
   binary waveforms for use in gravitational-wave (GW) searches with

@@ -23,6 +23,7 @@ doi: "10.1103/PhysRevLett.111.241104"
 date: 2013-12-01
 arxiv: "1304.6077"
 used_spec: true
+insp_recid: 1229329
 abstract: |
   This Letter presents a publicly available catalog of 174 numerical
   binary black hole simulations following up to 35 orbits. The catalog

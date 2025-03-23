@@ -17,6 +17,7 @@ doi:
 date: 2025-03-07
 arxiv: "2503.05422"
 used_spec: true
+insp_recid: 2897894
 abstract: |
   Accurate modelling of black hole binaries is critical to achieve the
   science goals of gravitational-wave detectors. Modelling such

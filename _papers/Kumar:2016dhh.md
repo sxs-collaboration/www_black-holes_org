@@ -15,6 +15,7 @@ doi: "10.1103/PhysRevD.93.104050"
 date: 2016-05-01
 arxiv: "1601.05396"
 used_spec: true
+insp_recid: 1416170
 abstract: |
   Coalescing binary black holes are among the primary science targets
   for second generation ground-based gravitational wave detectors.

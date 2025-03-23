@@ -16,6 +16,7 @@ doi: "10.1103/PhysRevD.89.061501"
 date: 2014-03-01
 arxiv: "1311.2565"
 used_spec: true
+insp_recid: 1264009
 abstract: |
   The detection of gravitational waves and the extraction of physical
   information from them requires the prediction of accurate waveforms

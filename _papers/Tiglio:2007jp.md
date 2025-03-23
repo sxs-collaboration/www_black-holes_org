@@ -8,6 +8,7 @@ jref: "Class. Quant. Grav. 25, 105022 (2008)"
 doi: "10.1088/0264-9381/25/10/105022"
 date: 2007-12-16
 arxiv: "0712.2472"
+insp_recid: 770578
 abstract: |
   We investigate the late time behavior of a scalar field on a fixed
   Kerr background using a 2+1 dimensional pseudospectral evolution

@@ -17,6 +17,7 @@ doi: "10.1103/PhysRevD.106.124045"
 date: 2022-08-04
 arxiv: "2208.02965"
 used_spec: true
+insp_recid: 2132749
 abstract: |
   We construct the covariantly defined multipole moments on the common
   horizon of an equal-mass, nonspinning, quasicircular binary-black-

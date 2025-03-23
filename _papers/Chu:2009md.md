@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.80.124051"
 date: 2009-12-31
 arxiv: "0909.1313"
 used_spec: true
+insp_recid: 830520
 abstract: |
   High-accuracy binary black hole simulations are presented for black
   holes with spins anti-aligned with the orbital angular momentum. The

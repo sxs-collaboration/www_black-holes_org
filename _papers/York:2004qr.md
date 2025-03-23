@@ -5,6 +5,7 @@ jref: "Nuovo Cim. B119, 823-837 (2004)"
 doi: "10.1393/ncb/i2004-10181-y"
 date: 2004-11-17
 arxiv: "gr-qc/0409102"
+insp_recid: 660554
 abstract: |
   The complete form of the constraints following from their conformal
   structure is extended so as to include constant mean curvature and

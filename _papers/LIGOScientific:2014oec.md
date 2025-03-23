@@ -17,6 +17,7 @@ doi: "10.1088/0264-9381/31/11/115004"
 date: 2014-06-01
 arxiv: "1401.0939"
 used_spec: true
+insp_recid: 1276073
 abstract: |
   The Numerical INJection Analysis (NINJA) project is a collaborative
   effort between members of the numerical relativity and

@@ -9,6 +9,7 @@ jref: "Astrophys.J.Lett. 979, L24 (2025)"
 doi: "10.3847/2041-8213/ad9eb5"
 date: 2024-10-14
 arxiv: "2410.10944"
+insp_recid: 2840405
 abstract: |
   Supermassive binary black holes in galactic centers are potential
   multimessenger sources in gravitational waves and electromagnetic

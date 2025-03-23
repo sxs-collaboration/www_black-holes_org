@@ -9,6 +9,7 @@ jref: "Phys.Rev.Lett. 93, 131101 (2004)"
 doi: "10.1103/PhysRevLett.93.131101"
 date: 2004-09-21
 arxiv: "gr-qc/0405101"
+insp_recid: 650648
 abstract: |
   We report a new critical solution found at the threshold of
   axisymmetric gravitational collapse of a complex scalar field with

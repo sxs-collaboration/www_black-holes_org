@@ -15,6 +15,7 @@ doi: "10.1088/0264-9381/33/16/165001"
 date: 2016-08-01
 arxiv: "1512.06800"
 used_spec: true
+insp_recid: 1410821
 abstract: |
   We present a new set of 95 numerical relativity simulations of non-
   precessing binary black holes (BBHs). The simulations sample

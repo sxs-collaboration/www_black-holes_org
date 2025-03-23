@@ -13,6 +13,7 @@ jref: "Phys.Rev.D 107, 064013 (2023)"
 doi: "10.1103/PhysRevD.107.064013"
 date: 2021-10-16
 arxiv: "2110.08635"
+insp_recid: 1946527
 abstract: |
   We give full details regarding the new Cauchy-characteristic
   evolution (CCE) system in spectre. The implementation is built to

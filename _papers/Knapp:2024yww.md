@@ -10,6 +10,7 @@ jref: "Phys.Rev.D 111, 024003 (2025)"
 doi: "10.1103/PhysRevD.111.024003"
 date: 2024-10-03
 arxiv: "2410.02997"
+insp_recid: 2837331
 abstract: |
   Numerical relativity simulations of merging black holes provide the
   most accurate description of the binary dynamics and the emitted

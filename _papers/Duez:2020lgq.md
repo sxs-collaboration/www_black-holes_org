@@ -15,6 +15,7 @@ doi: "10.1103/PhysRevD.102.104050"
 date: 2020-08-11
 arxiv: "2008.05019"
 used_spec: true
+insp_recid: 1811415
 abstract: |
   The main problems of nonvacuum numerical relativity, compact binary
   mergers and stellar collapse, involve hydromagnetic instabilities

@@ -9,6 +9,7 @@ jref:
 doi:
 date: 2025-01-27
 arxiv: "2501.16462"
+insp_recid: 2873407
 abstract: |
   Surrogate models of numerical relativity simulations of merging
   black holes provide the most accurate tools for gravitational-wave

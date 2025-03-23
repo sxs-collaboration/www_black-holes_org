@@ -13,6 +13,7 @@ doi: "10.1103/PhysRevD.106.124040"
 date: 2022-09-07
 arxiv: "2209.03390"
 used_spec: true
+insp_recid: 2148985
 abstract: |
   The modeling of unequal mass binary black hole systems is of high
   importance to detect and estimate parameters from these systems.

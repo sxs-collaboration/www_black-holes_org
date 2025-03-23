@@ -14,6 +14,7 @@ doi: "10.1103/PhysRevD.88.064014"
 date: 2013-09-01
 arxiv: "1305.5991"
 used_spec: true
+insp_recid: 1235527
 abstract: |
   The behavior of merging black holes (including the emitted
   gravitational waves and the properties of the remnant) can currently

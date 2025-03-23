@@ -6,6 +6,7 @@ doi: "10.1063/1.4962723"
 date: 2016-09-01
 arxiv: "1604.08140"
 used_spec: true
+insp_recid: 1452680
 abstract: |
   Spin-weighted spherical functions provide a useful tool for
   analyzing tensor-valued functions on the sphere. A tensor field can

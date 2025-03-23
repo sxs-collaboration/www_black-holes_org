@@ -13,6 +13,7 @@ doi: "10.1088/0264-9381/30/11/115001"
 date: 2013-06-01
 arxiv: "1211.6079"
 used_spec: true
+insp_recid: 1203838
 abstract: |
   Simulations of binary black hole systems using the Spectral Einstein
   Code (SpEC) are done on a computational domain that excises the

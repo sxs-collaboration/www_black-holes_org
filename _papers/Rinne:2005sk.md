@@ -7,6 +7,7 @@ jref: "Class. Quantum Grav. 22(6) 1143-1166 (2005)"
 doi: "10.1088/0264-9381/22/6/015"
 date: 2005-03-21
 arxiv: "gr-qc/0502037"
+insp_recid: 676477
 abstract: |
   This paper is concerned exclusively with axisymmetric spacetimes. We
   want to develop reductions of Einstein's equations which are

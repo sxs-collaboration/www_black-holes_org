@@ -12,6 +12,7 @@ doi: "10.1103/PhysRevD.85.044015"
 date: 2012-02-01
 arxiv: "1111.1677"
 used_spec: true
+insp_recid: 944710
 abstract: |
   General relativistic simulations of black hole-neutron star mergers
   have currently been limited to low-mass black holes (less than 7

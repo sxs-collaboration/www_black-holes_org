@@ -11,6 +11,7 @@ doi: "10.1103/PhysRevLett.122.011101"
 date: 2018-09-24
 arxiv: "1809.09125"
 used_spec: true
+insp_recid: 1695415
 abstract: |
   We present accurate fits for the remnant properties of generically
   precessing binary black holes, trained on large banks of numerical-

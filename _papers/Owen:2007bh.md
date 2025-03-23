@@ -5,6 +5,7 @@ date: 2007-03-29
 doi: "10.1103/PhysRevD.76.044019"
 arxiv: "gr-qc/0703145"
 used_spec: true
+insp_recid: 747496
 abstract: |
   A new constraint suppressing formulation of the Einstein evolution
   equations is presented, generalizing the five-parameter first-order

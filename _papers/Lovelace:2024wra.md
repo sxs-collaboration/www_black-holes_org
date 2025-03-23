@@ -36,6 +36,7 @@ jref: "Class.Quant.Grav. 42, 035001 (2025)"
 doi: "10.1088/1361-6382/ad9f19"
 date: 2024-09-30
 arxiv: "2410.00265"
+insp_recid: 2836751
 abstract: |
   Binary black holes are the most abundant source of gravitational-
   wave observations. Gravitational-wave observatories in the next

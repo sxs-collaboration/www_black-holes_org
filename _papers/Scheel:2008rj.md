@@ -12,6 +12,7 @@ doi: "10.1103/PhysRevD.79.024003"
 date: 2009-01-01
 arxiv: "0810.1767"
 used_spec: true
+insp_recid: 799051
 abstract: |
   The first spectral numerical simulations of 16 orbits, merger, and
   ringdown of an equal-mass non-spinning binary black hole system are

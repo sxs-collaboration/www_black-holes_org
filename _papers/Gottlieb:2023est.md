@@ -20,6 +20,7 @@ doi: "10.3847/2041-8213/aceeff"
 date: 2023-06-26
 arxiv: "2306.14947"
 used_spec: true
+insp_recid: 2672377
 abstract: |
   We present the first numerical simulations that track the evolution
   of a black hole–neutron star (BH–NS) merger from premerger to r ≳

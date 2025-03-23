@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.94.064009"
 date: 2016-09-01
 arxiv: "1606.00436"
 used_spec: true
+insp_recid: 1466755
 abstract: |
   We find the first binary black hole event horizon with a toroidal
   topology. It has been predicted that generically the event horizons

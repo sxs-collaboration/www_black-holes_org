@@ -12,6 +12,7 @@ jref: "Phys.Rev.D 107, 123017 (2023)"
 doi: "10.1103/PhysRevD.107.123017"
 date: 2023-01-31
 arxiv: "2301.13818"
+insp_recid: 2628433
 abstract: |
   Numerical simulations of neutron star mergers represent an essential
   step toward interpreting the full complexity of multimessenger

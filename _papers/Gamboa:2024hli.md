@@ -17,6 +17,7 @@ jref:
 doi:
 date: 2024-12-17
 arxiv: "2412.12823"
+insp_recid: 2860452
 abstract: |
   The measurement of orbital eccentricity in gravitational-wave (GW)
   signals will provide unique insights into the astrophysical origin

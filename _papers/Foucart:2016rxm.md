@@ -12,6 +12,7 @@ doi: "10.1103/PhysRevD.94.123016"
 date: 2016-12-01
 arxiv: "1607.07450"
 used_spec: true
+insp_recid: 1478007
 abstract: |
   Binary neutron star mergers are promising sources of gravitational
   waves for ground-based detectors such as Advanced LIGO. Neutron-rich

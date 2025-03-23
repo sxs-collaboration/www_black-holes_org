@@ -4,6 +4,7 @@ authors: "James W. York"
 date: 2004-05-01
 doi: "10.1142/9789812704030_0001"
 arxiv: "gr-qc/0405005"
+insp_recid: 649521
 abstract: |
   The initial value problem is introduced after a thorough review of
   the essential geometry. The initial value equations are put into

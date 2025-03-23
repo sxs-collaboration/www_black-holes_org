@@ -12,6 +12,7 @@ doi: "10.1103/PhysRevD.99.103025"
 date: 2019-03-21
 arxiv: "1903.09166"
 used_spec: true
+insp_recid: 1726359
 abstract: |
   Simulations of neutron star–black hole (NSBH) binaries generally
   consider black holes with masses in the range (5–10)M⊙, where we
