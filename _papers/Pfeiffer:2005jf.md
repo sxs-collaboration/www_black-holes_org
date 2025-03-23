@@ -8,6 +8,7 @@ doi: "10.1103/PhysRevLett.95.091101"
 date: 2005-08-26
 arxiv: "gr-qc/0504142"
 used_spec: true
+insp_recid: 681669
 abstract: |
   The conformal thin sandwich (CTS) equations are a set of four of the
   Einstein equations, which generalize the Laplace-Poisson equation of

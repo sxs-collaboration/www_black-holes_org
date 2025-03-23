@@ -20,6 +20,7 @@ doi: "10.1103/PhysRevD.95.024038"
 date: 2017-01-01
 arxiv: "1609.05933"
 used_spec: true
+insp_recid: 1487408
 abstract: |
   We present a time domain waveform model that describes the inspiral,
   merger and ringdown of compact binary systems whose components are

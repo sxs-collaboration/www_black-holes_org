@@ -12,6 +12,7 @@ jref: "Phys.Rev.Lett. 122, 061101 (2019)"
 doi: "10.1103/PhysRevLett.122.061101"
 date: 2018-07-10
 arxiv: "1807.03684"
+insp_recid: 1681634
 abstract: |
   Merging binaries of neutron-stars are not only strong sources of
   gravitational waves, but also have the potential of revealing states

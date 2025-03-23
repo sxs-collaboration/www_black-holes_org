@@ -21,6 +21,7 @@ doi: "10.1103/PhysRevD.102.044055"
 date: 2020-04-20
 arxiv: "2004.09442"
 used_spec: true
+insp_recid: 1791871
 abstract: |
   As gravitational-wave detectors become more sensitive and broaden
   their frequency bandwidth, we will access a greater variety of

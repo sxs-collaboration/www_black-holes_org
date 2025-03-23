@@ -9,6 +9,7 @@ doi: "10.1088/0264-9381/26/11/114006"
 date: 2009-06-01
 arxiv: "0901.1628"
 used_spec: true
+insp_recid: 810821
 abstract: |
   We study the effectiveness of stationary-phase approximated post-
   Newtonian waveforms currently used by ground-based gravitational-

@@ -6,6 +6,7 @@ doi: "10.3390/universe6010003"
 date: 2014-03-03
 arxiv: "1403.0512"
 used_spec: true
+insp_recid: 1283329
 abstract: |
   Utilizing the tools of tendex and vortex, we study the highly
   dynamic plunge and merger phases of several &pi; -symmetric binary

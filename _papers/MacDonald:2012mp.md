@@ -14,6 +14,7 @@ doi: "10.1103/PhysRevD.87.024009"
 date: 2013-01-01
 arxiv: "1210.3007"
 used_spec: true
+insp_recid: 1190170
 abstract: |
   This article studies sufficient accuracy criteria of hybrid post-
   Newtonian (PN) and numerical relativity (NR) waveforms for parameter

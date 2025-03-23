@@ -13,6 +13,7 @@ doi: "10.1088/1361-6382/ad65af"
 date: 2024-02-19
 arxiv: "2402.12544"
 used_spec: true
+insp_recid: 2759916
 abstract: |
   Errors due to imperfect boundary conditions in numerical relativity
   simulations of binary black holes (BBHs) can produce unphysical

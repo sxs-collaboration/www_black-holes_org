@@ -9,6 +9,7 @@ doi: "10.1088/1361-6382/aa66f4"
 date: 2017-06-01
 arxiv: "1611.03418"
 used_spec: true
+insp_recid: 1496968
 abstract: |
   Binary black holes which are both eccentric and undergo precession
   remain unexplored in numerical simulations. We present simulations

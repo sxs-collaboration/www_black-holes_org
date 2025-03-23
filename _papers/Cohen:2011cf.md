@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.85.024031"
 date: 2012-01-01
 arxiv: "1110.1668"
 used_spec: true
+insp_recid: 931164
 abstract: |
   We examine the structure of the event horizon for numerical
   simulations of two black holes that begin in a quasicircular orbit,

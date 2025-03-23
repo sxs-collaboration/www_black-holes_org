@@ -13,6 +13,7 @@ doi: "10.1103/PhysRevD.101.044053"
 date: 2019-08-01
 arxiv: "1908.00655"
 used_spec: true
+insp_recid: 1747788
 abstract: |
   We present 12 new simulations of unequal mass neutron star mergers.
   The simulations are performed with the spec code, and utilize

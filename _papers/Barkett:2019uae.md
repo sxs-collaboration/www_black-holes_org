@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.102.024004"
 date: 2019-10-21
 arxiv: "1910.09677"
 used_spec: true
+insp_recid: 1760203
 abstract: |
   We present an improved spectral algorithm for Cauchy-characteristic
   extraction and characteristic evolution of gravitational waves in

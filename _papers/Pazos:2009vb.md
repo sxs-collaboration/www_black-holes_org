@@ -11,6 +11,7 @@ doi: "10.1103/PhysRevD.80.024027"
 date: 2009-07-01
 arxiv: "0904.0493"
 used_spec: true
+insp_recid: 817228
 abstract: |
   We present numerical simulations of orbiting black holes for around
   twelve cycles, using a high-order multipatch approach. Unlike some

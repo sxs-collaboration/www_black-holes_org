@@ -17,6 +17,7 @@ doi: "10.1103/PhysRevD.88.124027"
 date: 2013-12-01
 arxiv: "1309.0541"
 used_spec: true
+insp_recid: 1252543
 abstract: |
   We study the general relativistic periastron advance in spinning
   black hole binaries on quasicircular orbits, with spins aligned or

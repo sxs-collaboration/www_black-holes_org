@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.104.084046"
 date: 2021-08-04
 arxiv: "2108.02331"
 used_spec: true
+insp_recid: 1899949
 abstract: |
   We present a new choice of initial data for binary black hole
   simulations that significantly improves the efficiency of high-spin

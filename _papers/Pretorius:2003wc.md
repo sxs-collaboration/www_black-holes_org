@@ -7,6 +7,7 @@ jref: "J.Comput.Phys. 198, 10-34 (2004)"
 doi: "10.1016/j.jcp.2004.01.001"
 date: 2004-07-20
 arxiv: "gr-qc/0302003"
+insp_recid: 612706
 abstract: |
   The use of adaptive mesh refinement (AMR) techniques is crucial for
   accurate and efficient simulation of higher dimensional

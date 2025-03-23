@@ -20,6 +20,7 @@ doi: "10.1103/PhysRevD.93.124062"
 date: 2016-06-01
 arxiv: "1604.00782"
 used_spec: true
+insp_recid: 1441190
 abstract: |
   We present results on the inspiral, merger, and postmerger evolution
   of a neutron star-neutron star (NSNS) system. Our results are

@@ -65,6 +65,7 @@ doi: "10.1103/PhysRevD.100.104015"
 date: 2019-03-15
 arxiv: "1903.06742"
 used_spec: true
+insp_recid: 1725518
 abstract: |
   We present a detailed investigation into the properties of GW170729,
   the gravitational wave with the most massive and distant source

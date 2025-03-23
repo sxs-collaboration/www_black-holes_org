@@ -12,6 +12,7 @@ doi: "10.1103/PhysRevD.103.064003"
 date: 2020-12-13
 arxiv: "2012.07147"
 used_spec: true
+insp_recid: 1836400
 abstract: |
   Binary black holes with spins that are aligned with the orbital
   angular momentum do not precess. However, post-Newtonian

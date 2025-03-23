@@ -11,6 +11,7 @@ jref: "Phys.Rev. D68, 044001 (2003)"
 doi: "10.1103/PhysRevD.68.044001"
 date: 2003-08-01
 arxiv: "gr-qc/0304085"
+insp_recid: 617446
 abstract: |
   Black strings, one class of higher dimensional analogues of black
   holes, were shown to be unstable to long wavelength perturbations by

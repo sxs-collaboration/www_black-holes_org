@@ -16,6 +16,7 @@ doi: "10.1088/1361-6382/abbc8b"
 date: 2020-05-04
 arxiv: "2005.01848"
 used_spec: true
+insp_recid: 1794386
 abstract: |
   We describe a method of implementing the axisymmetric evolution of
   general-relativistic hydrodynamics and magnetohydrodynamics through

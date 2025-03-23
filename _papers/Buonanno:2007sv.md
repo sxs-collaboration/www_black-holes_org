@@ -8,6 +8,7 @@ jref: "Phys. Rev. D 77, 026004 (2008)"
 doi: "10.1103/PhysRevD.77.026004"
 date: 2007-09-24
 arxiv: "0709.3839"
+insp_recid: 761796
 abstract: |
   We present a straightforward approach for estimating the final black
   hole spin of a binary black hole coalescence with arbitrary initial

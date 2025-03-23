@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.83.024005"
 date: 2011-01-01
 arxiv: "1007.4203"
 used_spec: true
+insp_recid: 862698
 abstract: |
   The spin of black holes in black hole-neutron star (BHNS) binaries
   can have a strong influence on the merger dynamics and the

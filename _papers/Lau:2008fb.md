@@ -9,6 +9,7 @@ doi: "10.4208/cicp.2009.v6.p1063"
 date: 2009-01-01
 arxiv: "0808.2597"
 used_spec: true
+insp_recid: 793397
 abstract: |
   Inspiral of binary black holes occurs over a time-scale of many
   orbits, far longer than the dynamical time-scale of the individual

@@ -16,6 +16,7 @@ doi: "10.1103/PhysRevD.87.084006"
 date: 2013-04-01
 arxiv: "1212.4810"
 used_spec: true
+insp_recid: 1208077
 abstract: |
   Black-hole–neutron-star mergers resulting in the disruption of the
   neutron star and the formation of an accretion disk and/or the

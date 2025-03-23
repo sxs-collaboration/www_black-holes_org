@@ -14,6 +14,7 @@ doi: "10.1103/PhysRevD.106.044001"
 date: 2022-03-18
 arxiv: "2203.10109"
 used_spec: true
+insp_recid: 2055675
 abstract: |
   Gravitational wave observations of large mass ratio compact binary
   mergers like GW190814 highlight the need for reliable, high-accuracy

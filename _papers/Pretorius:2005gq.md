@@ -5,6 +5,7 @@ jref: "Phys.Rev.Lett. 95, 121101 (2005)"
 doi: "10.1103/PhysRevLett.95.121101"
 date: 2005-09-14
 arxiv: "gr-qc/0507014"
+insp_recid: 686567
 abstract: |
   We describe early success in the evolution of binary black hole
   spacetimes with a numerical code based on a generalization of

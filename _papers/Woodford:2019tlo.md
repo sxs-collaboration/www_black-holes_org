@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.100.124010"
 date: 2019-04-09
 arxiv: "1904.04842"
 used_spec: true
+insp_recid: 1729111
 abstract: |
   We present a detailed study of the center-of-mass (c.m.) motion seen
   in simulations produced by the Simulating eXtreme Spacetimes (SXS)

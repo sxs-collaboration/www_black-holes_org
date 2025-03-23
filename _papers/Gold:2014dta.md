@@ -12,6 +12,7 @@ doi: "10.1103/PhysRevD.90.104030"
 date: 2014-11-01
 arxiv: "1410.1543"
 used_spec: true
+insp_recid: 1320725
 abstract: |
   We report results from simulations in general relativity of
   magnetized disks accreting onto merging black hole binaries,

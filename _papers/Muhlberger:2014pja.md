@@ -15,6 +15,7 @@ doi: "10.1103/PhysRevD.90.104014"
 date: 2014-11-01
 arxiv: "1405.2144"
 used_spec: true
+insp_recid: 1295465
 abstract: |
   Dynamical instabilities in protoneutron stars may produce
   gravitational waves whose observation could shed light on the

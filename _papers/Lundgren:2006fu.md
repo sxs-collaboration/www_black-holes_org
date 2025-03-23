@@ -8,6 +8,7 @@ jref: "Phys. Rev. D 75, 084026 (2007)"
 doi: "10.1103/PhysRevD.75.084026"
 date: 2006-10-18
 arxiv: "gr-qc/0610088"
+insp_recid: 729378
 abstract: |
   Pointlike objects cause many of the divergences that afflict
   physical theories. For instance, the gravitational binding energy of

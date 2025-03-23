@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevLett.117.191101"
 date: 2016-11-01
 arxiv: "1606.08056"
 used_spec: true
+insp_recid: 1472303
 abstract: |
   The redshift factor z is an invariant quantity of fundamental
   interest in post-Newtonian and self-force descriptions of compact

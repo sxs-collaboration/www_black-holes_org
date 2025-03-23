@@ -6,6 +6,7 @@ doi: "10.1088/0264-9381/29/12/124004"
 date: 2012-06-01
 arxiv: "1203.5166"
 used_spec: true
+insp_recid: 1094711
 abstract: |
   Coalescing compact object binaries consisting of black holes and/or
   Neutron stars are a prime target for ground-based gravitational wave

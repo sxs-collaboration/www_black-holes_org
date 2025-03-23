@@ -16,6 +16,7 @@ doi: "10.1103/PhysRevD.98.044028"
 date: 2018-04-10
 arxiv: "1804.03704"
 used_spec: true
+insp_recid: 1667203
 abstract: |
   Characterizing the properties of black holes is one of the most
   important science objectives for gravitational-wave observations.

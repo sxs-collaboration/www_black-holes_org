@@ -5,6 +5,7 @@ jref: "Class. Quantum Grav. 23(22), 6275-6300 (2006)"
 doi: "10.1088/0264-9381/23/22/013"
 date: 2006-06-12
 arxiv: "gr-qc/0606053"
+insp_recid: 718968
 abstract: |
   This paper is concerned with the initial-boundary value problem for
   the Einstein equations in a first-order generalized harmonic

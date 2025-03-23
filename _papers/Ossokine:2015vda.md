@@ -12,6 +12,7 @@ doi: "10.1103/PhysRevD.92.104028"
 date: 2015-11-01
 arxiv: "1502.01747"
 used_spec: true
+insp_recid: 1343311
 abstract: |
   Binary black-hole systems are expected to be important sources of
   gravitational waves for upcoming gravitational-wave detectors. If

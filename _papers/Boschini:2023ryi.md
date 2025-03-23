@@ -28,6 +28,7 @@ doi: "10.1103/PhysRevD.108.084015"
 date: 2023-07-07
 arxiv: "2307.03435"
 used_spec: true
+insp_recid: 2675158
 abstract: |
   Numerical-relativity surrogate models for both black-hole merger
   waveforms and remnants have emerged as important tools in

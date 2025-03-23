@@ -13,6 +13,7 @@ doi: "10.1103/PhysRevD.100.104048"
 date: 2019-08-14
 arxiv: "1908.05277"
 used_spec: true
+insp_recid: 1749716
 abstract: |
   High-accuracy numerical simulations of merging neutron stars play an
   important role in testing and calibrating the waveform models used

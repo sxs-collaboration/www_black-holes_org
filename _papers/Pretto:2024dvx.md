@@ -9,6 +9,7 @@ doi: "10.1088/1361-6382/adbc3e"
 date: 2024-07-29
 arxiv: "2407.20470"
 used_spec: true
+insp_recid: 2812031
 abstract: |
   When numerically solving Einstein’s equations for the evolution of
   binary black holes, physical imperfections in the initial data

@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.82.024037"
 date: 2010-07-01
 arxiv: "1005.2922"
 used_spec: true
+insp_recid: 855490
 abstract: |
   Current spectral simulations of Einstein's equations require writing
   the equations in first-order form, potentially introducing

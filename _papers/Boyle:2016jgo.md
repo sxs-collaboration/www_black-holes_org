@@ -6,6 +6,7 @@ doi: "10.1007/s00006-017-0793-z"
 date: 2016-04-27
 arxiv: "1604.08139"
 used_spec: true
+insp_recid: 1452679
 abstract: |
   A common problem in physics and engineering is determination of the
   orientation of an object given its angular velocity. When the

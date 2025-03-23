@@ -7,6 +7,7 @@ jref: "Phys. Rev. D73, 104008 (2006)"
 doi: "10.1103/PhysRevD.73.104008"
 date: 2006-05-05
 arxiv: "gr-qc/0603069"
+insp_recid: 712563
 abstract: |
   Based on the recent understanding of the role of the densitized
   lapse function in Einstein's equations and of the proper way to pose

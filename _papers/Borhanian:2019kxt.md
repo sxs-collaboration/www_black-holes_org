@@ -10,6 +10,7 @@ doi: "10.1088/1361-6382/ab6a21"
 date: 2019-01-24
 arxiv: "1901.08516"
 used_spec: true
+insp_recid: 1716595
 abstract: |
   Gravitational waves from the coalescence of two black holes carry
   the signature of the strong field dynamics of binary black holes. In

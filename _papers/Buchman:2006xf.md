@@ -7,6 +7,7 @@ jref: "Class. Quant. Grav. 23, 6709-6744 (2006)"
 doi: "10.1088/0264-9381/23/23/007"
 date: 2006-12-07
 arxiv: "gr-qc/0608051"
+insp_recid: 723562
 abstract: |
   We construct exact solutions to the Bianchi equations on a flat
   spacetime background. When the constraints are satisfied, these

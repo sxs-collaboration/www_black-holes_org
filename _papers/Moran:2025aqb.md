@@ -11,6 +11,7 @@ jref: "Astrophys.J.Lett. 978, L45 (2025)"
 doi: "10.3847/2041-8213/ada158"
 date: 2025-01-08
 arxiv: "2501.04800"
+insp_recid: 2866632
 abstract: |
   A variety of high-energy astrophysical phenomena are powered by the
   release—via magnetic reconnection—of the energy stored in oppositely

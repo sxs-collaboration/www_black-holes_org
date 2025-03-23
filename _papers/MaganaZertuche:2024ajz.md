@@ -20,6 +20,7 @@ doi:
 date: 2024-08-09
 arxiv: "2408.05300"
 used_spec: true
+insp_recid: 2817246
 abstract: |
   Highly precise and robust waveform models are required as
   improvements in detector sensitivity enable us to test general

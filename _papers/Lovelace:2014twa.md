@@ -18,6 +18,7 @@ doi: "10.1088/0264-9381/32/6/065007"
 date: 2015-03-01
 arxiv: "1411.7297"
 used_spec: true
+insp_recid: 1330283
 abstract: |
   The spin angular momentum S of an isolated Kerr black hole is
   bounded by the surface area A of its apparent horizon: \(8\pi

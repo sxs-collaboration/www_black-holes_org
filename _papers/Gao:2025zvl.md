@@ -17,6 +17,7 @@ doi:
 date: 2025-02-21
 arxiv: "2502.15921"
 used_spec: true
+insp_recid: 2893803
 abstract: |
   In linear perturbation theory, the ringdown of a gravitational wave
   (GW) signal is described by a linear combination of quasinormal

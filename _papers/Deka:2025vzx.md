@@ -11,6 +11,7 @@ jref:
 doi:
 date: 2025-01-06
 arxiv: "2501.02974"
+insp_recid: 2865372
 abstract: |
   The anticipated observation of the gravitational microlensing of
   gravitational waves (GWs) promises to shed light on a host of

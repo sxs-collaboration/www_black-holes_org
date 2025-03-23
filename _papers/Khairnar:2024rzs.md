@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.111.024072"
 date: 2024-10-21
 arxiv: "2410.16373"
 used_spec: true
+insp_recid: 2841936
 abstract: |
   The inspiral of a circular, nonprecessing binary exhibits an
   approximate helical symmetry. The effects of eccentricity,

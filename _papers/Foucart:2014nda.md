@@ -16,6 +16,7 @@ doi: "10.1103/PhysRevD.90.024026"
 date: 2014-07-01
 arxiv: "1405.1121"
 used_spec: true
+insp_recid: 1294631
 abstract: |
   We present a first exploration of the results of neutron star-black
   hole mergers using black hole masses in the most likely range of

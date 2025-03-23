@@ -5,6 +5,7 @@ jref: "J. Hyperbolic Differential Eqs., 2, 497-520 (2005)"
 doi: "10.1142/S0219891605000518"
 date: 2005-06-01
 arxiv: "gr-qc/0412002"
+insp_recid: 665724
 abstract: |
   The conformal method for constructing initial data for Einstein's
   equations is presented in both the Hamiltonian and Lagrangian

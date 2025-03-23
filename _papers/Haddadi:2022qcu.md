@@ -17,6 +17,7 @@ doi: "10.1088/1361-6382/acc0c6"
 date: 2022-08-03
 arxiv: "2208.02367"
 used_spec: true
+insp_recid: 2132398
 abstract: |
   Detectable electromagnetic counterparts to gravitational waves from
   compact binary mergers can be produced by outflows from the black

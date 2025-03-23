@@ -15,6 +15,7 @@ doi: "10.1088/0004-637X/776/1/47"
 date: 2013-10-01
 arxiv: "1304.3384"
 used_spec: true
+insp_recid: 1227920
 abstract: |
   Neutrino emission significantly affects the evolution of the
   accretion tori formed in black hole-neutron star mergers. It removes

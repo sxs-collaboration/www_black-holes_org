@@ -14,6 +14,7 @@ doi: "10.1103/PhysRevD.103.024039"
 date: 2020-10-28
 arxiv: "2010.15200"
 used_spec: true
+insp_recid: 1826816
 abstract: |
   We present a detailed methodology for extracting the full set of
   Newman-Penrose Weyl scalars from numerically generated spacetimes

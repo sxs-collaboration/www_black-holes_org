@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.99.024018"
 date: 2018-02-23
 arxiv: "1802.08682"
 used_spec: true
+insp_recid: 1657217
 abstract: |
   We present results from a study of critical behavior in 3D
   gravitational collapse with no symmetry assumptions. The source of

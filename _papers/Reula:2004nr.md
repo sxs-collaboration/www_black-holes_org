@@ -7,6 +7,7 @@ jref: "J. Hyperbolic Differential Eqs. 2, 397-435 (2005)"
 doi: "10.1142/S0219891605000488"
 date: 2005-06-01
 arxiv: "gr-qc/0409027"
+insp_recid: 658517
 abstract: |
   In many numerical implementations of the Cauchy formulation of
   Einstein's field equations one encounters artificial boundaries

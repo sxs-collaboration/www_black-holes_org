@@ -17,6 +17,7 @@ doi: "10.1103/PhysRevLett.106.151101"
 date: 2011-04-01
 arxiv: "1012.4869"
 used_spec: true
+insp_recid: 882185
 abstract: |
   When one splits spacetime into space plus time, the spacetime
   curvature (Weyl tensor) gets split into an "electric" part E_{jk}

@@ -18,6 +18,7 @@ doi: "10.1103/PhysRevD.104.024051"
 date: 2021-05-05
 arxiv: "2105.02300"
 used_spec: true
+insp_recid: 1862343
 abstract: |
   Understanding the Bondi-Metzner-Sachs (BMS) frame of the
   gravitational waves produced by numerical relativity is crucial for

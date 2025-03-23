@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.94.064008"
 date: 2016-09-01
 arxiv: "1606.00437"
 used_spec: true
+insp_recid: 1466756
 abstract: |
   With Advanced LIGO detecting the gravitational waves emitted from a
   pair of merging black holes in late 2015, we have a new perspective

@@ -12,6 +12,7 @@ doi: "10.1103/PhysRevD.69.124025"
 date: 2004-06-28
 arxiv: "gr-qc/0402027"
 used_spec: true
+insp_recid: 643972
 abstract: |
   Motivated by the need to control the exponential growth of
   constraint violations in numerical solutions of the Einstein

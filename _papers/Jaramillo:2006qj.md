@@ -8,6 +8,7 @@ jref: "Phys. Rev. D75 024019 (2007)"
 doi: "10.1103/PhysRevD.75.024019"
 date: 2007-01-12
 arxiv: "gr-qc/0610006"
+insp_recid: 727565
 abstract: |
   We study the numerical implementation of a set of boundary
   conditions derived from the isolated horizon formalism, and which

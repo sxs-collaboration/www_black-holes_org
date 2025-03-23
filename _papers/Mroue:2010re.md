@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.82.124016"
 date: 2010-12-01
 arxiv: "1004.4697"
 used_spec: true
+insp_recid: 853139
 abstract: |
   We compare different methods of computing the orbital eccentricity
   of quasi-circular binary black hole systems using the orbital

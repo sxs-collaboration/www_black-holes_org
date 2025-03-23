@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.106.044006"
 date: 2022-03-09
 arxiv: "2203.04893"
 used_spec: true
+insp_recid: 2049062
 abstract: |
   We present a calculation of the Detweiler redshift factor in binary
   black hole simulations based on its relation to the surface gravity.

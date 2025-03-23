@@ -16,6 +16,7 @@ doi: "10.1103/PhysRevD.105.104007"
 date: 2022-03-07
 arxiv: "2203.03174"
 used_spec: true
+insp_recid: 2047333
 abstract: |
   We propose a new approach toward reconstructing the late-time near-
   horizon geometry of merging binary black holes, and toward computing

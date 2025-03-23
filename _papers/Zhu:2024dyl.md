@@ -17,6 +17,7 @@ doi: "10.1103/PhysRevD.110.124028"
 date: 2024-04-18
 arxiv: "2404.12424"
 used_spec: true
+insp_recid: 2779197
 abstract: |
   We numerically investigate the imprints of gravitational radiation-
   reaction driven changes to a black hole’s mass and spin on the

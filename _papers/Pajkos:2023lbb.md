@@ -11,6 +11,7 @@ jref: "Astrophys.J. 959, 21 (2023)"
 doi: "10.3847/1538-4357/acfca4"
 date: 2023-06-02
 arxiv: "2306.01919"
+insp_recid: 2665874
 abstract: |
   We analyze the directional dependence of the gravitational wave (GW)
   emission from 15 3D neutrino radiation hydrodynamic simulations of

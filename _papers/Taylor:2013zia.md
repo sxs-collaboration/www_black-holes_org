@@ -13,6 +13,7 @@ doi: "10.1103/PhysRevD.88.124010"
 date: 2013-12-03
 arxiv: "1309.3605"
 used_spec: true
+insp_recid: 1254213
 abstract: |
   We extract gravitational waveforms from numerical simulations of
   black hole binaries computed using the Spectral Einstein Code. We

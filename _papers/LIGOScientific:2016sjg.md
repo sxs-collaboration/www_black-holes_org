@@ -8,6 +8,7 @@ doi: "10.1103/PhysRevLett.116.241103"
 date: 2016-06-01
 arxiv: "1606.04855"
 used_spec: true
+insp_recid: 1469395
 abstract: |
   We report the observation of a gravitational-wave signal produced by
   the coalescence of two stellar-mass black holes. The signal,

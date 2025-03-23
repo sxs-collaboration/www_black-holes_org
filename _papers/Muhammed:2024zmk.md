@@ -15,6 +15,7 @@ jref: "Phys.Rev.D 110, 124063 (2024)"
 doi: "10.1103/PhysRevD.110.124063"
 date: 2024-03-08
 arxiv: "2403.05642"
+insp_recid: 2767199
 abstract: |
   Binary neutron star mergers produce massive, hot, rapidly
   differentially rotating neutron star remnants; electromagnetic and

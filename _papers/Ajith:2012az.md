@@ -54,6 +54,7 @@ doi: "10.1088/0264-9381/29/12/124001"
 date: 2012-06-01
 arxiv: "1201.5319"
 used_spec: true
+insp_recid: 1085843
 abstract: |
   The numerical injection analysis (NINJA) project is a collaborative
   effort between members of the numerical-relativity and gravitational

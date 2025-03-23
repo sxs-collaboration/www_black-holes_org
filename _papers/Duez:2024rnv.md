@@ -5,6 +5,7 @@ jref: "Chapter for the book \"New Frontiers in GRMHD Simulations\" (Eds. Bambi, 
 doi: "10.1007/978-981-97-8522-3_17"
 date: 2024-04-23
 arxiv: "2404.14782"
+insp_recid: 2780070
 abstract: |
   The gravitational wave signals of black hole-neutron star (BHNS)
   binary systems have now been detected, and future detections might

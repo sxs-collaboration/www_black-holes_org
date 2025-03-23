@@ -17,6 +17,7 @@ doi: "10.1103/PhysRevD.102.043023"
 date: 2020-04-21
 arxiv: "2004.10001"
 used_spec: true
+insp_recid: 1792035
 abstract: |
   After the discovery of gravitational waves from binary black holes
   (BBHs) and binary neutron stars (BNSs) with the LIGO and Virgo

@@ -19,6 +19,7 @@ doi: "10.1103/PhysRevD.103.124029"
 date: 2021-04-14
 arxiv: "2104.07052"
 used_spec: true
+insp_recid: 1858409
 abstract: |
   We present a new study of remnant black hole properties from 13
   binary black hole systems, numerically evolved using the Spectral

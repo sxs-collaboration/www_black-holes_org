@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.99.061501"
 date: 2018-10-24
 arxiv: "1810.10585"
 used_spec: true
+insp_recid: 1700410
 abstract: |
   Observation and characterization of gravitational waves from binary
   black holes requires accurate knowledge of the expected waveforms.

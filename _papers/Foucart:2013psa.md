@@ -16,6 +16,7 @@ doi: "10.1103/PhysRevD.88.064017"
 date: 2013-09-01
 arxiv: "1307.7685"
 used_spec: true
+insp_recid: 1244999
 abstract: |
   We present the first direct comparison of numerical simulations of
   neutron star-black hole and black hole-black hole mergers in full

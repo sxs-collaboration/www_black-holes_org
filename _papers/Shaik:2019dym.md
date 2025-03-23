@@ -14,6 +14,7 @@ doi: "10.1103/PhysRevD.101.124054"
 date: 2019-11-06
 arxiv: "1911.02693"
 used_spec: true
+insp_recid: 1763813
 abstract: |
   Over the past year, a handful of new gravitational wave models have
   been developed to include multiple harmonic modes thereby enabling

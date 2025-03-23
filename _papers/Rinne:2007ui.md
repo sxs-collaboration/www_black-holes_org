@@ -9,6 +9,7 @@ doi: "10.1088/0264-9381/24/16/006"
 date: 2007-04-05
 arxiv: "0704.0782"
 used_spec: true
+insp_recid: 747870
 abstract: |
   Various methods of treating outer boundaries in numerical relativity
   are compared using a simple test problem: a Schwarzschild black hole

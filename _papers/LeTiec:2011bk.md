@@ -13,6 +13,7 @@ doi: "10.1103/PhysRevLett.107.141101"
 date: 2011-09-01
 arxiv: "1106.3278"
 used_spec: true
+insp_recid: 913830
 abstract: |
   The general relativistic (Mercury-type) periastron advance is
   calculated here for the first time with exquisite precision in full

@@ -16,6 +16,7 @@ doi: "10.1103/PhysRevD.98.063009"
 date: 2018-04-25
 arxiv: "1804.09823"
 used_spec: true
+insp_recid: 1670178
 abstract: |
   Each of the potential signals from a black hole–neutron star merger
   should contain an imprint of the neutron star equation of state:

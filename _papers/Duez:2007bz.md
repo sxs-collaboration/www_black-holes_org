@@ -7,6 +7,7 @@ authors:
 date: 2007-02-25
 doi: "10.1142/9789812834300_0197"
 arxiv: "gr-qc/0702126"
+insp_recid: 745227
 abstract: |
   We present a new code for solving the coupled Einstein-hydrodynamics
   equations to evolve relativistic, self-gravitating fluids. The

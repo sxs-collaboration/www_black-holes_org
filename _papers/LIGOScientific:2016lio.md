@@ -8,6 +8,7 @@ doi: "10.1103/PhysRevLett.116.221101"
 date: 2016-06-01
 arxiv: "1602.03841"
 used_spec: true
+insp_recid: 1421154
 abstract: |
   The LIGO detection of GW150914 provides an unprecedented opportunity
   to study the two-body motion of a compact-object binary in the

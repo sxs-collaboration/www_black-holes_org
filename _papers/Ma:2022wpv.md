@@ -16,6 +16,7 @@ doi: "10.1103/PhysRevD.106.084036"
 date: 2022-07-22
 arxiv: "2207.10870"
 used_spec: true
+insp_recid: 2121095
 abstract: |
   We propose two frequency-domain filters to analyze ringdown signals
   of binary black hole mergers. The first rational filter is

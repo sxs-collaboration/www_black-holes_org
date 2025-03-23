@@ -15,6 +15,7 @@ doi: "10.1088/1361-6382/aa573b"
 date: 2017-02-01
 arxiv: "1611.01159"
 used_spec: true
+insp_recid: 1495804
 abstract: |
   Neutron star-black hole binaries are among the strongest sources of
   gravitational waves detectable by current observatories. They can

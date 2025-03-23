@@ -15,6 +15,7 @@ doi: "10.1103/PhysRevD.86.024011"
 date: 2012-07-01
 arxiv: "1202.0790"
 used_spec: true
+insp_recid: 1087428
 abstract: |
   We first use five non-spinning and two mildly spinning (chi_i \simeq
   -0.44, +0.44) numerical-relativity waveforms of black-hole binaries

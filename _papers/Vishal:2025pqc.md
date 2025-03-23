@@ -9,6 +9,7 @@ jref:
 doi:
 date: 2025-03-14
 arxiv: "2503.11523"
+insp_recid: 2900517
 abstract: |
   The long-time evolution of extreme mass-ratio inspiral systems
   requires minimal phase and dispersion errors to accurately compute

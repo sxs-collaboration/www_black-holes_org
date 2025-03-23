@@ -18,6 +18,7 @@ jref: "Phys.Rev.D 108, 024041 (2023)"
 doi: "10.1103/PhysRevD.108.024041"
 date: 2023-04-11
 arxiv: "2304.05329"
+insp_recid: 2650521
 abstract: |
   Binary black hole simulations become increasingly more
   computationally expensive with smaller mass ratios, partly because

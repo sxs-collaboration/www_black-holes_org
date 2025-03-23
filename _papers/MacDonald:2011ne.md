@@ -9,6 +9,7 @@ doi: "10.1088/0264-9381/28/13/134002"
 date: 2011-07-01
 arxiv: "1102.5128"
 used_spec: true
+insp_recid: 890803
 abstract: |
   This article presents a study of the sufficient accuracy of post-
   Newtonian and numerical relativity waveforms for the most demanding

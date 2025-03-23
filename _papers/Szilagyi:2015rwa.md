@@ -15,6 +15,7 @@ doi: "10.1103/PhysRevLett.115.031102"
 date: 2015-07-01
 arxiv: "1502.04953"
 used_spec: true
+insp_recid: 1345153
 abstract: |
   We present the first numerical-relativity simulation of a compact-
   object binary whose gravitational waveform is long enough to cover

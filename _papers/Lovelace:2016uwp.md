@@ -20,6 +20,7 @@ doi: "10.1088/0264-9381/33/24/244002"
 date: 2016-12-01
 arxiv: "1607.05377"
 used_spec: true
+insp_recid: 1476985
 abstract: |
   In fall of 2015, the two LIGO detectors measured the gravitational
   wave signal GW150914, which originated from a pair of merging black

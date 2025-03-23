@@ -83,6 +83,7 @@ doi: "10.1088/0264-9381/26/11/114008"
 date: 2009-06-01
 arxiv: "0905.4227"
 used_spec: true
+insp_recid: 821337
 abstract: |
   The 2008 NRDA conference introduced the Numerical INJection Analysis
   project (NINJA), a new collaborative effort between the numerical

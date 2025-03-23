@@ -17,6 +17,7 @@ doi: "10.1103/PhysRevD.97.083014"
 date: 2017-10-20
 arxiv: "1710.07423"
 used_spec: true
+insp_recid: 1631770
 abstract: |
   Black hole–torus systems from compact binary mergers are possible
   engines for gamma-ray bursts (GRBs). During the early evolution of

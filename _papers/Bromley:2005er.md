@@ -7,6 +7,7 @@ authors:
 date: 2005-02-28
 doi: ""
 arxiv: "gr-qc/0502121"
+insp_recid: 677456
 abstract: |
   In calculations of the inspiral of binary black holes an
   intermediate approximation is needed that can bridge the

@@ -17,6 +17,7 @@ doi: "10.1103/PhysRevD.92.124012"
 date: 2015-12-01
 arxiv: "1508.06986"
 used_spec: true
+insp_recid: 1390109
 abstract: |
   We present a code to construct initial data for binary neutron star
   systems in which the stars are rotating. Our code, based on a

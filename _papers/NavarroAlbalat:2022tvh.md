@@ -10,6 +10,7 @@ doi: "10.1103/PhysRevD.107.084021"
 date: 2022-07-08
 arxiv: "2207.04066"
 used_spec: true
+insp_recid: 2651064
 abstract: |
   Recent studies have shown the surprising effectiveness of the small
   mass-ratio approximation (SMR) in modeling the relativistic two-body

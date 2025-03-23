@@ -9,6 +9,7 @@ doi: "10.1088/0264-9381/26/3/035005"
 date: 2009-02-01
 arxiv: "0809.2628"
 used_spec: true
+insp_recid: 796710
 abstract: |
   Event horizons are the defining physical features of black hole
   spacetimes, and are of considerable interest in studying black hole

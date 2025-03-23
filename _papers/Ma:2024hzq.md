@@ -13,6 +13,7 @@ jref:
 doi:
 date: 2024-12-09
 arxiv: "2412.06906"
+insp_recid: 2857847
 abstract: |
   We present successful evolutions of binary black hole mergers using
   a novel numerical-relativity technique known as Cauchy-

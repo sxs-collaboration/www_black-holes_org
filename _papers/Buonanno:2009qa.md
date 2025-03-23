@@ -12,6 +12,7 @@ doi: "10.1103/PhysRevD.79.124028"
 date: 2009-06-17
 arxiv: "0902.0790"
 used_spec: true
+insp_recid: 812567
 abstract: |
   We calibrate the effective-one-body (EOB) model to an accurate
   numerical simulation of an equal-mass, non-spinning binary

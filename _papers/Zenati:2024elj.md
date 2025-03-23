@@ -9,6 +9,7 @@ jref: "Astrophys.J. 978, 126 (2025)"
 doi: "10.3847/1538-4357/ad9b87"
 date: 2024-10-07
 arxiv: "2410.05391"
+insp_recid: 2838482
 abstract: |
   Black hole–neutron star binaries are of interest in many ways: they
   are intrinsically transient, radiate gravitational waves detectable

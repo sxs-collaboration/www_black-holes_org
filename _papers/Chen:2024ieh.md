@@ -18,6 +18,7 @@ doi: "10.1103/PhysRevD.110.064049"
 date: 2024-05-09
 arxiv: "2405.06197"
 used_spec: true
+insp_recid: 2785279
 abstract: |
   Numerical relativists can now produce gravitational waveforms with
   memory effects routinely and accurately. The gravitational-wave

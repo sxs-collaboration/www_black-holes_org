@@ -23,6 +23,7 @@ doi: "10.1103/PhysRevD.111.064052"
 date: 2023-12-13
 arxiv: "2312.08588"
 used_spec: true
+insp_recid: 2737257
 abstract: |
   The spectroscopic study of black hole quasinormal modes in
   gravitational-wave ringdown observations is hindered by our

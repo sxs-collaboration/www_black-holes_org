@@ -7,6 +7,7 @@ jref: "Phys.Rev.D 111, 043013 (2025)"
 doi: "10.1103/PhysRevD.111.043013"
 date: 2024-09-13
 arxiv: "2409.09147"
+insp_recid: 2828866
 abstract: |
   The merger of two neutron stars probes dense matter in a hot,
   neutrino-trapped regime. In this work, we investigate how fully

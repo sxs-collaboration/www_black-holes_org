@@ -21,6 +21,7 @@ doi: "10.1103/PhysRevD.105.104015"
 date: 2021-10-29
 arxiv: "2110.15922"
 used_spec: true
+insp_recid: 1955828
 abstract: |
   Quasinormal mode (QNM) modeling is an invaluable tool for
   characterizing remnant black holes, studying strong gravity, and

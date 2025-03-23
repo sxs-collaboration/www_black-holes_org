@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.80.124010"
 date: 2009-12-01
 arxiv: "0909.3557"
 used_spec: true
+insp_recid: 831689
 abstract: |
   Several improvements in numerical methods and gauge choice are
   presented that make it possible now to perform simulations of the

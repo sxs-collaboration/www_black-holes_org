@@ -12,6 +12,7 @@ jref: "Phys.Rev.D 109, 043046 (2024)"
 doi: "10.1103/PhysRevD.109.043046"
 date: 2023-11-20
 arxiv: "2311.11968"
+insp_recid: 2724323
 abstract: |
   Providing an accurate modeling of neutrino physics in dense
   astrophysical environments such as binary neutron star mergers

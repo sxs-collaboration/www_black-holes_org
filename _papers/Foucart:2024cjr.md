@@ -5,6 +5,7 @@ jref:
 doi:
 date: 2024-10-04
 arxiv: "2410.03646"
+insp_recid: 2837369
 abstract: |
   In this chapter, we provide an overview of the physics of colliding
   black holes and neutron stars and of the impact of neutrinos on

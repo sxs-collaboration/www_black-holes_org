@@ -5,6 +5,7 @@ jref: "Class.Quant.Grav. 19, 5153-5162 (2002)"
 doi: "10.1088/0264-9381/19/20/309"
 date: 2002-10-21
 arxiv: "gr-qc/0204068"
+insp_recid: 585671
 abstract: |
   First-order hyperbolic systems are promising as a basis for
   numerical integration of Einstein's equations. In previous work, the

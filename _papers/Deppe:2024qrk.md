@@ -15,6 +15,7 @@ jref:
 doi:
 date: 2024-11-08
 arxiv: "2411.05645"
+insp_recid: 2846783
 abstract: |
   We assess the prospects for detecting gravitational wave echoes
   arising due to the quantum nature of black hole horizons with LISA.

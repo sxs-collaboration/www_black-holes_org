@@ -14,6 +14,7 @@ jref: "Phys.Rev.D 110, 124069 (2024)"
 doi: "10.1103/PhysRevD.110.124069"
 date: 2024-07-25
 arxiv: "2407.18319"
+insp_recid: 2811291
 abstract: |
   We present BHPTNRSur2dq1e3, a reduced order surrogate model of
   gravitational waves emitted from binary black hole (BBH) systems in

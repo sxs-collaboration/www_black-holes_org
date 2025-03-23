@@ -6,6 +6,7 @@ doi: "10.1103/PhysRevD.89.064062"
 date: 2014-03-01
 arxiv: "1310.7900"
 used_spec: true
+insp_recid: 1262513
 abstract: |
   A shortcoming of current binary black-hole initial data is the
   generation of spurious gravitational radiation, so-called junk

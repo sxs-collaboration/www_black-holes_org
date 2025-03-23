@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.84.084023"
 date: 2011-10-01
 arxiv: "1105.3922"
 used_spec: true
+insp_recid: 900633
 abstract: |
   Numerical simulations of binary black holes---an important
   predictive tool for the detection of gravitational waves---are

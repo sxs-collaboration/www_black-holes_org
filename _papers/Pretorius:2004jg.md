@@ -5,6 +5,7 @@ jref: "Class.Quant.Grav. 22, 425-452 (2005)"
 doi: "10.1088/0264-9381/22/2/014"
 date: 2005-01-21
 arxiv: "gr-qc/0407110"
+insp_recid: 655389
 abstract: |
   A new numerical scheme to solve the Einstein field equations based
   upon the generalized harmonic decomposition of the Ricci tensor is

@@ -7,6 +7,7 @@ jref: "J. Comput. Phys. 218, 246-274 (2006)"
 doi: "10.1016/j.jcp.2006.02.011"
 date: 2006-10-10
 arxiv: "gr-qc/0508110"
+insp_recid: 690926
 abstract: |
   We present a modification to the Berger and Oliger adaptive mesh
   refinement algorithm designed to solve systems of coupled,

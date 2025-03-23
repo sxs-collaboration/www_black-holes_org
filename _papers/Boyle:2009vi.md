@@ -8,6 +8,7 @@ doi: "10.1103/PhysRevD.80.124045"
 date: 2009-12-01
 arxiv: "0905.3177"
 used_spec: true
+insp_recid: 820883
 abstract: |
   Two complementary techniques are developed for obtaining the
   asymptotic form of gravitational-wave data at large radii from

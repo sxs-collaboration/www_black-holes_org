@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.98.044015"
 date: 2017-09-06
 arxiv: "1709.02007"
 used_spec: true
+insp_recid: 1622254
 abstract: |
   We present a prescription for computing gravitational waveforms for
   the inspiral, merger and ringdown of nonspinning moderately

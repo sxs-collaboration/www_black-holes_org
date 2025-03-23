@@ -8,6 +8,7 @@ doi: "10.1103/PhysRevLett.116.241102"
 date: 2016-06-01
 arxiv: "1602.03840"
 used_spec: true
+insp_recid: 1421135
 abstract: |
   On September 14, 2015, the Laser Interferometer Gravitational-Wave
   Observatory (LIGO) detected a gravitational-wave transient

@@ -16,6 +16,7 @@ doi: "10.1103/PhysRevD.99.124005"
 date: 2018-08-24
 arxiv: "1808.08004"
 used_spec: true
+insp_recid: 1691243
 abstract: |
   Gravitational-wave (GW) detectors have begun to observe coalescences
   of heavy black hole binaries (M≳50  M⊙) at a consistent pace for the

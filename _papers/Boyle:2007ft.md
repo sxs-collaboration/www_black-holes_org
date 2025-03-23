@@ -14,6 +14,7 @@ doi: "10.1103/PhysRevD.76.124038"
 date: 2007-12-27
 arxiv: "0710.0158"
 used_spec: true
+insp_recid: 762567
 abstract: |
   Numerical simulations of 15 orbits of an equal-mass binary
   black-hole system are presented. Gravitational waveforms from these

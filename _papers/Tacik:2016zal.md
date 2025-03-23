@@ -13,6 +13,7 @@ doi: "10.1088/0264-9381/33/22/225012"
 date: 2016-11-01
 arxiv: "1607.07962"
 used_spec: true
+insp_recid: 1478173
 abstract: |
   The coalescence of a neutron star with a black hole is a primary
   science target of ground-based gravitational wave detectors.

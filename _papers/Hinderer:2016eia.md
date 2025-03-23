@@ -20,6 +20,7 @@ doi: "10.1103/PhysRevLett.116.181101"
 date: 2016-05-01
 arxiv: "1602.00599"
 used_spec: true
+insp_recid: 1418792
 abstract: |
   Extracting the unique information on ultradense nuclear matter from
   the gravitational waves emitted by merging neutron-star binaries

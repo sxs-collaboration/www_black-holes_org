@@ -8,6 +8,7 @@ jref: "Class. Quant. Grav. 24, 5307 (2007)"
 doi: "10.1088/0264-9381/24/20/N01"
 date: 2007-06-05
 arxiv: "0706.0726"
+insp_recid: 752354
 abstract: |
   In this Comment we compute the contributions of the radiation
   reaction force in the 2.5 post-Newtonian (PN) gravitational wave

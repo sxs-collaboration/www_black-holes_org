@@ -7,6 +7,7 @@ jref: "Class. Quant. Grav. 23, S477-S504 (2006)"
 doi: "10.1088/0264-9381/23/16/S11"
 date: 2006-08-21
 arxiv: "gr-qc/0601124"
+insp_recid: 709446
 abstract: |
   We discuss the initial-boundary value problem of General
   Relativity. Previous considerations for a toy model problem in

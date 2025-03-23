@@ -13,6 +13,7 @@ doi: "10.1088/0264-9381/30/13/135004"
 date: 2013-07-01
 arxiv: "1302.6297"
 used_spec: true
+insp_recid: 1221189
 abstract: |
   Black hole–neutron star (BHNS) binaries are important sources of
   gravitational waves for second-generation interferometers, and BHNS

@@ -8,6 +8,7 @@ jref: "Phys.Rev. D62, 104018 (2000)"
 doi: "10.1103/PhysRevD.62.104018"
 date: 2000-10-19
 arxiv: "gr-qc/0006084"
+insp_recid: 529217
 abstract: |
   Using an effective potential method we examine binary black holes
   where the individual holes carry spin. We trace out sequences of

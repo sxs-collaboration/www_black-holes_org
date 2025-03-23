@@ -9,6 +9,7 @@ doi: "10.1103/PhysRevD.88.084031"
 date: 2013-10-01
 arxiv: "1304.3067"
 used_spec: true
+insp_recid: 1227797
 abstract: |
   Binary black hole simulations with black hole excision using
   spectral methods require a coordinate transformation into a

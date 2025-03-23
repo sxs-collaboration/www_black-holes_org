@@ -17,6 +17,7 @@ doi: "10.1103/PhysRevD.109.124027"
 date: 2023-08-20
 arxiv: "2308.10361"
 used_spec: true
+insp_recid: 2689818
 abstract: |
   A fully relativistic three-dimensional Cauchy-characteristic
   matching (CCM) algorithm is implemented for physical degrees of

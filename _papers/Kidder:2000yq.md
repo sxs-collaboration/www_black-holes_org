@@ -11,6 +11,7 @@ doi: "10.1103/PhysRevD.62.084032"
 date: 2000-09-26
 arxiv: "gr-qc/0005056"
 used_spec: true
+insp_recid: 527334
 abstract: |
   Current methods of evolving a spacetime containing one or more black
   holes are plagued by instabilities that prohibit long-term
