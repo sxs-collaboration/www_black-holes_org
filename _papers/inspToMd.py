@@ -57,6 +57,9 @@ jref:{jref_str}
 doi:{doi_str}
 date: {date}
 arxiv: "{arxiv}"
+insp_recid: {iid}
+used_spec:
+used_spectre:
 abstract: |
 {abstract_str}
 ---
