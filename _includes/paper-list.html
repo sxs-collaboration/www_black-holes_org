@@ -32,8 +32,8 @@
   {% if paper.doi %}<a href="https://dx.doi.org/{{ paper.doi }}">{% endif %}{{ paper.jref }}{% if paper.doi %}</a>{% endif %}
   </p>
   {% endif %}
-  <p class="paper_arxiv"><i class="ai ai-arxiv"></i>
-  [<a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>]</p>
+  {% if paper.arxiv %}<p class="paper_arxiv"><i class="ai ai-arxiv"></i>
+  [<a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>]</p>{% endif %}
   {%- unless include.suppress_abstracts -%}
   <details>
   <summary>Abstract</summary>
