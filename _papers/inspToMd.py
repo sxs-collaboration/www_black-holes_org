@@ -39,6 +39,8 @@ def write_insp_resp_to_md(responses):
             if (len(md['arxiv_eprints']) > 1):
                 warn(f"More than 1 arxiv #s in {iid}; using first.")
             arxiv_str = f" \"{md['arxiv_eprints'][0]['value']}\""
+        else:
+            arxiv_str = ""
         if 'dois' in md:
             if (len(md['dois']) > 1):
                 warn(f"More than 1 dois in {iid}; using first.")
