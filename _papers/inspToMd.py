@@ -35,7 +35,10 @@ def write_insp_resp_to_md(responses):
         else:
             jref_str = ""
         date = md['earliest_date']
-        arxiv = md['arxiv_eprints'][0]['value']
+        if 'arxiv_eprints' in md:
+            if (len(md['arxiv_eprints']) > 1):
+                warn(f"More than 1 arxiv #s in {iid}; using first.")
+            arxiv_str = f" \"{md['arxiv_eprints'][0]['value']}\""
         if 'dois' in md:
             if (len(md['dois']) > 1):
                 warn(f"More than 1 dois in {iid}; using first.")
@@ -56,7 +59,7 @@ authors:{authors_str}
 jref:{jref_str}
 doi:{doi_str}
 date: {date}
-arxiv: "{arxiv}"
+arxiv:{arxiv_str}
 insp_recid: {iid}
 used_spec:
 used_spectre:
