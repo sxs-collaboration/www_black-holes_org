@@ -41,6 +41,7 @@ sxs_insp_names = [
     # Students
     "A.Khairnar.1",
     "Y.Kim.62",
+    "Oliver.Markwell.1",
     "Peter.J.Nee.1",
     "K.C.Nelli.1",
 ]
