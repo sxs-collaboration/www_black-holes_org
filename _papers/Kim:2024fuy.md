@@ -33,5 +33,5 @@ abstract: |
   inclined to the spin axis. We predict two types of transients from
   this scenario: (1) a fast radio burst emitted by the shocks as they
   expand to large radii; and (2) an X-ray/γ-ray burst emitted by the
-  \(e^{\pm}\) outflow heated by magnetic dissipation.
+  e$^{±}$ outflow heated by magnetic dissipation.
 ---
