@@ -1,7 +1,7 @@
 ---
 name: Ian Hinder
 lastname: Hinder
-group: academic_staff
+group: alumni
 position: Postdoctoral researcher
 institution: Max Planck Institute for Gravitational Physics
 advisor:
