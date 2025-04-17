@@ -1,7 +1,7 @@
 ---
 name: Subhayu Bagchi
 lastname: Bagchi
-group: graduate_students
+group: students
 position: PhD Candidate
 institution: University of Mississippi
 advisor: Leo C. Stein

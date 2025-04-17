@@ -1,7 +1,7 @@
 ---
 name: Henry Huang
 lastname: Huang
-group: graduate_students
+group: students
 position: PhD Candidate
 institution: Cornell University
 advisor: Nils Deppe

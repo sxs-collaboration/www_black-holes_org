@@ -1,7 +1,7 @@
 ---
 name: Jiaxi Wu
 lastname: Wu
-group: graduate_students
+group: students
 position: PhD student
 institution: California Institute of Technology
 advisor: Elias R. Most

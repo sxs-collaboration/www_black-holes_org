@@ -1,7 +1,7 @@
 ---
 name: Aniket Khairnar
 lastname: Khairnar
-group: graduate_students
+group: students
 position: PhD Candidate
 institution: The University of Mississippi
 advisor: Leo C. Stein

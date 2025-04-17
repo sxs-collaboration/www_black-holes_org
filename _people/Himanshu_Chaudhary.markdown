@@ -1,7 +1,7 @@
 ---
 name: Himanshu Chaudhary
 lastname: Chaudhary
-group: graduate_students
+group: students
 position: PhD Candidate
 institution: California Institute of Technology
 advisor: Saul A. Teukolsky

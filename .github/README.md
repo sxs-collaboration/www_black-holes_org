@@ -37,7 +37,7 @@ a file e.g. `_people/My_Name.markdown`, with contents:
 ---
 name: Given Middle Surname
 lastname: Surname
-group: (faculty|academic_staff|postdocs|graduate_students|alumni)
+group: (faculty|academic_staff|postdocs|students|alumni)
 position: My position title
 address: My address
 institution: My institution
@@ -63,7 +63,7 @@ If you want to include a photo, it *must* be in
 
 It is important for the `group:` field to take on *exactly* one of the
 values in the list `faculty, academic_staff, postdocs,
-graduate_students, alumni`. If not, you won't appear in the list.
+students, alumni`. If not, you won't appear in the list.
 
 It's also possible to have multiple affiliations. In this case, put
 your info associated to each affiliation under the `affiliations:`

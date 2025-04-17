@@ -1,7 +1,7 @@
 ---
 name: Nishad Muhammed
 lastname: Muhammed
-group: graduate_students
+group: students
 position: Phd Candidate
 institution: Washington State University
 advisor: Matthew Duez

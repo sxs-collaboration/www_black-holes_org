@@ -1,7 +1,7 @@
 ---
 name: Taylor Knapp
 lastname: Knapp
-group: graduate_students
+group: students
 position: Graduate Student
 institution: California Institute of Technology
 advisor: Katerina Chatziioannou

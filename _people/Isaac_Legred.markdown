@@ -1,7 +1,7 @@
 ---
 name: Isaac Legred
 lastname: Legred
-group: graduate_students
+group: students
 position: Graduate Student Researcher
 address: West Bridge Laboratory
 institution: California Institute of Technology

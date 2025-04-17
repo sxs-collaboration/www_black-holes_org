@@ -1,7 +1,7 @@
 ---
 name: Dongze Sun
 lastname: Sun
-group: graduate_students
+group: students
 position: PhD Candidate
 institution: California Institute of Technology
 advisor: Saul A. Teukolsky
