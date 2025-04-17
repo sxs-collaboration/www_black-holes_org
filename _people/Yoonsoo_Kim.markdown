@@ -1,7 +1,7 @@
 ---
 name: Yoonsoo Kim
 lastname: Kim
-group: graduate_students
+group: students
 position: PhD Candidate
 institution: California Institute of Technology
 advisor: Elias R. Most, Saul A. Teukolsky

@@ -1,7 +1,7 @@
 ---
 name: Pavan Chawhan
 lastname: Chawhan
-group: graduate_students
+group: students
 position: PhD Candidate
 institution: Washington State University
 advisor: Matthew Duez

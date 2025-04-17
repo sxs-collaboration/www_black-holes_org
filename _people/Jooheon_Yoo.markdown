@@ -1,7 +1,7 @@
 ---
 name: Jooheon Yoo
 lastname: Yoo
-group: graduate_students
+group: students
 position: PhD Candidate
 institution: Cornell University
 advisor: Saul A. Teukolsky

@@ -1,7 +1,7 @@
 ---
 name: Oliver Markwell
 lastname: Markwell
-group: graduate_students
+group: students
 position: PhD Student
 institution: Max Planck Institute for Gravitational Physics (Albert Einstein Institute)
 advisor: Harald Pfeiffer
