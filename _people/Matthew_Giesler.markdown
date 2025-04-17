@@ -1,7 +1,7 @@
 ---
 name: Matthew Giesler
 lastname: Giesler
-group: postdocs
+group: alumni
 position: Graduate student
 institution: California Institute of Technology
 advisor:

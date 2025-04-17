@@ -1,7 +1,7 @@
 ---
 name: Chad Galley
 lastname: Galley
-group: academic_staff
+group: alumni
 position:
 institution: California Institute of Technology
 advisor:
@@ -10,5 +10,3 @@ email:
 address: Cahill
 specialties:
 ---
-
-

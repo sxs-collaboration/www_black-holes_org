@@ -1,7 +1,7 @@
 ---
 name: David Radice
 lastname: Radice
-group: academic_staff
+group: alumni
 position: Postdoctoral Scholar
 institution: California Institute of Technology
 advisor:
