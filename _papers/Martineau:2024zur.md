@@ -12,7 +12,7 @@ doi:
 date: 2024-05-10
 arxiv: "2405.06819"
 insp_recid: 2785966
-used_spec: true
+used_spec:
 used_spectre:
 abstract: |
   In May 2023, the LIGO Livingston observatory detected the likely
