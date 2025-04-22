@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 import argparse
-
 import dateparser
+from warnings import warn
 
 import sxs
 
@@ -48,6 +48,25 @@ sxs_insp_names = [
 
 ############################################################
 
+def filterResponse(insp_resp, ignore_bibs):
+    """Filter the response from INSPIRE, ignoring the papers with bibkeys in the
+    list ignore_bibs. Emit warnings about all the ignore papers
+    """
+
+    # This would be a one-liner list comprehension, except we actually want to
+    # emit a warning for each paper.
+
+    filtered = []
+    for paper in insp_resp:
+        texkey = paper['metadata']['texkeys'][0]
+        if texkey not in ignore_bibs:
+            filtered.append(paper)
+        else:
+            warn(f"Ignoring {texkey}, found in the papers-to-ignore list.")
+    return filtered
+
+############################################################
+
 if __name__ == "__main__":
     help = """Query INSPIRE for papers by SXS authors updated on a specific date"""
     parser = argparse.ArgumentParser(
@@ -60,6 +79,14 @@ if __name__ == "__main__":
         help="""A date (parsed by dateparser) on which papers were updated on INSPIRE.
 (default: %(default)s)"""
     )
+    parser.add_argument(
+        "--ignore-file",
+        type=argparse.FileType('r'),
+        default="papersToIgnore.txt",
+        required=False,
+        help="""Path to a file with bibkeys to ignore, one bibkey per line.
+(default: %(default)s)"""
+    )
 
     args = parser.parse_args()
 
@@ -70,4 +97,9 @@ if __name__ == "__main__":
 
     insp_query = f"find du {date_str} and ({au_str})"
 
-    write_insp_resp_to_md(sxs.utilities.inspire.query(insp_query))
+    ignore_bibs = [line.strip() for line in args.ignore_file.readlines()]
+
+    write_insp_resp_to_md(
+        filterResponse(
+            sxs.utilities.inspire.query(insp_query),
+            ignore_bibs))
