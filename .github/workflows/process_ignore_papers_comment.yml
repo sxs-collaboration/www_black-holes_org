@@ -1,0 +1,45 @@
+# Try to automatically update papers from INSPIRE
+
+name: Process PR comment to ignore papers
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  process-PR-comment:
+
+    # Only run on upstream, not on each fork
+    if: |
+      github.repository_owner == 'sxs-collaboration'
+      && github.event.issue.pull_request != null
+      && startsWith(github.event.comment.body, '/ignore-papers ')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Checkout PR branch
+      run: gh pr checkout ${{ github.event.issue.number }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+    - name: Name myself for git commits
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+    - name: Run processIgnorePapers.py
+      run: |
+        cd _papers
+        ARGS=$(echo "${{ github.event.comment.body }}" | sed -E 's|/ignore-papers[[:space:]]+||')
+        python processIgnorePapers.py $ARGS
+    - name: Commit and push changes
+      run: |
+        git commit -m "Ignoring papers request in PR comment" || echo "No changes to commit"
+        git push
