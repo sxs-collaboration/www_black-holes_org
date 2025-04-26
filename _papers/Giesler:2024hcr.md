@@ -20,8 +20,8 @@ doi: "10.1103/PhysRevD.111.084041"
 date: 2024-11-17
 arxiv: "2411.11269"
 insp_recid: 2849537
-used_spec: true
-used_spectre: true
+used_spec:
+used_spectre:
 abstract: |
   Using high-accuracy numerical relativity waveforms, we confirm the
   presence of numerous overtones of the <math
