@@ -38,7 +38,7 @@ abstract: |
   oscillations scales nearly linearly with the eccentricity of the
   system. We find that for the eccentricities explored in this work,
   deviations in various quantities such as the merger amplitude and
-  peak luminosity can approach $\sim5\%$ of their quasi-circular
+  peak luminosity can approach \(\sim5\%\) of their quasi-circular
   value. We use our findings to explain eccentric phenomena reported
   in other studies. We also show that methods for estimating the
   remnant mass employed in the effective-one-body approach exhibit
