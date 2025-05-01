@@ -16,24 +16,24 @@ abstract: |
   nuclear saturation. Approximate modeling of neutrinos remains an
   important limitation to our ability to make predictions for these
   observables. Part of the problem is the fermionic nature of
-  neutrinos. By the exclusion principle, the expected value $f_\nu$
+  neutrinos. By the exclusion principle, the expected value \(f_\nu\)
   for the number of neutrinos in a quantum state is at most 1. Any
   process producing neutrinos is suppressed by a blocking factor
-  $(1-f_\nu)$. Recent simulations focused on neutrino physics mostly
+  \((1-f_\nu)\). Recent simulations focused on neutrino physics mostly
   use a gray two-moment scheme to evolve neutrinos. This evolves
-  integrals of $f_\nu$ over momentum space, preventing direct
+  integrals of \(f_\nu\) over momentum space, preventing direct
   calculations of blocking factors. Monte Carlo methods may be an
   attractive alternative, providing access to the full distribution of
   neutrinos. Their current implementation is however inadequate to
-  estimate $f_\nu$: in our most recent simulations, a single Monte
-  Carlo packet causes, in the worst cases, estimates of $f_\nu$ to
-  jump from $f_\nu=0$ to $f_\nu\sim 10^5$. While this is concerning,
+  estimate \(f_\nu\): in our most recent simulations, a single Monte
+  Carlo packet causes, in the worst cases, estimates of \(f_\nu\) to
+  jump from \(f_\nu=0\) to \(f_\nu\sim 10^5\). While this is concerning,
   this brazen violation of the fermionic nature of neutrinos has been
   largely inconsequential as the interactions used in simulations
-  avoid direct calculations of $f_\nu$. We are however reaching a
+  avoid direct calculations of \(f_\nu\). We are however reaching a
   level of modeling at which this problem can no longer be ignored.
   Here, we discuss the relatively simple origin of this issue. We then
-  show that very rough estimates of $f_\nu$ can in theory be obtained
+  show that very rough estimates of \(f_\nu\) can in theory be obtained
   in merger simulations, but that they will require a combination of
   unintuitive weighting schemes for Monte Carlo packets and smoothing
   of the neutrino distribution at coarser resolution than what the
