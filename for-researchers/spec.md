@@ -2,7 +2,9 @@
 layout: post
 title: "SpEC: Spectral Einstein Code"
 date: 2025-01-04
-redirect_from: /code/SpEC.html
+redirect_from:
+  - /code/SpEC.html
+  - /SpEC.html
 paginate_from_menu: true
 ---
 
