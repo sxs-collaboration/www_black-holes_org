@@ -13,8 +13,8 @@ William Throwe. Use your scroll wheel or the +/- buttons to zoom in/out, or the
 
 This data is served by [ZoomHub](https://zoomhub.net/), which uses the
 open-source package [OpenSeadragon](https://openseadragon.github.io/) for
-zooming the 43,200 × 21,600 pixel rendering. This still comes from the same from
-the same simulation seen in this 1080p movie below.
+zooming the 43,200 × 21,600 pixel rendering. This still comes from the same
+simulation seen in this 1080p movie below.
 [Read more about gravitational lensing here]({{ site.baseurl }}{% link
 the-science/numerical-relativity/gravitational-lensing.markdown %}), or in [our
 journal article](https://arxiv.org/abs/1410.7775).
