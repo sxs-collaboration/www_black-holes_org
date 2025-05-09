@@ -37,3 +37,4 @@ LIGOScientific:2021yby
 Barausse:2022rvg
 Lara:2022gof
 Rubio:2024ryv
+Kent:2025pvu
