@@ -7,11 +7,13 @@ authors:
   - "Kapadia, Shasvath J."
   - "Varma, Vijay"
   - "Field, Scott E."
-jref:
-doi:
+jref: "Phys.Rev.D 111, 104042 (2025)"
+doi: "10.1103/PhysRevD.111.104042"
 date: 2025-01-06
 arxiv: "2501.02974"
 insp_recid: 2865372
+used_spec:
+used_spectre:
 abstract: |
   The anticipated observation of the gravitational microlensing of
   gravitational waves (GWs) promises to shed light on a host of
@@ -30,15 +32,22 @@ abstract: |
   available waveforms at discrete parameter values. In this work, we
   demonstrate that surrogate modeling can also effectively be applied
   to the evaluation of the time-domain microlensing amplification
-  factor \(\widetilde{F}(t)\), for arbitrary lens configurations. We
-  show this by constructing \(\widetilde{F}(t)\) for two lens models,
-  viz. point-mass lens, and singular isothermal sphere, which notably
-  includes logarithmic divergence behaviour. We find both surrogates
-  reproduce the original lens models accurately, with mismatches
-  \(\lesssim 5 \times 10^{-4}\) across a range of plausible microlensed
-  binary black hole sources observed by the Einstein Telescope. This
-  surrogate is between 5 and \(10^3\) times faster than the underlying
-  lensing models, and can be evaluated in about 100 ms. The accuracy
-  and efficiency attained by our surrogate models will enable
-  practical parameter estimation analyses of microlensed GWs.
+  factor <math display="inline"><mover accent="true"><mi>F</mi><mo
+  stretchy="false">˜</mo></mover><mo
+  stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></math>.
+  We show this by constructing <math display="inline"><mover
+  accent="true"><mi>F</mi><mo stretchy="false">˜</mo></mover><mo
+  stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></math>
+  for two lens models, viz. point-mass lens, and singular isothermal
+  sphere, which notably includes logarithmic divergence behavior. We
+  find both surrogates reproduce the original lens models accurately,
+  with mismatches <math
+  display="inline"><mo>≲</mo><mn>5</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup></math>
+  across a range of plausible microlensed binary black hole sources
+  observed by the Einstein Telescope. This surrogate is between 5 and
+  <math display="inline"><msup><mn>10</mn><mn>3</mn></msup></math>
+  times faster than the underlying lensing models, and can be
+  evaluated in about 100 ms. The accuracy and efficiency attained by
+  our surrogate models will enable practical parameter estimation
+  analyses of microlensed GWs.
 ---
