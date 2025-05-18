@@ -45,8 +45,13 @@ footer {
             transition: all .4s linear 0s;
         }
 
-        #latest-tweet {
+        #latest-skeet {
             padding: 4px 30px;
+            max-height: 15em;
+            overflow-y: scroll;
+            text-align: initial;
+            border: $clay solid 3px;
+            border-radius: 12px;
         }
     }
 
