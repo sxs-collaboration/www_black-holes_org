@@ -23,15 +23,16 @@
                 </div>
 
                 <div class="column">
-                    <h1 class="title is-3">Our Latest Tweet</h1>
-                    <div id="latest-tweet">
-                        <a class="twitter-timeline"
-                           data-tweet-limit=1
-                           data-height="300" data-dnt="true"
-                           data-chrome="noheader nofooter"
-                           href="https://twitter.com/SXSProject">
-                            Tweets by @SXSProject
-                        </a>
+                    <h1 class="title is-3">Our Latest Social Media</h1>
+                    <div id="latest-skeet">
+                      <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+                        <bsky-embed
+                          username="sxs-collaboration.bsky.social"
+                          limit="3"
+                          load-more="true"
+                          mode=""
+                          >
+                        </bsky-embed>
                     </div>
                 </div>
 
@@ -67,6 +68,5 @@
 
 <script>
  {% include navbar-burgers.js %}
- {% include latest-tweet.js %}
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
