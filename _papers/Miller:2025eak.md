@@ -1,5 +1,5 @@
 ---
-title: "Measuring spin precession from massive black holes binaries with gravitational waves: insights from time-domain signal morphology"
+title: "Measuring spin precession from massive black hole binaries with gravitational waves: insights from time-domain signal morphology"
 authors:
   - "Miller, Simona J."
   - "Isi, Maximiliano"
