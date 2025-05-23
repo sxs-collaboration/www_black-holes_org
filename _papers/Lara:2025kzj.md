@@ -24,7 +24,7 @@ date: 2025-05-20
 arxiv: "2505.14785"
 insp_recid: 2923537
 used_spec:
-used_spectre: true
+used_spectre:
 abstract: |
   We conduct numerical simulations of inspiraling, oppositely-charged
   black holes in the class of scalar-Gauss-Bonnet theories that
