@@ -35,7 +35,7 @@ authors:
   - "Morales, Marlo"
   - "Moxon, Jordan"
   - "Nee, Peter James"
-  - "Nell, Kyle C."
+  - "Nelli, Kyle C."
   - "O'Shea, Eamonn"
   - "Ossokine, Serguei"
   - "Owen, Robert"
