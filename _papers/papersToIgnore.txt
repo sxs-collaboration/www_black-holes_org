@@ -43,3 +43,5 @@ Dhani:2024jja
 LISAConsortiumWaveformWorkingGroup:2023arg
 Witzany:2024ttz
 Issa:2024sts
+Varma:2024fgy
+Paul:2024ghu
