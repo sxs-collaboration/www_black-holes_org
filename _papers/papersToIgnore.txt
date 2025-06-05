@@ -47,3 +47,9 @@ Varma:2024fgy
 Paul:2024ghu
 Li:2023ulk
 Berti:2025hly
+IceCube:2013pav
+IceCube:2012ugg
+IceCube:2012khj
+LIGOScientific:2020tif
+LIGOScientific:2019fpa
+LIGOScientific:2017bnn

@@ -3,12 +3,13 @@ title: "Observation of Gravitational Waves from a Binary Black Hole Merger"
 authors:
   - "The LIGO Scientific Collaboration"
   - "the Virgo Collaboration "
-jref: "Physical Review Letters 116, 061102 (2016)"
+jref: "Phys.Rev.Lett. 116, 061102 (2016)"
 doi: "10.1103/PhysRevLett.116.061102"
-date: 2016-02-01
+date: 2016-02-11
 arxiv: "1602.03837"
-used_spec: true
 insp_recid: 1421100
+used_spec: true
+used_spectre:
 abstract: |
   On September 14, 2015 at 09:50:45 UTC the two detectors of the Laser
   Interferometer Gravitational-Wave Observatory simultaneously
