@@ -53,3 +53,4 @@ IceCube:2012khj
 LIGOScientific:2020tif
 LIGOScientific:2019fpa
 LIGOScientific:2017bnn
+Stein:2013ofa
