@@ -55,3 +55,15 @@ LIGOScientific:2019fpa
 LIGOScientific:2017bnn
 Stein:2013ofa
 Mroczek:2024sfp
+LIGOScientific:2023bwz
+LIGOScientific:2021aug
+LIGOScientific:2021iyk
+LIGOScientific:2022enz
+LIGOScientific:2021hvc
+LIGOScientific:2021quq
+LIGOScientific:2021rnv
+KAGRA:2022dwb
+FermiGamma-RayBurstMonitorTeam:2023mtr
+LIGOScientific:2021sio
+KAGRA:2021rmt
+KAGRA:2022dqk

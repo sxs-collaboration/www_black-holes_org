@@ -16,6 +16,7 @@ doi:
 date: 2024-11-08
 arxiv: "2411.05645"
 insp_recid: 2846783
+used_spec:
 used_spectre: true
 abstract: |
   We assess the prospects for detecting gravitational wave echoes
