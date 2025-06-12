@@ -67,3 +67,5 @@ FermiGamma-RayBurstMonitorTeam:2023mtr
 LIGOScientific:2021sio
 KAGRA:2021rmt
 KAGRA:2022dqk
+LIGOScientific:2019gag
+LIGOScientific:2022sts
