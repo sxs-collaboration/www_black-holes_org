@@ -70,3 +70,11 @@ KAGRA:2022dqk
 LIGOScientific:2019gag
 LIGOScientific:2022sts
 LIGOScientific:2011kvu
+LIGOScientific:2021ffg
+KAGRA:2021tnv
+LIGOScientific:2021tfm
+LIGOScientific:2021job
+KAGRA:2021bhs
+LIGOScientific:2021ozr
+KAGRA:2021una
+LIGOScientific:2022jpr
