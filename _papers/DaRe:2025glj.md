@@ -16,8 +16,8 @@ authors:
   - "Throwe, William"
   - "Varma, Vijay"
   - "Vu, Nils L."
-jref:
-doi:
+jref: "Phys.Rev.D 111, 124019 (2025)"
+doi: "10.1103/PhysRevD.111.124019"
 date: 2025-03-12
 arxiv: "2503.09569"
 insp_recid: 2899400
@@ -36,20 +36,20 @@ abstract: |
   rest frame. Training data for this model are created using high-
   precision numerical relativity simulations of quasi-circular systems
   with mass ratios \(q \le 8\) and spins parallel to the orbital angular
-  momentum with magnitudes \(\chi_{1}, \chi_{2} \le 0.8\). We use
-  Gaussian Process Regression to model the BMS transformations over
-  the three-dimensional parameter space \(\left(q, \chi_{1}^{z},
-  \chi_{2}^{z}\right)\). The physics captured by this model is strictly
-  non-perturbative and cannot be obtained from post-Newtonian
-  approximations alone, as it requires knowledge of the strong
-  nonlinear effects that are sourced during the merger. Apart from
-  providing the first model of the supertranslation induced by a
-  binary black hole merger, we also find that the kick velocities
-  predicted using Cauchy-characteristic evolution waveforms are, on
-  average, \(\sim 5\%\) larger than the ones obtained from extrapolated
-  waveforms. Our work has broad implications for improving
-  gravitational wave models and studying the large-scale impact of
-  memory, such as on the cosmological background. The fits produced in
-  this work are available through the Python package
-  <code>surfinBH</code> under the name <code>NRSur3dq8BMSRemnant</code>.
+  momentum with magnitudes \(χ_{1}, χ_{2} \le 0.8\). We use Gaussian
+  Process Regression to model the BMS transformations over the three-
+  dimensional parameter space \(\left(q, χ_{1}^{z}, χ_{2}^{z}\right)\).
+  The physics captured by this model is strictly non-perturbative and
+  cannot be obtained from post-Newtonian approximations alone, as it
+  requires knowledge of the strong nonlinear effects that are sourced
+  during the merger. Apart from providing the first model of the
+  supertranslation induced by a binary black hole merger, we also find
+  that the kick velocities predicted using Cauchy-characteristic
+  evolution waveforms are, on average, \(\sim5\%\) larger than the ones
+  obtained from extrapolated waveforms. Our work has broad
+  implications for improving gravitational wave models and studying
+  the large-scale impact of memory, such as on the cosmological
+  background. The fits produced in this work are available through the
+  Python package <code>surfinBH</code> under the name
+  <code>NRSur3dq8BMSRemnant</code>.
 ---
