@@ -1,5 +1,5 @@
 ---
-title: "Relieving scale disparity in binary black hole simulations"
+title: "Relieving Scale Disparity in Binary Black Hole Simulations"
 authors:
   - "Wittek, Nikolas A."
   - "Barack, Leor"
@@ -11,19 +11,20 @@ authors:
   - "Nelli, Kyle C."
   - "Throwe, William"
   - "Vu, Nils L."
-jref:
-doi:
+jref: "Phys.Rev.Lett. 134, 251402 (2025)"
+doi: "10.1103/kskl-8dcj"
 date: 2024-10-29
 arxiv: "2410.22290"
 insp_recid: 2843544
+used_spec:
 used_spectre: true
 abstract: |
   Worldtube excision is a method of reducing computational burden in
-  Numerical Relativity simulations of binary black holes in situations
+  numerical relativity simulations of binary black holes in situations
   where there is a good analytical model of the geometry around (one
   or both of) the objects. Two such scenarios of relevance in
-  gravitational-wave astronomy are (1) the case of mass-disparate
-  systems, and (2) the early inspiral when the separation is still
+  gravitational-wave astronomy are (1) the case of mass-disparate
+  systems, and (2) the early inspiral when the separation is still
   large. Here we illustrate the utility and flexibility of this
   technique with simulations of the fully self-consistent radiative
   evolution in the model problem of a scalar charge orbiting a
