@@ -28,7 +28,7 @@ abstract: |
   mean-field dynamo model to control the magnetic field strength
   present in the merger remnant. Our results show that -- in the most
   optimistic case -- corrections to the anisotropy can be in excess of
-  \(10\%\), and are potentially largest in the outer layers of the
+  $10\%$, and are potentially largest in the outer layers of the
   remnant. This work paves the way for a systematic investigation of
   these effects.
 ---
