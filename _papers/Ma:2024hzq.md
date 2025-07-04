@@ -14,8 +14,8 @@ doi: "10.1103/jd26-8q5w"
 date: 2024-12-09
 arxiv: "2412.06906"
 insp_recid: 2857847
-used_spec: true
-used_spectre: true
+used_spec:
+used_spectre:
 abstract: |
   Cauchy-characteristic matching (CCM) is a numerical-relativity
   technique that solves Einstein’s equations on an effectively
