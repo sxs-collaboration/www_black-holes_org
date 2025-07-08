@@ -1,61 +1,68 @@
 #!/usr/bin/env python
 
 import argparse
+from pathlib import Path
+from textwrap import fill
+from warnings import warn
 
 import sxs
+import yaml
+from yaml import Loader
 
-from warnings import warn
-from textwrap import fill
 
-def write_insp_resp_to_md(responses):
-    """Take a JSON response from INSPIRE (e.g. return from
-    `sxs.utilities.inspire.query`) and write it to a bunch of .md files"""
-    for resp in responses:
-        iid = resp['id']
-        md = resp['metadata']
-        if (len(md['texkeys']) > 1):
-            warn(f"More than 1 texkeys in {iid}; using first.")
-        texkey = md['texkeys'][0]
-        if (len(md['titles']) > 1):
-            warn(f"More than 1 titles in {iid}; using first.")
-        title = md['titles'][0]['title']
-        authors = [a['full_name'] for a in md['authors']]
-        if len(authors) == 1:
-            authors_str = f" \"{authors[0]}\""
-        else:
-            authors_str = "\n" + "\n".join([f"  - \"{a}\"" for a in authors])
-        if 'publication_info' in md:
-            pub_info = md['publication_info']
-            if (len(pub_info) > 1):
-                warn(f"More than 1 publication_info in {iid}; using first.")
-            pub_info = pub_info[0]
-            jref_str = f" \"{pub_info.get('journal_title','')} " + \
-                f"{pub_info.get('journal_volume','')}, " + \
-                f"{pub_info.get('artid','')} ({pub_info.get('year','')})\""
-        else:
-            jref_str = ""
-        date = md['earliest_date']
-        if 'arxiv_eprints' in md:
-            if (len(md['arxiv_eprints']) > 1):
-                warn(f"More than 1 arxiv #s in {iid}; using first.")
-            arxiv_str = f" \"{md['arxiv_eprints'][0]['value']}\""
-        else:
-            arxiv_str = ""
-        if 'dois' in md:
-            if (len(md['dois']) > 1):
-                warn(f"More than 1 dois in {iid}; using first.")
-            doi_str = f" \"{md['dois'][0]['value']}\""
-        else:
-            doi_str = ""
-        if (len(md['abstracts']) > 1):
-            warn(f"More than 1 abstracts in {iid}; using first.")
-        abstract_str = md['abstracts'][0]['value']
-        abstract_str = fill(abstract_str,
-                            initial_indent='  ',
-                            subsequent_indent='  ',
-                            break_long_words=False)
-        with open(f"{texkey}.md", 'w') as f:
-            f.write(f"""---
+def insp_resp_to_md(resp, used_spec=None, used_spectre=None):
+    """Take a single JSON response from INSPIRE (one element of the list
+    returned by `sxs.utilities.inspire.query`) and produce a markdown string to
+    be written to a file. The optional arguments `used_spec` and `used_spectre`
+    will set the corresponding values in the markdown."""
+
+    iid = resp['id']
+    md = resp['metadata']
+    if (len(md['texkeys']) > 1):
+        warn(f"More than 1 texkeys in {iid}; using first.")
+    texkey = md['texkeys'][0]
+    if (len(md['titles']) > 1):
+        warn(f"More than 1 titles in {iid}; using first.")
+    title = md['titles'][0]['title']
+    authors = [a['full_name'] for a in md['authors']]
+    if len(authors) == 1:
+        authors_str = f" \"{authors[0]}\""
+    else:
+        authors_str = "\n" + "\n".join([f"  - \"{a}\"" for a in authors])
+    if 'publication_info' in md:
+        pub_info = md['publication_info']
+        if (len(pub_info) > 1):
+            warn(f"More than 1 publication_info in {iid}; using first.")
+        pub_info = pub_info[0]
+        jref_str = f" \"{pub_info.get('journal_title','')} " + \
+            f"{pub_info.get('journal_volume','')}, " + \
+            f"{pub_info.get('artid','')} ({pub_info.get('year','')})\""
+    else:
+        jref_str = ""
+    date = md['earliest_date']
+    if 'arxiv_eprints' in md:
+        if (len(md['arxiv_eprints']) > 1):
+            warn(f"More than 1 arxiv #s in {iid}; using first.")
+        arxiv_str = f" \"{md['arxiv_eprints'][0]['value']}\""
+    else:
+        arxiv_str = ""
+    if 'dois' in md:
+        if (len(md['dois']) > 1):
+            warn(f"More than 1 dois in {iid}; using first.")
+        doi_str = f" \"{md['dois'][0]['value']}\""
+    else:
+        doi_str = ""
+    if (len(md['abstracts']) > 1):
+        warn(f"More than 1 abstracts in {iid}; using first.")
+    abstract_str = md['abstracts'][0]['value']
+    abstract_str = fill(abstract_str,
+                        initial_indent='  ',
+                        subsequent_indent='  ',
+                        break_long_words=False)
+    used_spec_str = " true" if used_spec else ""
+    used_spectre_str = " true" if used_spectre else ""
+
+    return f"""---
 title: "{title}"
 authors:{authors_str}
 jref:{jref_str}
@@ -63,12 +70,41 @@ doi:{doi_str}
 date: {date}
 arxiv:{arxiv_str}
 insp_recid: {iid}
-used_spec:
-used_spectre:
+used_spec:{used_spec_str}
+used_spectre:{used_spectre_str}
 abstract: |
 {abstract_str}
 ---
-""")
+"""
+
+def write_insp_resp_to_md(responses):
+    """Take a JSON response from INSPIRE (e.g. return from
+    `sxs.utilities.inspire.query`) and write it to a bunch of .md files"""
+    for resp in responses:
+        md = resp['metadata']
+        # If there's no texkey, we don't know what to do
+        if 'texkeys' in md and (len(md['texkeys']) > 0):
+            texkey = md['texkeys'][0]
+        else:
+            warn(f"Didn't find a texkey in {iid}; skipping!")
+            continue
+
+        # Try to get values of used_spec and used_spectre if something is
+        # available on disk
+        extra_args = {}
+        md_file = Path(f"{texkey}.md")
+        if md_file.exists():
+            try:
+                yamlMD = yaml.load_all(md_file.read_text(),
+                                       Loader=Loader).send(None)
+                used_keys = {k: yamlMD.get(k)
+                             for k in ['used_spec', 'used_spectre']}
+                extra_args.update(used_keys)
+            except:
+                warn(f"Couldn't read {md_file} as yaml")
+
+        with open(md_file, 'w') as f:
+            f.write(insp_resp_to_md(resp, **extra_args))
 
 ############################################################
 
