@@ -25,7 +25,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install sxs dateparser
+        pip install sxs dateparser pyyaml
     - name: Run inspSXSUpdateByDate
       run: |
         cd _papers
