@@ -1,5 +1,5 @@
 ---
-title: "Echoes from Beyond: Detecting Gravitational Wave Quantum Imprints with LISA"
+title: "Echoes from beyond: Detecting gravitational-wave quantum imprints with LISA"
 authors:
   - "Deppe, Nils"
   - "Heisenberg, Lavinia"
@@ -11,8 +11,8 @@ authors:
   - "Nelli, Kyle C."
   - "Throwe, William"
   - "Vu, Nils L."
-jref:
-doi:
+jref: "Phys.Rev.D 111, 124035 (2025)"
+doi: "10.1103/k7jh-rhgw"
 date: 2024-11-08
 arxiv: "2411.05645"
 insp_recid: 2846783
