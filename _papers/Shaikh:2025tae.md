@@ -13,7 +13,7 @@ doi:
 date: 2025-07-11
 arxiv: "2507.08345"
 insp_recid: 2944959
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Standardizing the definition of eccentricity is necessary for
