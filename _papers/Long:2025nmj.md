@@ -15,7 +15,7 @@ doi:
 date: 2025-07-10
 arxiv: "2507.08071"
 insp_recid: 2944862
-used_spec: trues
+used_spec: true
 used_spectre:
 abstract: |
   The study of unbound binary-black-hole encounters provides a gauge-
