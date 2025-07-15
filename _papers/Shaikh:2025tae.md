@@ -33,5 +33,5 @@ abstract: |
   Relativity and Effective One Body waveforms to showcase its
   robustness for generic eccentric spin-precessing binaries. We make
   our method public via Python implementation in
-  <code>gw_eccentricity</code>.
+  \texttt{gw\_eccentricity}.
 ---
