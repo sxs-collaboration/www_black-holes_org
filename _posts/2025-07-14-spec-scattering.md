@@ -20,7 +20,7 @@ How do the SpEC results compare with those from other codes? Figure 5 in the pap
 
 We also explored systems with broken symmetry. The first has black holes with spin in opposite directions. Here, for the first time, we measure the tiny difference in scattering angle of each black hole—only 0.1°! Another type of system we looked at was when the black holes have different masses. Again, we measure a difference in the scattering angle of approximately 1°. The results from both of these sets of simulations are shown below.
 
-We also compared our Numerical Relativity results with predictions from effective-one-body models. In general, the models agree with the scattering angles generated with SpEC, with Figure 6 in the paper showing that most models differing by less than 3% in the very strong field!
+We also compared our Numerical Relativity results with predictions from effective-one-body models. In general, the models agree with the scattering angles generated with SpEC, with Figure 6 in the paper showing that most models differ by less than 3% in the very strong field!
 
 {% include image.html
    url="/images/posts/spec-scattering/AsymAngles.png"
