@@ -1,14 +1,15 @@
 ---
-title: "Extrinsic Curvature and the Einstein Constraints"
+title: "Extrinsic curvature and the Einstein constraints"
 authors:
-  - "Harald P. Pfeiffer"
-  - "James W. York"
-jref: "Phys.Rev. D67, 044022 (2003)"
+  - "Pfeiffer, Harald P."
+  - "York, James W., Jr."
+jref: "Phys.Rev.D 67, 044022 (2003)"
 doi: "10.1103/PhysRevD.67.044022"
 date: 2003-02-26
 arxiv: "gr-qc/0207095"
-used_spec: true
 insp_recid: 591222
+used_spec: true
+used_spectre:
 abstract: |
   The Einstein initial-value equations in the extrinsic curvature
   (Hamiltonian) representation and conformal thin sandwich

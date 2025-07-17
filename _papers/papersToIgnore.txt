@@ -79,3 +79,5 @@ LIGOScientific:2021ozr
 KAGRA:2021una
 LIGOScientific:2022jpr
 Kim:2025kdz
+LIGOScientific:2017zid
+Barack:2018yly
