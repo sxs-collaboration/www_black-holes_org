@@ -81,3 +81,5 @@ LIGOScientific:2022jpr
 Kim:2025kdz
 LIGOScientific:2017zid
 Barack:2018yly
+LIGOScientific:2020ufj
+Horowitz:2018ndv
