@@ -11,7 +11,7 @@ doi: "10.1103/PhysRevD.108.104007"
 date: 2023-02-22
 arxiv: "2302.11257"
 insp_recid: 2635504
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Eccentric compact binary mergers are significant scientific targets
