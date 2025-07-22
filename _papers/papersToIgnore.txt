@@ -83,3 +83,9 @@ LIGOScientific:2017zid
 Barack:2018yly
 LIGOScientific:2020ufj
 Horowitz:2018ndv
+LIGOScientific:2011yag
+LIGOScientific:2012esh
+LIGOScientific:2012fcp
+LIGOScientific:2012cxo
+Andersson:2013mrx
+VIRGO:2011puf
