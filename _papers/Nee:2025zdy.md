@@ -12,8 +12,8 @@ authors:
   - "Enficiaud, Raffi"
   - "Kidder, Lawrence E."
   - "Scheel, Mark A."
-jref:
-doi:
+jref: "Class.Quant.Grav. 42, 135011 (2025)"
+doi: "10.1088/1361-6382/ade35d"
 date: 2025-03-07
 arxiv: "2503.05422"
 insp_recid: 2897894
@@ -38,11 +38,11 @@ abstract: |
   an oscillatory dependence on mean anomaly. The amplitude of these
   oscillations scales nearly linearly with the eccentricity of the
   system. We find that for the eccentricities explored in this work,
-  deviations in various quantities such as the merger amplitude and
-  peak luminosity can approach \(\sim5\%\) of their quasi-circular
-  value. We use our findings to explain eccentric phenomena reported
-  in other studies. We also show that methods for estimating the
-  remnant mass employed in the effective-one-body approach exhibit
+  the magnitude of deviations in various quantities such as the merger
+  amplitude and peak luminosity can approach \(\sim5\%\) of their quasi-
+  circular value. We use our findings to explain eccentric phenomena
+  reported in other studies. We also show that methods for estimating
+  the remnant mass employed in the effective-one-body approach exhibit
   similar deviations, roughly matching the amplitude of the
   oscillations we find in NR simulations. This work is an important
   step towards a complete description of eccentric binary black hole
