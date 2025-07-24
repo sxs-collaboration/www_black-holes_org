@@ -89,3 +89,4 @@ LIGOScientific:2012fcp
 LIGOScientific:2012cxo
 Andersson:2013mrx
 VIRGO:2011puf
+LIGOScientific:2025ksg
