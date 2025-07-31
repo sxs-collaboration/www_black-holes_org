@@ -1,5 +1,5 @@
 ---
-title: "High-Precision Ringdown Surrogate Model for Non-Precessing Binary Black Holes"
+title: "High-precision ringdown surrogate model for nonprecessing binary black holes"
 authors:
   - "Magaña Zertuche, Lorena"
   - "Stein, Leo C."
@@ -15,8 +15,8 @@ authors:
   - "Nelli, Kyle C."
   - "Throwe, William"
   - "Vu, Nils L."
-jref:
-doi:
+jref: "Phys.Rev.D 112, 024077 (2025)"
+doi: "10.1103/q7sy-g3kl"
 date: 2024-08-09
 arxiv: "2408.05300"
 insp_recid: 2817246
@@ -29,15 +29,18 @@ abstract: |
   introduce a spin-aligned surrogate ringdown model. This ringdown
   surrogate, NRSur3dq8_RD, is built with numerical waveforms produced
   using Cauchy-characteristic evolution. In addition, these waveforms
-  are in the superrest frame of the remnant black hole allowing us to
+  are in the super-rest frame of the remnant black hole allowing us to
   do a correct analysis of the ringdown spectrum. The novel prediction
   of our surrogate model is complex-valued quasinormal mode (QNM)
-  amplitudes, with median relative errors of \(10^{-2}-10^{-3}\) over
-  the parameter space. Like previous remnant surrogates, we also
-  predict the remnant black hole's mass and spin. The QNM mode
+  amplitudes, with median relative errors of <math
+  display="inline"><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo>-</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></math>
+  over the parameter space. Like previous remnant surrogates, we also
+  predict the remnant black hole’s mass and spin. The QNM mode
   amplitude errors translate into median errors on ringdown waveforms
-  of \(10^{-4}\). The high accuracy and QNM mode content provided by our
-  surrogate will enable high-precision ringdown analyses such as tests
-  of general relativity. Our ringdown model is publicly available
-  through the python package surfinBH.
+  of <math
+  display="inline"><mo>∼</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup></math>.
+  The high accuracy and QNM mode content provided by our surrogate
+  will enable high-precision ringdown analyses such as tests of
+  general relativity. Our ringdown model is publicly available through
+  the python package <code>surfinBH</code>.
 ---
