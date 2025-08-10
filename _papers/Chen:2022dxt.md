@@ -31,8 +31,8 @@ abstract: |
   display="inline"><mo>ℓ</mo></math> are detectable in the best model.
   These models provide faithful estimates of the true mass and spin of
   the remnant black hole. We also show that by including overtones,
-  the <math display="inline"><mo>ℓ</mo><mo>=</mo><mi>m</mi><mo>=</mo><
-  mn>2</mn></math> mass multipole moment admits an excellent
+  the <math display="inline"><mo>ℓ</mo><mo>=</mo><mi>m</mi><mo>=</mo>
+  <mn>2</mn></math> mass multipole moment admits an excellent
   quasinormal-mode description at all times after the merger. This
   demonstrates the perhaps surprising power of perturbation theory
   near the merger.
