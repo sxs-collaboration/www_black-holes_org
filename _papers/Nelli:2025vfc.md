@@ -14,14 +14,14 @@ date: 2025-08-11
 arxiv: "2508.08408"
 insp_recid: 2959691
 used_spec:
-used_spectre:
+used_spectre: true
 abstract: |
   In the field of gravitational wave science, next-generation
   detectors will be substantially more accurate than the current suite
   of detectors. Numerical relativity simulations of binary black hole
   (BBH) gravitational waveforms must become faster, more efficient,
   and more accurate to be used in analyses of these next-generation
-  detections. One approach, which the \texttt{SpECTRE} code employs,
+  detections. One approach, which the <code>SpECTRE</code> code employs,
   is using spectral methods for accuracy along with synchronous task-
   based parallelism to avoid idle time in simulations and make the
   most efficient use of computational resources. When writing an
