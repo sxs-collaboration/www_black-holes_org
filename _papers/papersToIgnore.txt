@@ -100,3 +100,4 @@ LIGOScientific:2025yae
 LIGOScientific:2020ibl
 LIGOScientific:2020kqk
 LIGOScientific:2021usb
+LIGOScientific:2025bgj
