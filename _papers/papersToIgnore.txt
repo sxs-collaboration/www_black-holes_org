@@ -104,3 +104,4 @@ LIGOScientific:2025bgj
 LIGOScientific:2018ehx
 LIGOScientific:2017zez
 LIGOScientific:2018glc
+Leviyev:2025egg
