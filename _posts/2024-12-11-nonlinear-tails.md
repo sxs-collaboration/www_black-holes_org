@@ -26,7 +26,7 @@ cone." This looks like a 45° line on a spacetime diagram (with c=1)
 
 The fact that waves moves only on the surface of the light cone makes
 it "easy" to figure out what the waves will be far away. You just need
-to find the intersections between your the sources of waves and your
+to find the intersections between the sources of waves and your
 observer's "past light cone." That's just the green curve in the
 figure.
 
