@@ -33,7 +33,7 @@ abstract: |
   improves upon previous ones in three ways: it fits over the two-
   sphere, enabling a complete model of the strain; it performs a
   reverse search in time for QNMs using a more robust nonlinear least
-  squares routine called varpro; and it checks the variance of QNM
+  squares routine called <code>VarPro</code>; and it checks the variance of QNM
   amplitudes, which we refer to as “stability,” over an interval
   matching the natural timescale of each QNM. Using this algorithm, we
   not only demonstrate the stability of a multitude of QNMs and their
