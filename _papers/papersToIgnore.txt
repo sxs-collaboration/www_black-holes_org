@@ -106,3 +106,5 @@ LIGOScientific:2017zez
 LIGOScientific:2018glc
 Leviyev:2025egg
 LIGOScientific:2025snk
+Datrier:2025wjs
+LIGOScientific:2025slb
