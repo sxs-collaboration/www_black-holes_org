@@ -12,17 +12,17 @@ insp_recid: 2815344
 used_spec: true
 used_spectre:
 abstract: |
-  gwNRHME is a recently developed framework that seamlessly converts a
+  gwnrhme is a recently developed framework that seamlessly converts a
   multimodal (i.e., with several spherical harmonic modes)
   quasicircular waveform into a multimodal eccentric waveform if the
-  quadrupolar eccentric waveform is known. Here, we employ the gwNRHME
+  quadrupolar eccentric waveform is known. Here, we employ the gwnrhme
   framework to combine a multimodal quasicircular numerical relativity
-  surrogate waveform model NRHybSur3dq8 and quadrupolar nonspinning
-  post-Newtonian eccentric waveform model EccentricIMR to construct
-  multimodal nonspinning eccentric model NRHybSur3dq8-gwNRHME. Using a
+  surrogate waveform model nrhybsur3dq8 and quadrupolar nonspinning
+  post-Newtonian eccentric waveform model eccentricimr to construct
+  multimodal nonspinning eccentric model nrhybsur3dq8-gwnrhme. Using a
   total of 35 eccentric numerical relativity (NR) simulations obtained
   from the SXS and RIT catalogs, we demonstrate that
-  NRHybSur3dq8-gwNRHME model predictions agree well with NR (with
+  nrhybsur3dq8-gwnrhme model predictions agree well with NR (with
   typical relative <math
   display="inline"><msub><mi>L</mi><mn>2</mn></msub></math> errors of
   <math display="inline"><mo>∼</mo><mn>0.01</mn></math> for the
@@ -32,11 +32,11 @@ abstract: |
   display="inline"><mo>∼</mo><mn>0.2</mn></math> measured about 10
   cycles before the merger. Our frequency-domain mismatches
   (calculated assuming advanced LIGO design sensitivity curve) are
-  mostly below 0.01. To demonstrate the modularity of the gwNRHME
-  framework, we further combine EccentricIMR with the
-  BHPTNRSur1dq1e4 model and develop a nonspinning
-  eccentric model named BHPTNRSur1dq1e4-gwNRHME. Finally, we develop a
-  different variant of these models by replacing EccentricIMR with
-  EccentricTD. Both the gwNRHME framework and associated models are
-  available through the gwModels package.
+  mostly below 0.01. To demonstrate the modularity of the gwnrhme
+  framework, we further combine eccentricimr with the
+  bhptnrsur1dq1e4bhptnrsur1dq1e4 model and develop a nonspinning
+  eccentric model named bhptnrsur1dq1e4-gwnrhme. Finally, we develop a
+  different variant of these models by replacing eccentricimr with
+  eccentrictd. Both the gwnrhme framework and associated models are
+  available through the gwmodels package.
 ---

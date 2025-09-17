@@ -19,11 +19,11 @@ abstract: |
   smaller black hole (modeled as a Dirac delta distribution) for self-
   force computations. Spectrally accurate methods, such as nodal
   discontinuous Galerkin (DG) methods, are well suited for these
-  tasks. Their numerical errors typically decrease as \(\propto (\Delta
-  x)^{N+1}\), where \(\Delta x\) is the subdomain size and \(N\) is the
+  tasks. Their numerical errors typically decrease as $\propto (\Delta
+  x)^{N+1}$, where $\Delta x$ is the subdomain size and $N$ is the
   polynomial degree of the approximation. However, certain DG schemes
   exhibit superconvergence, where truncation, phase, and dispersion
-  errors can decrease as fast as \(\propto (\Delta x)^{2N+1}\).
+  errors can decrease as fast as $\propto (\Delta x)^{2N+1}$.
   Superconvergent numerical solvers are, by construction, extremely
   efficient and accurate. We theoretically demonstrate that our DG
   scheme for the scalar Teukolsky equation with a distributional

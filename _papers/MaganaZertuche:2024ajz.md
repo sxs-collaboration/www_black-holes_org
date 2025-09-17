@@ -27,7 +27,7 @@ abstract: |
   improvements in detector sensitivity enable us to test general
   relativity with more precision than ever before. In this work, we
   introduce a spin-aligned surrogate ringdown model. This ringdown
-  surrogate, NRSur3dq8_RD, is built with numerical waveforms produced
+  surrogate, nrsur3dq8_rd, is built with numerical waveforms produced
   using Cauchy-characteristic evolution. In addition, these waveforms
   are in the super-rest frame of the remnant black hole allowing us to
   do a correct analysis of the ringdown spectrum. The novel prediction
@@ -42,5 +42,5 @@ abstract: |
   The high accuracy and QNM mode content provided by our surrogate
   will enable high-precision ringdown analyses such as tests of
   general relativity. Our ringdown model is publicly available through
-  the python package <code>surfinBH</code>.
+  the python package surfinbh.
 ---

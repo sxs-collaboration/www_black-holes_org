@@ -38,5 +38,5 @@ abstract: |
   smaller black hole is in the neighborhood of the apocenter, as
   opposed to any structure in the strong field of the larger black
   hole. Our analysis framework is publicly available through the
-  <code>gwtails</code> python package.
+  gwtails python package.
 ---
