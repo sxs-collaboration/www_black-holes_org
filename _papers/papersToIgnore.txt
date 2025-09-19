@@ -109,3 +109,11 @@ LIGOScientific:2025snk
 Datrier:2025wjs
 LIGOScientific:2025slb
 LIGOScientific:2025csr
+Berti:2015itd
+Gupta:2023lga
+Yang:2013uba
+LISA:2022kgy
+Baibhav:2019rsa
+Yang:2012pj
+Barausse:2020rsu
+Seoane:2021kkk
