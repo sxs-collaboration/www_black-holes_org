@@ -1,38 +1,24 @@
 ---
 name: Prayush Kumar
 lastname: Kumar
-group: academic_staff
-position: Postdoctoral Fellow
-institution: Cornell University
+group: faculty
+position: Assistant Professor
+institution: International Centre for Theoretical Sciences
 advisor:
-phone: 647-470-2521
-email:
+phone: +91-80-4653-6390
+email: prayush@icts.res.in
 address:
-specialties: Application of numerical relativity merger simulations to Advanced LIGO searches
+specialties: gravitational-wave physics, binary black hole mergers, numerical methods, source modeling
 ---
+
+
 
 ##### Biography
 
-<span style="font-family: Helvetica; font-size: 12px; line-height: normal;">I am currently a
-postdoctoral fellow working on gravitational-wave astronomy and numerical relativity of compact
-binaries with Prof. Harald P. Pfeiffer at CITA. Before that, I completed my graduate studies with
-Prof. Duncan A. Brown at Syracuse University working on the development of novel methods for
-enhancing the search for binary black holes with the Advanced LIGO instruments. I defended my thesis
-in Aug. 2014. Before that, I obtained a Bachelor's degree in Electrical &amp; Electronics
-Engineering from Birla Institute of Technology &amp; Science - Pilani (India) in 2009.</span>
+I am currently an Assistant Professor at [ICTS-TIFR](https://icts.res.in/) in Bangalore, India, where I moved in 2021. Before that, I was a research associate at [CCAPS, Cornell](https://research.astro.cornell.edu/); a postdoctoral fellow at [CITA](https://www.cita.utoronto.ca/); a graduate student at [Syracuse](https://gravitationalwaves.syracuse.edu/); and an undergrad at [BITS, Pilani](https://www.bits-pilani.ac.in/pilani/electrical-and-electronics-engineering/).
+
+My current research interests focus on modeling gravitational-wave emission from compact binary systems using numerical relativity, and analyzing data from observatories like LIGO to explore the strong-field dynamics of spacetime around these binaries. I currently focus on scalable modeling of dynamically assembled black hole binaries. Ultimately, my goal is to develop and refine source models for future generation observatories such as the [Cosmic Explorer](https://cosmicexplorer.org/), [Einstein Telescope](https://www.et-gw.eu/), [LISA](https://www.lisamission.org/), and [LGWA](http://lgwa.unicam.it/).
 
 ##### Selected Publications
 
-<ul>
-<li><a href="http://inspirehep.net/record/1416170" class="moz-txt-link-rfc2396E" style="font-family:
-Helvetica; font-size: 12px; line-height: normal;">&lt;</a><a
-href="http://inspirehep.net/record/1416170&gt;">http://inspirehep.net/record/1416170&gt;</a></li>
-<li><a href="http://inspirehep.net/record/1416170&gt;"></a><a
-href="http://inspirehep.net/record/1262670" class="moz-txt-link-rfc2396E" style="font-family:
-Helvetica; font-size: 12px; line-height: normal;">&lt;</a><a
-href="http://inspirehep.net/record/1262670&gt;">http://inspirehep.net/record/1262670&gt;</a></li>
-<li><a href="http://inspirehep.net/record/1262670&gt;"></a><a
-href="http://inspirehep.net/record/1283330" class="moz-txt-link-rfc2396E" style="font-family:
-Helvetica; font-size: 12px; line-height: normal;">&lt;</a><a
-href="http://inspirehep.net/record/1283330&gt;">http://inspirehep.net/record/1283330&gt;</a></li>
-</ul>
+For an updated list, see [arXiv](https://arxiv.org/a/kumar_p_4.html).
