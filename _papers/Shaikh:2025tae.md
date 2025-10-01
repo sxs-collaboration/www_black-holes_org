@@ -8,8 +8,8 @@ authors:
   - "Boyle, Michael"
   - "Kidder, Lawrence E."
   - "Scheel, Mark A."
-jref:
-doi:
+jref: "Class.Quant.Grav. 42, 195012 (2025)"
+doi: "10.1088/1361-6382/ae085d"
 date: 2025-07-11
 arxiv: "2507.08345"
 insp_recid: 2944959
@@ -32,6 +32,5 @@ abstract: |
   regime. Finally, we apply our method to a set of Numerical
   Relativity and Effective One Body waveforms to showcase its
   robustness for generic eccentric spin-precessing binaries. We make
-  our method public via Python implementation in
-  <code>gw_eccentricity</code>.
+  our method public via Python implementation in gw_eccentricity.
 ---
