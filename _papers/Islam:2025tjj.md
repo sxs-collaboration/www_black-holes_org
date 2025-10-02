@@ -9,7 +9,7 @@ doi:
 date: 2025-10-01
 arxiv: "2510.00531"
 insp_recid: 3006092
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Numerical relativity (NR) provides the most accurate waveforms for

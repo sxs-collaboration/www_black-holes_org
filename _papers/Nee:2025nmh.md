@@ -26,7 +26,7 @@ doi:
 date: 2025-09-30
 arxiv: "2510.00106"
 insp_recid: 3006080
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Mounting evidence indicates that some of the gravitational wave
