@@ -119,3 +119,4 @@ Barausse:2020rsu
 Seoane:2021kkk
 LIGOScientific:2025pvj
 MUSES:2023hyz
+LIGOScientific:2017vwq
