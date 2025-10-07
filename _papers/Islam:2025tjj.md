@@ -28,12 +28,12 @@ abstract: |
   waveforms (without additional spin information beyond adiabatic
   order) are in surprisingly close agreement with the corresponding NR
   calculation (outperforming some post-Newtonian models) over the last
-  $\approx 20$ orbital cycles. This suggests that, after incorporating
+  \(\approx 20\) orbital cycles. This suggests that, after incorporating
   higher-order corrections into ppBHPT waveforms in the non-spinning
   limit -- via second-order self-force results or semi-analytical fits
   -- only modest spin-dependent adjustments may be required to achieve
   NR-faithful ppBHPT waveforms. We also show that combining non-
   spinning NR information with adiabatic ppBHPT can provide a
-  reasonably accurate inspiral waveform for spins $χ\lesssim 0.5$ mass
-  ratios $q \gtrsim 5$.
+  reasonably accurate inspiral waveform for spins \(χ\lesssim 0.5\) mass
+  ratios \(q \gtrsim 5\).
 ---
