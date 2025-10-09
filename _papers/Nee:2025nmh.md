@@ -43,11 +43,11 @@ abstract: |
   with a second surrogate for the merger-ringdown in the time-domain
   and a novel technique to take advantage of the approximate
   periodicity with radial oscillations during the inspiral. We apply
-  this procedure to the $(2,2)$ mode for non-spinning black hole
+  this procedure to the \((2,2)\) mode for non-spinning black hole
   binaries, and demonstrate that the resulting surrogate,
   NRSurE_q4NoSpin_22, is able to faithfully reproduce the underlying
   numerical relativity waveforms, with maximum mismatches of
-  $5\times10^{-4}$ and median mismatches of $2\times10^{-5}$. This
+  \(5\times10^{-4}\) and median mismatches of \(2\times10^{-5}\). This
   technique paves the way for high-accuracy parameter estimation with
   eccentric models, a key ingredient for astrophysical inference and
   tests of general relativity.

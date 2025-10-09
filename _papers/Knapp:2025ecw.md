@@ -13,7 +13,7 @@ doi:
 date: 2025-10-07
 arxiv: "2510.06393"
 insp_recid: 3064781
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Numerical relativity simulations provide a full description of the
