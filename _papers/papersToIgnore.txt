@@ -124,3 +124,5 @@ LIGOScientific:2017vwq
 Pfeiffer:2016ril
 LIGOScientific:2025jau
 LIGOScientific:2025bkz
+ET:2025xjr
+LIGOScientific:2025hdt
