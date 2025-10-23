@@ -48,7 +48,7 @@ sxs_insp_names = [
 
 ############################################################
 
-def filterResponse(insp_resp, ignore_bibs):
+def filterResponse(insp_resp, ignore_bibs, summarize=True):
     """Filter the response from INSPIRE, ignoring the papers with bibkeys in the
     list ignore_bibs. Emit warnings about all the ignore papers
     """
@@ -62,7 +62,10 @@ def filterResponse(insp_resp, ignore_bibs):
         if texkey not in ignore_bibs:
             filtered.append(paper)
         else:
-            warn(f"Ignoring {texkey}, found in the papers-to-ignore list.")
+            warn_str = f"Ignoring {texkey}, found in the papers-to-ignore list."
+            warn(warn_str)
+            if summarize:
+                print("- " + warn_str)
     return filtered
 
 ############################################################
@@ -87,6 +90,14 @@ if __name__ == "__main__":
         help="""Path to a file with bibkeys to ignore, one bibkey per line.
 (default: %(default)s)"""
     )
+    parser.add_argument(
+        "--summarize",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        required=False,
+        help="""Emit a summary of changes.
+(default: %(default)s)"""
+    )
 
     args = parser.parse_args()
 
@@ -99,7 +110,11 @@ if __name__ == "__main__":
 
     ignore_bibs = [line.strip() for line in args.ignore_file.readlines()]
 
+    if args.summarize:
+        print("Summary of changes:")
+
     write_insp_resp_to_md(
         filterResponse(
             sxs.utilities.inspire.query(insp_query),
-            ignore_bibs))
+            ignore_bibs, summarize=args.summarize),
+        summarize=args.summarize)

@@ -1,6 +1,6 @@
 # Try to automatically update papers from INSPIRE
 
-name: Attempt to automatically update papers
+name: Automatically update papers
 
 on:
   workflow_dispatch: # This allows us to manually trigger
@@ -29,7 +29,20 @@ jobs:
     - name: Run inspSXSUpdateByDate
       run: |
         cd _papers
-        python inspSXSUpdateByDate.py
+        python inspSXSUpdateByDate.py --summarize > ../PR-summary.txt
+    - name: Write PR body
+      run: |
+        cat << EOF > PR-body.txt
+        New paper updates found!
+
+        Please check the following:
+        - [ ] If this paper used spec, include \`used_spec: true\` in the yaml header of the markdown file for the paper
+        - [ ] If this paper used spectre, include \`used_spectre: true\` in the yaml header of the markdown file for the paper
+        - [ ] Does the math render correctly?
+
+        Use \`/ignore-papers [texkey [texkey2 [texkey3...]]]\` to ignore papers.
+        EOF
+        cat PR-summary.txt >> PR-body.txt
     - name: Create PR
       uses: peter-evans/create-pull-request@v7
       with:
@@ -38,11 +51,5 @@ jobs:
         add-paths: _papers/*.md
         delete-branch: true
         commit-message: Auto paper update
-        title: "Attempt to auto update papers from INSPIRE"
-        body: |
-          New paper updates found!
-
-          Please check the following:
-          - [ ] If this paper used spec, include `used_spec: true` in the yaml header of the markdown file for the paper
-          - [ ] If this paper used spectre, include `used_spectre: true` in the yaml header of the markdown file for the paper
-          - [ ] Does the math render correctly?
+        title: "Auto update papers from INSPIRE"
+        body-path: PR-body.txt
