@@ -10,7 +10,7 @@ import yaml
 from yaml import Loader
 
 
-def insp_resp_to_md(resp, used_spec=None, used_spectre=None):
+def insp_resp_to_md(resp, used_spec=None, used_spectre=None, summarize=True):
     """Take a single JSON response from INSPIRE (one element of the list
     returned by `sxs.utilities.inspire.query`) and produce a markdown string to
     be written to a file. The optional arguments `used_spec` and `used_spectre`
@@ -62,6 +62,10 @@ def insp_resp_to_md(resp, used_spec=None, used_spectre=None):
     used_spec_str = " true" if used_spec else ""
     used_spectre_str = " true" if used_spectre else ""
 
+    if summarize:
+        etal = " et al." if len(authors)>1 else ""
+        print(f"- {texkey}: \"{title}\" by {authors[0]}{etal}")
+
     return f"""---
 title: "{title}"
 authors:{authors_str}
@@ -77,7 +81,7 @@ abstract: |
 ---
 """
 
-def write_insp_resp_to_md(responses):
+def write_insp_resp_to_md(responses, summarize=True):
     """Take a JSON response from INSPIRE (e.g. return from
     `sxs.utilities.inspire.query`) and write it to a bunch of .md files"""
     for resp in responses:
@@ -86,14 +90,19 @@ def write_insp_resp_to_md(responses):
         if 'texkeys' in md and (len(md['texkeys']) > 0):
             texkey = md['texkeys'][0]
         else:
-            warn(f"Didn't find a texkey in {iid}; skipping!")
+            warn_str = f"Didn't find a texkey in {iid}; skipping!"
+            warn(warn_str)
+            if summarize:
+                print("- " + warn_str)
             continue
 
         # Try to get values of used_spec and used_spectre if something is
         # available on disk
-        extra_args = {}
+        extra_args = {"summarize": summarize}
         md_file = Path(f"{texkey}.md")
         if md_file.exists():
+            if summarize:
+                print(f"- {texkey}.md found on disk, overwriting")
             try:
                 yamlMD = yaml.load_all(md_file.read_text(),
                                        Loader=Loader).send(None)
@@ -101,7 +110,10 @@ def write_insp_resp_to_md(responses):
                              for k in ['used_spec', 'used_spectre']}
                 extra_args.update(used_keys)
             except:
-                warn(f"Couldn't read {md_file} as yaml")
+                warn_str = f"Couldn't read {md_file} as yaml"
+                warn(warn_str)
+                if summarize:
+                    print("- " + warn_str)
 
         with open(md_file, 'w') as f:
             f.write(insp_resp_to_md(resp, **extra_args))
