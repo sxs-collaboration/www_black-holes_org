@@ -1,0 +1,70 @@
+# Modify used_spec or used_spectre flags
+
+name: Process PR comment to modify used_spec or used_spectre flags
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  process-PR-comment:
+
+    # Only run on upstream, not on each fork
+    if: |
+      github.repository_owner == 'sxs-collaboration'
+      && github.event.issue.pull_request != null
+      && startsWith(github.event.comment.body, '/used-spec')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Checkout PR branch
+      run: gh pr checkout ${{ github.event.issue.number }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install sxs pyyaml
+    - name: Name myself for git commits
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+    - name: Run processUsedSpecSpectre.py
+      run: |
+        cd _papers
+
+        COMMENTCMD=$(echo "${{ github.event.comment.body }}" | cut -d' ' -f 1)
+
+        if [[ "$COMMENTCMD" == /used-spec-* ]]; then
+          CODEARG="--spec"
+        elif [[ "$COMMENTCMD" == /used-spectre-* ]]; then
+          CODEARG="--spectre"
+        else
+          echo "Confused by slash command: not spec or spectre?"
+          exit 1
+        fi
+
+        if [[ "$COMMENTCMD" == *-true ]]; then
+          USEDARG="--used"
+        elif [[ "$COMMENTCMD" == *-false ]]; then
+          USEDARG="--no-used"
+        else
+          echo "Confused by slash command: not true or false?"
+          exit 1
+        fi
+
+        BIBS=$(echo "${{ github.event.comment.body }}" | cut -d' ' -f 2-)
+        python processUsedSpecSpectre.py $CODEARG $USEDARG $BIBS
+    - name: Commit and push changes
+      run: |
+        git commit -a -m "Modifying used_spec(tre) in PR comment" || echo "No changes to commit"
+        git push

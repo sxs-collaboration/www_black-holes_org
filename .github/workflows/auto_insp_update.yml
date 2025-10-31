@@ -41,6 +41,11 @@ jobs:
         - [ ] Does the math render correctly?
 
         Use \`/ignore-papers [texkey [texkey2 [texkey3...]]]\` to ignore papers.
+
+        Use \`/used-spec-true [texkey [texkey2 [texkey3...]]]\` to set \`used_spec: true\`.
+        Use \`/used-spectre-true [texkey [texkey2 [texkey3...]]]\` to set \`used_spectre: true\`.
+        These two commands also have -false versions.
+
         EOF
         cat PR-summary.txt >> PR-body.txt
     - name: Create PR
