@@ -9,6 +9,24 @@ import sxs
 import yaml
 from yaml import Loader
 
+# The format of the markdown file. This would be an f-string, except we want to
+# be able to reuse it. To interpolate local variables into it, you can do
+# md_format_str.format(**locals())
+md_format_str = \
+"""---
+title: "{title}"
+authors:{authors_str}
+jref:{jref_str}
+doi:{doi_str}
+date: {date}
+arxiv:{arxiv_str}
+insp_recid: {iid}
+used_spec:{used_spec_str}
+used_spectre:{used_spectre_str}
+abstract: |
+{abstract_str}
+---
+"""
 
 def insp_resp_to_md(resp, used_spec=None, used_spectre=None, summarize=True):
     """Take a single JSON response from INSPIRE (one element of the list
@@ -66,20 +84,7 @@ def insp_resp_to_md(resp, used_spec=None, used_spectre=None, summarize=True):
         etal = " et al." if len(authors)>1 else ""
         print(f"- {texkey}: \"{title}\" by {authors[0]}{etal}")
 
-    return f"""---
-title: "{title}"
-authors:{authors_str}
-jref:{jref_str}
-doi:{doi_str}
-date: {date}
-arxiv:{arxiv_str}
-insp_recid: {iid}
-used_spec:{used_spec_str}
-used_spectre:{used_spectre_str}
-abstract: |
-{abstract_str}
----
-"""
+    return md_format_str.format(**locals())
 
 def write_insp_resp_to_md(responses, summarize=True):
     """Take a JSON response from INSPIRE (e.g. return from
