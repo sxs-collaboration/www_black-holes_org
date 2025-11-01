@@ -8,7 +8,7 @@ doi:
 date: 2025-10-29
 arxiv: "2510.25618"
 insp_recid: 3074804
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   We investigate how commonly used parameter definitions in Post-

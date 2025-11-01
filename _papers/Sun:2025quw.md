@@ -10,7 +10,7 @@ doi:
 date: 2025-10-29
 arxiv: "2510.25465"
 insp_recid: 3074809
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Long-term numerical relativity (NR) simulations of binary black hole
