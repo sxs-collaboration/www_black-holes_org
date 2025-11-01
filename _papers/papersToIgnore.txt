@@ -126,3 +126,4 @@ LIGOScientific:2025jau
 LIGOScientific:2025bkz
 ET:2025xjr
 LIGOScientific:2025hdt
+LIGOScientific:2025brd
