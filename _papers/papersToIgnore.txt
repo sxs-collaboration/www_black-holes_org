@@ -144,3 +144,5 @@ LIGOScientific:2017csd
 LIGOScientific:2017wva
 LIGOScientific:2018gpj
 LIGOScientific:2025lqf
+Ferro:2024hig
+LIGOScientific:2025kry
