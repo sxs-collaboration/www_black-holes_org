@@ -10,7 +10,7 @@ doi:
 date: 2025-11-13
 arxiv: "2511.10196"
 insp_recid: 3082753
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   The asymptotic nature of unbound binary-black-hole encounters

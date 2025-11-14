@@ -9,7 +9,7 @@ doi:
 date: 2025-11-13
 arxiv: "2511.10522"
 insp_recid: 3082751
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Accurate modeling of gravitational waveforms from compact binary
