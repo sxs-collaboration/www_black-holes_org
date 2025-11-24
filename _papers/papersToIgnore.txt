@@ -151,3 +151,10 @@ Yang:2013shb
 LIGOScientific:2025ttj
 Readhead:2025ihk
 KAGRA:2025yfg
+LIGOScientific:2011msu
+LIGOScientific:2010wgu
+LIGOScientific:2010jrd
+LIGOScientific:2010ped
+LIGOScientific:2010rty
+LIGOScientific:2011hqo
+LIGOScientific:2010epv
