@@ -162,3 +162,5 @@ ANTARES:2018bmu
 LIGOScientific:2018mvr
 LIGOScientific:2021inr
 LIGOScientific:2020zkf
+KAGRA:2013rdx
+LIGOScientific:2025ouy
