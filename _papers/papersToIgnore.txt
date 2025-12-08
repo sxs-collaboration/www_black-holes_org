@@ -164,3 +164,4 @@ LIGOScientific:2021inr
 LIGOScientific:2020zkf
 KAGRA:2013rdx
 LIGOScientific:2025ouy
+LIGOScientific:2025vwc
