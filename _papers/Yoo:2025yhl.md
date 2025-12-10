@@ -21,13 +21,14 @@ abstract: |
   informed neural network (PINN) framework that learns corrections
   mapping PN dynamics and waveforms to their NR counterparts. As a
   demonstration of the approach, we use the TaylorT4 PN model as the
-  baseline, and train the network on hybridized NR surrogate data
-  (NRHybSur3dq8) to learn higher-order corrections to the orbital
-  dynamics and waveform modes for nonspinning noneccentric systems.
-  Physically motivated loss terms enforce known limits and symmetries,
-  such as vanishing corrections in the Newtonian limit and suppression
-  of odd-$m$ modes in equal-mass systems, promoting consistent and
-  reliable extrapolation beyond the training region. We simultaneously
+  baseline, and train the network on a remarkably small dataset of
+  only eight hybridized NR surrogate waveforms (NRHybSur3dq8) to learn
+  higher-order corrections to the orbital dynamics and waveform modes
+  for nonspinning noneccentric systems. Physically motivated loss
+  terms enforce known limits and symmetries, such as vanishing
+  corrections in the Newtonian limit and suppression of odd-$m$ modes
+  in equal-mass systems, promoting consistent and reliable
+  extrapolation beyond the training region. We simultaneously
   incorporate corrections that account for the different meaning of
   mass parameters in PN and NR descriptions. The learned corrections
   significantly reduce the phase and amplitude error through the
