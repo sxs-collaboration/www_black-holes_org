@@ -5,8 +5,8 @@ authors:
   - "Pfeiffer, Harald P."
   - "Kidder, Lawrence E."
   - "Scheel, Mark A."
-jref:
-doi:
+jref: "Phys.Rev.D 112, 124038 (2025)"
+doi: "10.1103/bdsb-sp9c"
 date: 2025-11-13
 arxiv: "2511.10196"
 insp_recid: 3082753
@@ -27,5 +27,5 @@ abstract: |
   compare our numerical relativity results to state-of-the-art post-
   Minkowskian predictions at larger impact parameters than previously
   explored. We find good agreement in the weak-field regime and
-  discuss the relative importance of higher-order terms.
+  discuss the relative importance of higher order terms.
 ---
