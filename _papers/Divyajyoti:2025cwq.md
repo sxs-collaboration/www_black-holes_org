@@ -35,7 +35,7 @@ abstract: |
   recovered with a quasi-circular precessing-spin waveform model, as
   opposed to an aligned-spin eccentric waveform model. We find
   significant biases in the source parameters, such as chirp mass and
-  spin-precession (\(χ_p\)), when signals from highly-eccentric BBHs are
+  spin-precession ($χ_p$), when signals from highly-eccentric BBHs are
   recovered with a quasi-circular waveform model. Moreover, we find
   that for signals with both eccentricity and spin-precession effects,
   Bayes factor calculations confirm that an eccentric, aligned-spin
