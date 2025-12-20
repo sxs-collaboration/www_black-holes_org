@@ -27,7 +27,7 @@ abstract: |
   Newtonian approximations and do not allow the direct control of
   total energy and angular momentum of the system, which becomes
   particularly important in the study of hyperbolic encounters of
-  black holes. Using the <code>spectre</code> code, we present a novel parameter
+  black holes. Using the spectre code, we present a novel parameter
   control procedure that benefits from Broyden’s method in all
   controlled quantities. We use this control scheme to minimize drifts
   in bound orbits and to enable the construction of hyperbolic
@@ -41,7 +41,7 @@ abstract: |
   display="inline"><mi>q</mi><mo>=</mo><mn>50</mn></math>, and initial
   separations up to <math
   display="inline"><msub><mi>D</mi><mn>0</mn></msub><mo>=</mo><mn>1000</mn><mi>M</mi></math>.
-  Given the open-source nature of <code>spectre</code>, this is the first time a
+  Given the open-source nature of spectre, this is the first time a
   parameter control scheme for constructing bound and unbound BBH
   initial data is available to the numerical-relativity community.
 ---
