@@ -165,3 +165,4 @@ LIGOScientific:2020zkf
 KAGRA:2013rdx
 LIGOScientific:2025ouy
 LIGOScientific:2025vwc
+Pankow:2018qpo
