@@ -8,8 +8,9 @@ jref: "Class.Quant.Grav. 36, 095007 (2019)"
 doi: "10.1088/1361-6382/ab0ee9"
 date: 2018-11-15
 arxiv: "1811.06552"
-used_spec: true
 insp_recid: 1703985
+used_spec: true
+used_spectre:
 abstract: |
   Binary black hole mergers are of great interest to the astrophysics
   community, not least because of their promise to test general
