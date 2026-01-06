@@ -26,13 +26,13 @@ abstract: |
   higher-order corrections to the orbital dynamics and waveform modes
   for nonspinning noneccentric systems. Physically motivated loss
   terms enforce known limits and symmetries, such as vanishing
-  corrections in the Newtonian limit and suppression of odd-$m$ modes
+  corrections in the Newtonian limit and suppression of odd-\(m\) modes
   in equal-mass systems, promoting consistent and reliable
   extrapolation beyond the training region. We simultaneously
   incorporate corrections that account for the different meaning of
   mass parameters in PN and NR descriptions. The learned corrections
   significantly reduce the phase and amplitude error through the
-  inspiral up to about $200M$ before the merger. This approach
+  inspiral up to about \(200M\) before the merger. This approach
   provides a differentiable and computationally efficient bridge
   between PN and NR, offering a path toward waveform models that
   generalize more robustly beyond existing NR datasets.
