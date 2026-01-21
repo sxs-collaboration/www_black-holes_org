@@ -11,8 +11,10 @@
 {%- if menuitem.url contains "://" -%}
   {%- assign prefix = "" -%}
   {%- assign itemurl = menuitem.url -%}
+  {%- assign externicon = true -%}
 {%- else -%}
   {%- assign prefix = site.baseurl -%}
+  {%- assign externicon = false -%}
 {%- endif -%}
 
 {%- if menuitem.submenu -%}
@@ -20,6 +22,7 @@
 {%- endif -%}
     <a class="{{ class }}" href="{{ prefix }}{{ itemurl }}" tabindex={{ tabindex }}>
         {{ menuitem.title | default: itempage.title }}
+        {%- if externicon %} <i class="fa-solid fa-arrow-up-right-from-square"></i>{%- endif -%}
         {%- if itempage.subtitle -%}
         <br><span class="menu-subtitle">{{ itempage.subtitle }}</span>
         {%- endif %}
