@@ -69,6 +69,7 @@ The following researchers have substantially contributed to SpEC:
 <span class="contrib-name">Stephen Lau</span>,
 <span class="contrib-name">Geoffrey Lovelace</span>,
 <span class="contrib-name">Curran Muhlberger</span>,
+<span class="contrib-name">Peter James Nee</span>,
 <span class="contrib-name">Sergei Ossokine</span>,
 <span class="contrib-name">Rob Owen</span>,
 <span class="contrib-name">Saul Teukolsky</span>,
