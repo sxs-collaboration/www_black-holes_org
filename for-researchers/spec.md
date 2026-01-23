@@ -67,6 +67,7 @@ The following researchers have substantially contributed to SpEC:
 <span class="contrib-name">Francois Hebert</span>,
 <span class="contrib-name">Kate Henriksson</span>,
 <span class="contrib-name">Stephen Lau</span>,
+<span class="contrib-name">Oliver Long</span>,
 <span class="contrib-name">Geoffrey Lovelace</span>,
 <span class="contrib-name">Curran Muhlberger</span>,
 <span class="contrib-name">Peter James Nee</span>,
