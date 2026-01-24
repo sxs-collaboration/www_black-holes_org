@@ -73,6 +73,7 @@ The following researchers have substantially contributed to SpEC:
 <span class="contrib-name">Peter James Nee</span>,
 <span class="contrib-name">Sergei Ossokine</span>,
 <span class="contrib-name">Rob Owen</span>,
+<span class="contrib-name">Leo C. Stein</span>,
 <span class="contrib-name">Saul Teukolsky</span>,
 and
 <span class="contrib-name">Will Throwe</span>.
@@ -107,7 +108,6 @@ Further contributions to SpEC were made by
 <span class="contrib-name">Oliver Rinne</span>,
 <span class="contrib-name">Olivier Sarbach</span>,
 <span class="contrib-name">Deirdre Shoemaker</span>,
-<span class="contrib-name">Leo C. Stein</span>,
 <span class="contrib-name">Nick Tacik</span>,
 <span class="contrib-name">Nick Taylor</span>,
 <span class="contrib-name">Manuel Tiglio</span>,
