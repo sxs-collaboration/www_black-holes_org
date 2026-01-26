@@ -105,6 +105,7 @@ Further contributions to SpEC were made by
 <span class="contrib-name">Fatemeh Nouri</span>,
 <span class="contrib-name">Maria Okounkova</span>,
 <span class="contrib-name">David Radice</span>,
+<span class="contrib-name">Antoni Ramos-Buades</span>,
 <span class="contrib-name">Oliver Rinne</span>,
 <span class="contrib-name">Olivier Sarbach</span>,
 <span class="contrib-name">Deirdre Shoemaker</span>,
