@@ -190,3 +190,4 @@ DES:2019ccw
 LIGOScientific:2019yhl
 LIGOScientific:2019dag
 LIGOScientific:2019obb
+LIGOScientific:2025cwb
