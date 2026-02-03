@@ -191,3 +191,5 @@ LIGOScientific:2019yhl
 LIGOScientific:2019dag
 LIGOScientific:2019obb
 LIGOScientific:2025cwb
+VIRGO:2025xsj
+IceCube:2026ads
