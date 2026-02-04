@@ -28,7 +28,7 @@ abstract: |
   and can indeed channel inverse energy cascades by inducing resonant
   and anti-damping instabilities. This establishes what was previously
   only hinted at in highly specialized perturbative contexts. We
-  further demonstrate a “laminar” to “turbulent” transition for
+  further demonstrate a ``laminar'' to ``turbulent'' transition for
   the largest-possible angular structure in General Relativity,
   whereas finer structures remain persistently turbulent. Our results
   reveal the impact and generality of these nonlinear interactions
