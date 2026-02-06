@@ -194,3 +194,5 @@ LIGOScientific:2025cwb
 VIRGO:2025xsj
 IceCube:2026ads
 LIGOScientific:2025wao
+Horowitz:1998eq
+LIGOScientific:2009mif
