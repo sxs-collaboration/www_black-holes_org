@@ -1,22 +1,22 @@
 ---
-title: "Gauge Boundary conditions to mitigate CoM drift in BBH simulations"
+title: "Gauge boundary conditions to mitigate center-of-mass drift in BBH simulations"
 authors:
   - "Sun, Dongze"
   - "Ma, Sizheng"
   - "Scheel, Mark A."
   - "Teukolsky, Saul A."
-jref:
-doi:
+jref: "Phys.Rev.D 113, 044016 (2026)"
+doi: "10.1103/b1cd-qysb"
 date: 2025-10-29
 arxiv: "2510.25465"
 insp_recid: 3074809
 used_spec: true
 used_spectre:
 abstract: |
-  Long-term numerical relativity (NR) simulations of binary black hole
-  (BBH) systems in the Spectral Einstein Code (SpEC) code exhibit an
+  Long-term numerical relativity simulations of binary black hole
+  systems in the Spectral Einstein Code (SpEC) code exhibit an
   unexpected exponential drift of the center-of-mass (CoM) away from
-  the simulation's origin. In our work, we analyze this phenomenon and
+  the simulation’s origin. In our work, we analyze this phenomenon and
   demonstrate that it is not a physical effect but rather a
   manifestation of a gauge artifact. The origin of this drift is the
   reflection of the gauge waves off the outer boundary of the
