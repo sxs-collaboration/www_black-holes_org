@@ -20,7 +20,7 @@ abstract: |
   better adaptivity in conforming the grid structures to the shapes
   and sizes of the black holes. Simulations illustrating the success
   of these new methods are presented for a variety of binary black-
-  hole systems. These include fairly ``generic'' systems with unequal
+  hole systems. These include fairly "generic" systems with unequal
   masses (up to 2:1 mass ratios), and spins (with magnitudes up to 0.4
   M^2) pointing in various directions.
 ---

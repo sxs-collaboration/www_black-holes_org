@@ -15,7 +15,7 @@ abstract: |
   are compared using a simple test problem: a Schwarzschild black hole
   with an outgoing gravitational wave perturbation. Numerical
   solutions computed using different boundary treatments are compared
-  to a `reference' numerical solution obtained by placing the outer
+  to a "reference" numerical solution obtained by placing the outer
   boundary at a very large radius. For each boundary treatment, the
   full solutions including constraint violations and extracted
   gravitational waves are compared to those of the reference solution,
