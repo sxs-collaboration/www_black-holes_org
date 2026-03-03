@@ -2,10 +2,12 @@
 title: "Neutrinos in colliding neutron stars and black holes"
 authors: "Foucart, Francois"
 jref:
-doi:
+doi: "10.1016/B978-0-443-26598-3.00004-3"
 date: 2024-10-04
 arxiv: "2410.03646"
 insp_recid: 2837369
+used_spec:
+used_spectre:
 abstract: |
   In this chapter, we provide an overview of the physics of colliding
   black holes and neutron stars and of the impact of neutrinos on
