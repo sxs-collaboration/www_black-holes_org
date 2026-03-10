@@ -10,7 +10,7 @@ doi:
 date: 2026-03-06
 arxiv: "2603.06788"
 insp_recid: 3127606
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   We study the neutrino distributions that arise in a simulation of a
