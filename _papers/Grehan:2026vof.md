@@ -17,12 +17,12 @@ abstract: |
   Waves launched from the neutron star surface or inner magnetosphere
   propagate through the magnetosphere as small perturbations, but can
   grow relative to the background magnetic field and steepen into
-  "monster shocks"-- ultra-relativistic magnetized shocks which can
+  ``monster shocks''-- ultra-relativistic magnetized shocks which can
   power high-energy emission from magnetars, neutron star mergers and
   collapse. They occur in magnetically dominated plasma and are
   described by relativistic magnetohydrodynamics (MHD). We present
   global relativistic MHD simulations of monster shocks in unperturbed
-  and perturbed ("wrinkled") backgrounds with a global dipolar
+  and perturbed (``wrinkled'') backgrounds with a global dipolar
   geometry. Our simulations confirm analytical predictions for
   equatorial shocks and provide new insight into the behavior of
   oblique shocks off the equator. Simulations where the shock is
