@@ -33,7 +33,7 @@ abstract: |
   <math
   display="inline"><mrow><mn>3</mn><mo>+</mo><mn>1</mn></mrow></math>
   dimensional numerical relativity simulations of merging black holes,
-  using the highly accurate <code>SpEC</code> code. We achieve this result by
+  using the highly accurate spec code. We achieve this result by
   exploiting the strong magnification of late-time tails due to binary
   eccentricity, recently observed in perturbative evolutions, and
   showcase here the tail presence in head-on configurations for
