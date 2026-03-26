@@ -11,4 +11,4 @@ potential future of gravitational-wave science and everything that it has to off
 
 Check it out below!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_jmQVH9L8vI?si=2-0KjTJLOSm9wZVe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include youtube-embed.html id="_jmQVH9L8vI" %}
