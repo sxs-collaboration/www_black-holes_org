@@ -25,4 +25,4 @@ Saul Teukolsky. I am now a NASA Hubble Fellow at Cornell University.
 
 ##### Selected Publications
 
-See <a href="http://www.tapir.caltech.edu/~kmitman/">http://www.tapir.caltech.edu/~kmitman/</a>.
+See <a href="https://keefemitman.github.io/">https://keefemitman.github.io/</a>.
