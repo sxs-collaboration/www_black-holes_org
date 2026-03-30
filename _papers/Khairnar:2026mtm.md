@@ -16,8 +16,8 @@ doi:
 date: 2026-03-25
 arxiv: "2603.24661"
 insp_recid: 3136426
-used_spec:
-used_spectre:
+used_spec: true
+used_spectre: true
 abstract: |
   The Bondi–van der Burg–Metzner–Sachs (BMS) frame of gravitational
   waves produced by numerical relativity (NR) simulations is crucial
