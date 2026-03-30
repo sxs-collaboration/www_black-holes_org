@@ -206,3 +206,5 @@ LIGOScientific:2026plm
 LIGOScientific:2026wpt
 LIGOScientific:2026fcf
 Baghi:2026fef
+LIGOScientific:2026hrn
+LIGOScientific:2026qsb
