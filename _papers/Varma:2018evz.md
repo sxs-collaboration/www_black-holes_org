@@ -7,8 +7,9 @@ jref: "Phys.Rev.D 98, 084032 (2018)"
 doi: "10.1103/PhysRevD.98.084032"
 date: 2018-08-22
 arxiv: "1808.07490"
-used_spec: true
 insp_recid: 1690863
+used_spec: true
+used_spectre:
 abstract: |
   The damped harmonic gauge is important for numerical relativity
   computations based on the generalized harmonic formulation of

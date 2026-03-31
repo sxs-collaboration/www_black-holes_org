@@ -208,3 +208,16 @@ LIGOScientific:2026fcf
 Baghi:2026fef
 LIGOScientific:2026hrn
 LIGOScientific:2026qsb
+LIGOScientific:2017adf
+LIGOScientific:2018cki
+LIGOScientific:2017pwl
+LIGOScientific:2026qni
+LIGOScientific:2016dsl
+LIGOScientific:2017ycc
+LIGOScientific:2018hze
+LIGOScientific:2018urg
+ANTARES:2017iky
+LIGOScientific:2017apx
+LIGOScientific:2018gmd
+FermiGamma-rayBurstMonitorTeam:2018eao
+LIGO:2017dbh
