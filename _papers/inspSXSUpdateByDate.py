@@ -58,11 +58,14 @@ def filterResponse(insp_resp, ignore_bibs, summarize=True):
 
     filtered = []
     for paper in insp_resp:
-        texkey = paper['metadata']['texkeys'][0]
-        if texkey not in ignore_bibs:
+        # Sometimes INSPIRE changes the bibkey of a paper; then there are
+        # multiple bibkeys in the list
+        texkeys = paper['metadata']['texkeys']
+        if any([texkey in ignore_bibs
+                for texkey in texkeys]):
             filtered.append(paper)
         else:
-            warn_str = f"Ignoring {texkey}, found in the papers-to-ignore list."
+            warn_str = f"Ignoring {texkeys}, found in the papers-to-ignore list."
             warn(warn_str)
             if summarize:
                 print("- " + warn_str)
