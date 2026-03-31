@@ -86,9 +86,18 @@ def insp_resp_to_md(resp, used_spec=None, used_spectre=None, summarize=True):
 
     return md_format_str.format(**locals())
 
-def write_insp_resp_to_md(responses, summarize=True):
+def write_insp_resp_to_md(responses, summarize=True, check_recids=True):
     """Take a JSON response from INSPIRE (e.g. return from
     `sxs.utilities.inspire.query`) and write it to a bunch of .md files"""
+
+    if check_recids:
+        import glob
+        from paperStats import loadYamlMD
+
+        paperPaths = glob.glob("*.md")
+        yamlMD = loadYamlMD(paperPaths)
+        recids = set([ v['insp_recid'] for k, v in yamlMD.items() ])
+
     for resp in responses:
         md = resp['metadata']
         # If there's no texkey, we don't know what to do
@@ -116,6 +125,13 @@ def write_insp_resp_to_md(responses, summarize=True):
                 extra_args.update(used_keys)
             except:
                 warn_str = f"Couldn't read {md_file} as yaml"
+                warn(warn_str)
+                if summarize:
+                    print("- " + warn_str)
+
+        if check_recids and (resp['id'] in recids):
+            if not md_file.exists():
+                warn_str = f"recid {resp['id']} in file OTHER than {texkey}.md"
                 warn(warn_str)
                 if summarize:
                     print("- " + warn_str)
