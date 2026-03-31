@@ -44,6 +44,7 @@ sxs_insp_names = [
     "Oliver.Markwell.1",
     "Peter.J.Nee.1",
     "K.C.Nelli.1",
+    "Joao.D.Alvares.1",
 ]
 
 ############################################################
