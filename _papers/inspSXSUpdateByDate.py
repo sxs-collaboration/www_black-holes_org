@@ -62,7 +62,7 @@ def filterResponse(insp_resp, ignore_bibs, summarize=True):
         # Sometimes INSPIRE changes the bibkey of a paper; then there are
         # multiple bibkeys in the list
         texkeys = paper['metadata']['texkeys']
-        if any([texkey in ignore_bibs
+        if not any([texkey in ignore_bibs
                 for texkey in texkeys]):
             filtered.append(paper)
         else:
