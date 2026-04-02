@@ -9,7 +9,7 @@ authors:
 jref:
 doi:
 date: 2026-03-31
-arxiv: "arXiv:2603.29307"
+arxiv: "2603.29307"
 insp_recid: 3137682
 used_spec: true
 used_spectre:
