@@ -28,7 +28,11 @@
     {% if page.is_homepage %}
     {% endif %}
     {% if page.suppress_navbar %}
-    <style>nav.navbar.trim { display: none; }</style>
+    <style>nav.navbar.trim > div { display: none; }</style>
     {% endif %}
+    {% if page.suppress_breadcrumb %}
+    <style>nav.breadcrumb { display: none; }</style>
+    {% endif %}
+
 
 </head>
