@@ -26,7 +26,9 @@
     <link href="{{ site.baseurl }}/css/academicons.min.css" rel="stylesheet" />
 
     {% if page.is_homepage %}
-    {% else %}
+    {% endif %}
+    {% if page.suppress_navbar %}
+    <style>nav.navbar.trim { display: none; }</style>
     {% endif %}
 
 </head>
