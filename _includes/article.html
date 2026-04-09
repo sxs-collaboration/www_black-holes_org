@@ -18,7 +18,7 @@
                 {%- endif -%}
             </div>
 
-            {%- if page.url != '/404' -%}
+            {%- if page.url != '/404' and page.suppress_sidebar != true -%}
                 {%- capture quote_keys -%}
                     {%- for quote in site.data.quotes -%}{{ quote[0] }} {% endfor -%}
                 {%- endcapture -%}
