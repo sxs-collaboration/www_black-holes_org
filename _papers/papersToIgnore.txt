@@ -224,3 +224,6 @@ LIGO:2017dbh
 Tanay:2021bff
 Most:2018abt
 Urquilla:2026bff
+ANTARES:2017bia
+LIGOScientific:2016kum
+LIGOScientific:2016akj
