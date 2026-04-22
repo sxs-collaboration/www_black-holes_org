@@ -24,7 +24,7 @@ doi:
 date: 2026-04-20
 arxiv: "2604.17868"
 insp_recid: 3147122
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   \texttt{gwNRHME} is a framework that converts multi-modal (i.e.,
