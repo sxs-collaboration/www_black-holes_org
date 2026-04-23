@@ -16,8 +16,9 @@ jref: "Phys.Rev.D 106, 124045 (2022)"
 doi: "10.1103/PhysRevD.106.124045"
 date: 2022-08-04
 arxiv: "2208.02965"
-used_spec: true
 insp_recid: 2132749
+used_spec: true
+used_spectre:
 abstract: |
   We construct the covariantly defined multipole moments on the common
   horizon of an equal-mass, nonspinning, quasicircular binary-black-
@@ -31,9 +32,9 @@ abstract: |
   display="inline"><mo>ℓ</mo></math> are detectable in the best model.
   These models provide faithful estimates of the true mass and spin of
   the remnant black hole. We also show that by including overtones,
-  the <math display="inline"><mo>ℓ</mo><mo>=</mo><mi>m</mi><mo>=</mo>
-  <mn>2</mn></math> mass multipole moment admits an excellent
-  quasinormal-mode description at all times after the merger. This
-  demonstrates the perhaps surprising power of perturbation theory
-  near the merger.
+  the <math
+  display="inline"><mo>ℓ</mo><mo>=</mo><mi>m</mi><mo>=</mo><mn>2</mn></math>
+  mass multipole moment admits an excellent quasinormal-mode
+  description at all times after the merger. This demonstrates the
+  perhaps surprising power of perturbation theory near the merger.
 ---
