@@ -228,3 +228,4 @@ ANTARES:2017bia
 LIGOScientific:2016kum
 LIGOScientific:2016akj
 Alvares:2026kia
+Alvares:2021szy
