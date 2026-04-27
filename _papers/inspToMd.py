@@ -102,7 +102,7 @@ def write_insp_resp_to_md(responses, summarize=True, check_recids=True):
 
         paperPaths = glob.glob("*.md")
         yamlMD = loadYamlMD(paperPaths)
-        recids = set([ v['insp_recid'] for k, v in yamlMD.items() ])
+        recids = set([ v['insp_recid'] for _, v in yamlMD.items() ])
 
     for resp in responses:
         md = resp['metadata']
@@ -110,7 +110,7 @@ def write_insp_resp_to_md(responses, summarize=True, check_recids=True):
         if 'texkeys' in md and (len(md['texkeys']) > 0):
             texkey = md['texkeys'][0]
         else:
-            warn_str = f"Didn't find a texkey in {iid}; skipping!"
+            warn_str = f"Didn't find a texkey in {resp['id']}; skipping!"
             warn(warn_str)
             if summarize:
                 print("- " + warn_str)
