@@ -10,7 +10,7 @@ doi:
 date: 2026-04-23
 arxiv: "2604.22021"
 insp_recid: 3149001
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Reducing orbital eccentricity in numerical relativity simulations of
