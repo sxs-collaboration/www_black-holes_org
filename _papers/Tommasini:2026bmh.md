@@ -23,7 +23,7 @@ abstract: |
   adds ~10% to the total simulation run time of multiple weeks to
   months. We introduce a data-driven approach that accelerates this
   process by learning the values of the initial orbital frequency,
-  Omega_0, and radial velocity, adot_0, that yield an evolution with
+  \(\Omega_0\), and radial velocity, \(\dot{a}_0\), that yield an evolution with
   small eccentricity. This is done using a Gaussian Process Regression
   model trained on an archive of previously eccentricity-reduced
   numerical relativity simulations. For all configurations tested,
