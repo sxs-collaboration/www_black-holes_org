@@ -73,11 +73,11 @@ def insp_resp_to_md(resp, used_spec=None, used_spectre=None, summarize=True):
     if 'abstracts' in md:
         if (len(md['abstracts']) > 1):
             warn(f"More than 1 abstracts in {iid}; using first.")
-            abstract_str = md['abstracts'][0]['value']
-            abstract_str = fill(abstract_str,
-                                initial_indent='  ',
-                                subsequent_indent='  ',
-                                break_long_words=False)
+        abstract_str = md['abstracts'][0]['value']
+        abstract_str = fill(abstract_str,
+                            initial_indent='  ',
+                            subsequent_indent='  ',
+                            break_long_words=False)
     else:
         # Somehow there are INSPIRE records without abstracts... emit a warning
         # but continue with empty abstract string.
