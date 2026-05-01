@@ -14,7 +14,5 @@ specialties: numerical relativity, black holes, machine learning, eccentricity
 
 #### Biography
 
-I am a Physics PhD student at Caltech working under Professor Saul Teukolsky. I graduated from UC Berkeley with a Bachelor's in
-Physics and one in Political Science. At Caltech, I am interested in eccentricity reduction and applying machine learning methods
-to speed up numerical relativity simulations.
+I am a Physics PhD student at Caltech working under Professor Saul Teukolsky. I graduated from UC Berkeley with a Bachelors Degrees in Physics and Political Science. At Caltech, I am interested in eccentricity reduction and applying machine learning methods to speed up numerical relativity simulations.
   
