@@ -30,10 +30,10 @@ abstract: |
   performing numerical relativity simulations of hierarchical compact
   object mergers modeled as black holes in a disk-like geometry
   consistent with this scenario, we demonstrate the build-up of
-  potentially large eccentricity for the final merger, of order \(e
-  \simeq 0.6\) initially, and show that, because of the short lifetime
+  potentially large eccentricity for the final merger, of order $e
+  \simeq 0.6$ initially, and show that, because of the short lifetime
   of the system, a substantial part of this eccentricity , up to
-  \(e\simeq 0.1\), can survive until merger in the general case. As a
+  $e\simeq 0.1$, can survive until merger in the general case. As a
   result, future detections of eccentricities in potential subsolar-
   mass gravitational-wave candidate events would be a strong indicator
   for a hierarchical formation scenario.

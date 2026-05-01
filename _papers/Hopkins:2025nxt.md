@@ -26,7 +26,7 @@ abstract: |
   over longer timescales (e.g. 'zooming in and out'). We generalize
   these to a family of models where time evolution is modulated by a
   variable but continuous in space-and-time dilation/stretch factor
-  \(a({\bf x},\,t)\). This extends previous well-studied approaches
+  $a({\bf x},\,t)$. This extends previous well-studied approaches
   (including reduced-speed-of-light and binary orbital dynamics
   methods), and ensures that the system comes to correct local steady-
   state solutions, and derive criteria that the dilation
@@ -39,6 +39,6 @@ abstract: |
   its validity (and limitations) in test problems. We discuss the
   relationship between these methods and physical time dilation in
   GRMHD. We demonstrate how this can be used to obtain effective
-  speedup factors exceeding \(\gtrsim 10^{4}\) in multiphysics
+  speedup factors exceeding $\gtrsim 10^{4}$ in multiphysics
   simulations.
 ---
