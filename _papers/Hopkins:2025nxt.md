@@ -3,8 +3,8 @@ title: "Time-Dilation Methods for Extreme Multiscale Timestepping Problems"
 authors:
   - "Hopkins, Philip F."
   - "Most, Elias R."
-jref:
-doi:
+jref: "Open J.Astrophys. 9,  (2026)"
+doi: "10.33232/001c.161464"
 date: 2025-10-10
 arxiv: "2510.09756"
 insp_recid: 3068564
