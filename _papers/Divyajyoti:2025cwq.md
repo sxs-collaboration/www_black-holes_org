@@ -29,7 +29,7 @@ abstract: |
   eccentricity, or both. In this work, we study the interplay of spins
   and eccentricity on the parameter estimation of GW signals from BBH
   mergers. We inject eccentric signals with no spins, aligned spins,
-  and precessing spins using hybrids, teobresums-dali, and new
+  and precessing spins using hybrids, TEOBResumS-DALI, and new
   numerical relativity simulations, respectively, and study the biases
   in the posteriors of source parameters when these signals are
   recovered with a quasicircular precessing-spin waveform model, as
