@@ -2,12 +2,42 @@
 
 import argparse
 from pathlib import Path
+import re
 from textwrap import fill
 from warnings import warn
 
 import sxs
 import yaml
 from yaml import Loader
+
+def has_mathml(s: str) -> bool:
+    """True if the argument string contains mathml."""
+    return "</math>" in s
+
+# For re_delimit_dollars below. (?<!\\) is a negative lookbehind for a
+# backslash, because we only want to match dollar signs that do not follow
+# backslashes. In real LaTeX this wouldn't actually work because you can have
+# line break (double backslash) characters before a $ delimiter. I don't think
+# anybody would really do that in practice (especially for inline math), but
+# it's technically allowed. We ignore this possibility... and will eventually
+# fix the wrong assumption if it ever actually arises.
+dollar_math_pat = re.compile(r'(?<!\\)(\$)(.+?)(?<!\\)(\$)', re.DOTALL)
+
+def re_delimit_dollars(s: str) -> str:
+    r"""Try to replace $...$ delimited math with \(...\) in abstracts.
+    The arXiv allows math delimited with single dollar signs.  However our
+    website uses paired delimiters \(...\).  Attempt to replace dollar sign
+    delimited groups appropriately.  If the argument string contains mathml
+    tags, do nothing.
+    """
+
+    if has_mathml(s):
+        return s
+
+    # Pattern.sub with count=0 (default) will already replace every occurence
+    # for us. The negative lookbehinds are assertions that don't count as
+    # capture groups, which is why we want \2 as the content of the math group
+    return dollar_math_pat.sub(r'\\(\2\\)', s)
 
 # The format of the markdown file. This would be an f-string, except we want to
 # be able to reuse it. To interpolate local variables into it, you can do
@@ -73,7 +103,7 @@ def insp_resp_to_md(resp, used_spec=None, used_spectre=None, summarize=True):
     if 'abstracts' in md:
         if (len(md['abstracts']) > 1):
             warn(f"More than 1 abstracts in {iid}; using first.")
-        abstract_str = md['abstracts'][0]['value']
+        abstract_str = re_delimit_dollars(md['abstracts'][0]['value'])
         abstract_str = fill(abstract_str,
                             initial_indent='  ',
                             subsequent_indent='  ',
