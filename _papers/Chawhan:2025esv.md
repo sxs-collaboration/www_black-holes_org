@@ -6,8 +6,8 @@ authors:
   - "Foucart, Francois"
   - "Cheong, Patrick Chi-Kit"
   - "Muhammed, Nishad"
-jref:
-doi:
+jref: "Class.Quant.Grav. 43, 095026 (2026)"
+doi: "10.1088/1361-6382/ae62ee"
 date: 2025-10-15
 arxiv: "2510.14127"
 insp_recid: 3070465
@@ -32,7 +32,7 @@ abstract: |
   a BNS merger. These simulations demonstrate that the new scheme
   combines the axis smoothness of non-conservative methods with the
   mass and angular momentum conservation of other conservative methods
-  on \(\sim 10^2\) ms timescales of viscous and neutrino-driven
+  on \(\sim 10^2\) ms timescales of viscous and neutrino-driven
   evolution. Because fluid profiles remain smooth in the remnant
   interior, it is possible to remove artificial heating by evolving
   the entropy density. We show how physical heating and cooling terms
