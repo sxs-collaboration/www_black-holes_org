@@ -47,11 +47,11 @@ abstract: |
   NRSurE_q4NoSpin_Dynamics, a time-domain surrogate for the evolution
   of eccentricity and mean anomaly. Both models are trained on NR
   simulations over a three-dimensional parameter space with mass
-  ratios \(q \leq 4\), eccentricity \(e < 0.23\), and mean anomaly \(\ell
-  \in [0,2π)\) radians, where both \(e\) and \(\ell\) defined at \(t=-1000M\)
-  relative to peak amplitude and \(M\) is the total mass. We highlight
-  some applications, including the phenomenological impact of
-  eccentricity on remnant properties and the enhancement or
+  ratios \(q \leq 4\), eccentricity \(e < 0.23\), and mean anomaly
+  \(\ell \in [0,2π)\) radians, where both \(e\) and \(\ell\) defined
+  at \(t=-1000M\) relative to peak amplitude and \(M\) is the total
+  mass. We highlight some applications, including the phenomenological
+  impact of eccentricity on remnant properties and the enhancement or
   suppression of recoil. We also provide error estimates for all
   modeled quantities, supporting reliable use in current and future
   gravitational-wave parameter-estimation analyses. Both models will
