@@ -17,7 +17,7 @@ doi:
 date: 2026-05-27
 arxiv: "2605.28715"
 insp_recid: 3161910
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Accurate and computationally efficient waveform models are required
