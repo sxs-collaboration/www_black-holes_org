@@ -27,14 +27,19 @@ abstract: |
   to produce individual electromagnetic counterparts, but also,
   because of their repeated capture and merger dynamics, to impart
   kicks to the system and thereby drive orbital eccentricity. By
-  performing numerical relativity simulations of hierarchical compact
-  object mergers modeled as black holes in a disk-like geometry
-  consistent with this scenario, we demonstrate the build-up of
-  potentially large eccentricity for the final merger, of order \(e
-  \simeq 0.6\) initially, and show that, because of the short lifetime
-  of the system, a substantial part of this eccentricity , up to
-  \(e\simeq 0.1\), can survive until merger in the general case. As a
-  result, future detections of eccentricities in potential subsolar-
-  mass gravitational-wave candidate events would be a strong indicator
-  for a hierarchical formation scenario.
+  performing numerical relativity simulations of hierarchical
+  subsolar-mass compact-object mergers modeled as black holes in a
+  disk-like geometry consistent with this scenario, we demonstrate the
+  build-up of potentially large eccentricity for the final merger, of
+  order \(e \simeq 0.6\) initially, and show that, because of the
+  short lifetime of the system, a substantial part of this
+  eccentricity , up to \(e\simeq 0.1\), can survive until the final
+  neutron star -- black hole merger in the general case. As a result,
+  future detections of eccentricities in potential subsolar-mass
+  gravitational-wave candidate events would be a strong indicator for
+  a hierarchical formation scenario. In the extreme case, where we
+  observe repeated mergers to lead to the formation of a solar-mass
+  neutron star, the expected binary parameters can be in a regime
+  similar to those of the eccentric neutron star -- black hole merger
+  event GW200105.
 ---
