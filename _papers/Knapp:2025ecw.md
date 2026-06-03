@@ -21,7 +21,7 @@ abstract: |
   waveforms produced by these simulations have a number of
   applications in gravitational-wave detection and inference. In this
   work, we revisit the accuracy of the waveforms produced by the
-  spectral Einstein code. Motivated by the wide range of waveform
+  Spectral Einstein Code. Motivated by the wide range of waveform
   applications, we propose and explore three accuracy metrics between
   simulation resolutions: (i) the generalized frequency-weighted
   mismatch, (ii) the relative amplitude difference, and (iii) the
