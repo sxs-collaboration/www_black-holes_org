@@ -1,5 +1,5 @@
 ---
-title: "A comprehensive look into the accuracy of SpEC binary black hole waveforms"
+title: "Comprehensive look into the accuracy of spectral Einstein code binary black hole waveforms"
 authors:
   - "Knapp, Taylor"
   - "Chatziioannou, Katerina"
@@ -8,8 +8,8 @@ authors:
   - "Boyle, Michael"
   - "Kidder, Lawrence E."
   - "Pfeiffer, Harald"
-jref:
-doi:
+jref: "Phys.Rev.D 113, 124001 (2026)"
+doi: "10.1103/dmpn-q3fk"
 date: 2025-10-07
 arxiv: "2510.06393"
 insp_recid: 3064781
@@ -23,15 +23,16 @@ abstract: |
   work, we revisit the accuracy of the waveforms produced by the
   Spectral Einstein Code. Motivated by the wide range of waveform
   applications, we propose and explore three accuracy metrics between
-  simulation resolutions: (i) the generalized frequency-weighted
-  mismatch, (ii) the relative amplitude difference, and (iii) the
-  phase difference at different times. We find that numerical errors
-  accumulate over the binary evolution, but the error is not
+  simulation resolutions: (i) the generalized frequency-weighted
+  mismatch, (ii) the relative amplitude difference, and (iii) the
+  phase difference at different times. We confirm that numerical
+  errors accumulate over the binary evolution, but the error is not
   intrinsically larger during the latest, more dynamical stages.
   Studying errors across the parameter space, we identify a positive
   correlation between both the mismatch and the phase difference with
   precessing spin, but little correlation with aligned spin or
   eccentricity. Lastly, amplitude and phases differences are symmetric
-  upon exchanging resolutions across the catalog, suggesting that
-  there is no systematic error.
+  upon exchanging resolutions across the catalog, suggesting that the
+  dominant source of error is random, rather than something systematic
+  that affects all waveforms similarly.
 ---
