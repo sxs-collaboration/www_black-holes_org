@@ -4,8 +4,8 @@ authors:
   - "Islam, Tousif"
   - "Khanna, Gaurav"
   - "Field, Scott E."
-jref:
-doi:
+jref: "Phys.Rev.D 113, L121503 (2026)"
+doi: "10.1103/9mtw-df24"
 date: 2025-10-01
 arxiv: "2510.00531"
 insp_recid: 3006092
@@ -20,20 +20,21 @@ abstract: |
   efficient alternative but is expected to break down in the
   comparable-mass regime because it neglects nonlinear effects.
   Nonetheless, several recent studies have shown that ppBHPT can model
-  non-spinning binaries with high accuracy when supplemented by simple
-  calibrations or a first post-adiabatic (PA) correction. Here we
-  assess the applicability of ppBHPT to quasi-circular binaries with a
-  spinning primary by comparing waveform amplitudes, orbital
-  frequencies, and orbital phases. We find that spin effects in ppBHPT
-  waveforms (without additional spin information beyond adiabatic
-  order) are in surprisingly close agreement with the corresponding NR
-  calculation (outperforming some post-Newtonian models) over the last
-  \(\approx 20\) orbital cycles. This suggests that, after incorporating
-  higher-order corrections into ppBHPT waveforms in the non-spinning
-  limit -- via second-order self-force results or semi-analytical fits
-  -- only modest spin-dependent adjustments may be required to achieve
-  NR-faithful ppBHPT waveforms. We also show that combining non-
-  spinning NR information with adiabatic ppBHPT can provide a
-  reasonably accurate inspiral waveform for spins \(χ\lesssim 0.5\) mass
-  ratios \(q \gtrsim 5\).
+  nonspinning binaries with high accuracy when supplemented by simple
+  calibrations or a first postadiabatic (PA) correction. Here we
+  assess the applicability of ppBHPT to quasicircular binaries with a
+  nonprecessing primary and a nonspinning secondary by comparing
+  waveform amplitudes, orbital frequencies, and phases. We find that
+  spin effects in ppBHPT waveforms (without additional spin
+  information beyond adiabatic order) agree surprisingly well with NR
+  (outperforming some post-Newtonian models) over the last <math
+  display="inline"><mo>≈</mo><mn>20</mn></math> orbital cycles. This
+  suggests that, after incorporating higher-order nonspinning
+  corrections into ppBHPT—via second-order self-force results or
+  semianalytical fits—only modest spin-dependent adjustments may be
+  required to achieve NR-faithful waveforms. We also show that
+  combining nonspinning NR information with adiabatic ppBHPT yields
+  reasonably accurate inspiral waveforms for spins <math
+  display="inline"><mi>χ</mi><mo>≲</mo><mn>0.5</mn></math> and mass
+  ratios <math display="inline"><mi>q</mi><mo>≳</mo><mn>5</mn></math>.
 ---
