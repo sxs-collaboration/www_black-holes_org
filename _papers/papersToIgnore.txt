@@ -237,3 +237,4 @@ Caudill:2011kv
 Antil:2012wf
 Tsang:2015cua
 LIGOScientific:2026jgl
+LIGOScientific:2026tep
