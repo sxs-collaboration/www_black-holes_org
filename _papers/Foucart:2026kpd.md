@@ -14,7 +14,7 @@ doi:
 date: 2026-06-25
 arxiv: "2606.27425"
 insp_recid: 3174069
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Multimessenger observations of neutron star mergers are unique
