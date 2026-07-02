@@ -241,3 +241,4 @@ LIGOScientific:2026tep
 LIGOScientific:2026ifv
 LIGOScientific:2026wfs
 LIGOScientific:2025cmm
+LIGOScientific:2026ctl
