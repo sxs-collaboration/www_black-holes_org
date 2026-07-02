@@ -21,8 +21,8 @@ abstract: |
   limiting constraints on the black hole spin and motivating our study
   of disruption in this mass regime. That event is expected to be the
   merger of a 2.5–4.5 \(M_{\odot}\) primary with a secondary compact
-  object of mass between 1.2–2.0 \(M_{\odot}\). This makes it the first
-  BHNS merger with a significant potential for the production of
+  object of mass between 1.2–2.0 \(M_{\odot}\). This makes it the
+  first BHNS merger with a significant potential for the production of
   electromagnetic (EM) counterparts, and provides further evidence for
   compact objects existing within the suspected lower mass gap. To
   produce post-merger EM transients, the component of the black hole
