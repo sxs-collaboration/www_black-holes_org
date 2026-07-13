@@ -31,7 +31,7 @@ abstract: |
   this work, we take an essential step toward classifying the error
   and potential systematics in current generation numerical relativity
   simulations of merging binary neutron stars. To this end, we perform
-  a direct comparison of two codes (FIL, SpEC), which differ in many
+  a direct comparison of two codes (fil, spec), which differ in many
   aspects, including the numerical methods and discretizations used
   and equations solved. We find that despite these different
   approaches, the codes are—within current numerical resolution
