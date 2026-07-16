@@ -11,7 +11,7 @@ doi:
 date: 2026-07-14
 arxiv: "2607.12558"
 insp_recid: 3180440
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Neutrinos in dense astrophysical environments such as core-collapse
