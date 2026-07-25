@@ -1,5 +1,5 @@
 ---
-title: "Effects of waveform model systematics on the interpretation of GW150914"
+title: "Upper Limits on the Stochastic Gravitational-Wave Background from Advanced LIGO’s First Observing Run"
 authors:
   - "Abbott, Benjamin P."
   - "Abbott, Rich"
@@ -84,6 +84,7 @@ authors:
   - "Birney, Ross"
   - "Birnholtz, Ofek"
   - "Biscans, Sebastien"
+  - "Biscoveanu, A.S."
   - "Bisht, Aparna"
   - "Bitossi, Massimiliano"
   - "Biwer, Christopher"
@@ -138,6 +139,8 @@ authors:
   - "Callister, Thomas A."
   - "Calloni, Enrico"
   - "Camp, Jordan B."
+  - "Campbell, W."
+  - "Canepa, Maurizio"
   - "Cannon, Kipp C."
   - "Cao, H."
   - "Cao, Junwei"
@@ -194,6 +197,7 @@ authors:
   - "Corsi, Alessandra"
   - "Cortese, Stefano"
   - "Costa, Cesar A."
+  - "Coughlin, E."
   - "Coughlin, Michael W."
   - "Coughlin, Scott B."
   - "Coulon, J.-P."
@@ -273,7 +277,6 @@ authors:
   - "Ehrens, Phil"
   - "Eichholz, Johannes"
   - "Eikenberry, Stephen S."
-  - "Eisenstein, Robert A."
   - "Essick, Reed C."
   - "Etienne, Zachariah"
   - "Etzel, Todd"
@@ -484,7 +487,6 @@ authors:
   - "Kozak, Dan B."
   - "Krämer, Christina"
   - "Kringel, Volker"
-  - "Krishnan, Badri"
   - "Królak, Andrzej"
   - "Kuehn, Gerrit"
   - "Kumar, Prayush"
@@ -563,6 +565,7 @@ authors:
   - "Massinger, Thomas J."
   - "Masso-Reid, M."
   - "Mastrogiovanni, Simone"
+  - "Matas, A."
   - "Matichard, Fabrice"
   - "Matone, Luca"
   - "Mavalvala, Nergis"
@@ -789,6 +792,7 @@ authors:
   - "Sawadsky, Andreas"
   - "Schale, Paul"
   - "Scheuer, Jacob"
+  - "Schlassa, S."
   - "Schmidt, Eric"
   - "Schmidt, Justus"
   - "Schmidt, Patricia"
@@ -859,6 +863,7 @@ authors:
   - "Tacca, Matteo"
   - "Talukder, Dipongkar"
   - "Tanner, David B."
+  - "Tao, D."
   - "Tápai, Marton"
   - "Taracchini, Andrea"
   - "Taylor, Robert"
@@ -990,52 +995,31 @@ authors:
   - "Zhu, Sylvia J."
   - "Zhu, Xingjiang"
   - "Zucker, Michael E."
-  - "Zweizig, John"
-  - "Boyle, M."
-  - "Chu, T."
-  - "Hemberger, D."
-  - "Hinder, I."
-  - "Kidder, L.E."
-  - "Ossokine, S."
-  - "Scheel, M."
-  - "Szilagyi, B."
-  - "Teukolsky, S."
-  - "Vano Vinuales, A."
-jref: "Class.Quant.Grav. 34, 104002 (2017)"
-doi: "10.1088/1361-6382/aa6854"
-date: 2016-11-22
-arxiv: "1611.07531"
-insp_recid: 1499839
-used_spec: true
+  - "Zweizig, J."
+jref: "Phys.Rev.Lett. 118, 121101 (2017)"
+doi: "10.1103/PhysRevLett.118.121101"
+date: 2016-12-06
+arxiv: "1612.02029"
+insp_recid: 1502061
+used_spec:
 used_spectre:
 abstract: |
-  Parameter estimates of GW150914 were obtained using Bayesian
-  inference, based on three semi-analytic waveform models for binary
-  black hole coalescences. These waveform models differ from each
-  other in their treatment of black hole spins, and all three models
-  make some simplifying assumptions, notably to neglect sub-dominant
-  waveform harmonic modes and orbital eccentricity. Furthermore, while
-  the models are calibrated to agree with waveforms obtained by full
-  numerical solutions of Einstein’s equations, any such calibration is
-  accurate only to some non-zero tolerance and is limited by the
-  accuracy of the underlying phenomenology, availability, quality, and
-  parameter-space coverage of numerical simulations. This paper
-  complements the original analyses of GW150914 with an investigation
-  of the effects of possible systematic errors in the waveform models
-  on estimates of its source parameters. To test for systematic errors
-  we repeat the original Bayesian analysis on mock signals from
-  numerical simulations of a series of binary configurations with
-  parameters similar to those found for GW150914. Overall, we find no
-  evidence for a systematic bias relative to the statistical error of
-  the original parameter recovery of GW150914 due to modeling
-  approximations or modeling inaccuracies. However, parameter biases
-  are found to occur for some configurations disfavored by the data of
-  GW150914: for binaries inclined edge-on to the detector over a small
-  range of choices of polarization angles, and also for eccentricities
-  greater than  ∼0.05. For signals with higher signal-to-noise ratio
-  than GW150914, or in other regions of the binary parameter space
-  (lower masses, larger mass ratios, or higher spins), we expect that
-  systematic errors in current waveform models may impact
-  gravitational-wave measurements, making more accurate models
-  desirable for future observations.
+  A wide variety of astrophysical and cosmological sources are
+  expected to contribute to a stochastic gravitational-wave
+  background. Following the observations of GW150914 and GW151226, the
+  rate and mass of coalescing binary black holes appear to be greater
+  than many previous expectations. As a result, the stochastic
+  background from unresolved compact binary coalescences is expected
+  to be particularly loud. We perform a search for the isotropic
+  stochastic gravitational-wave background using data from Advanced
+  Laser Interferometer Gravitational Wave Observatory’s (aLIGO) first
+  observing run. The data display no evidence of a stochastic
+  gravitational-wave signal. We constrain the dimensionless energy
+  density of gravitational waves to be Ω0<1.7×10-7 with
+  95% confidence, assuming a flat energy density spectrum in the most
+  sensitive part of the LIGO band (20–86 Hz). This is a factor of ∼33
+  times more sensitive than previous measurements. We also constrain
+  arbitrary power-law spectra. Finally, we investigate the
+  implications of this search for the background of binary black holes
+  using an astrophysical model for the background.
 ---
