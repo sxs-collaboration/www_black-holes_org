@@ -266,3 +266,12 @@ LIGOScientific:2008tzb
 LIGOScientific:2008nqs
 LIGOScientific:2009diy
 LIGOScientific:2010coc
+LIGOScientific:2016jlg
+VIRGO:2009nmt
+LIGOScientific:2012nnx
+LIGOScientific:2018dkp
+LIGOScientific:2017vox
+VIRGO:2009quh
+LIGOScientific:2017fdd
+LIGOScientific:2010weo
+LIGOScientific:2010tql
