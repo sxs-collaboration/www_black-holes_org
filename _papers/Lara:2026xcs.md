@@ -19,7 +19,7 @@ date: 2026-07-30
 arxiv: "2607.27991"
 insp_recid: 3184840
 used_spec:
-used_spectre:
+used_spectre: true
 abstract: |
   Numerical relativity (NR) simulations of compact binaries in
   theories beyond general relativity (GR) will be pivotal for the
