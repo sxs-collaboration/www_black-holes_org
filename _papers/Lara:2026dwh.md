@@ -19,7 +19,7 @@ date: 2026-07-30
 arxiv: "2607.28003"
 insp_recid: 3184853
 used_spec:
-used_spectre:
+used_spectre: true
 abstract: |
   We implement the "fixing-the-equations" approach [Phys.Rev.D 96
   (2017) 8, 084043] in spectre, an NR code using a pseudo-spectral
