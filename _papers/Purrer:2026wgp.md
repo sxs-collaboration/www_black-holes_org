@@ -11,7 +11,7 @@ doi:
 date: 2026-07-27
 arxiv: "2607.24960"
 insp_recid: 3183830
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   We present a neural network surrogate model that emulates the
