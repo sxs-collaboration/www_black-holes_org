@@ -1,14 +1,15 @@
 ---
-title: "Directly comparing GW150914 with numerical solutions of Einstein's equations for binary black hole coalescence"
+title: "Directly comparing GW150914 with numerical solutions of Einstein’s equations for binary black hole coalescence"
 authors:
   - "The LIGO Scientific Collaboration"
-  - "the Virgo Collaboration "
-jref: "Physical Review D 94, 064035 (2016)"
+  - "the Virgo Collaboration"
+jref: "Phys.Rev.D 94, 064035 (2016)"
 doi: "10.1103/PhysRevD.94.064035"
-date: 2016-09-01
+date: 2016-06-03
 arxiv: "1606.01262"
-used_spec: true
 insp_recid: 1467402
+used_spec: true
+used_spectre:
 abstract: |
   We compare GW150914 directly to simulations of coalescing binary
   black holes in full general relativity, including several performed

@@ -2,10 +2,10 @@
 title: "Effects of waveform model systematics on the interpretation of GW150914"
 authors:
   - "The LIGO Scientific Collaboration"
-  - "the Virgo Collaboration "
-jref: "Classical and Quantum Gravity 34, 104002 (2017)"
+  - "the Virgo Collaboration"
+jref: "Class.Quant.Grav. 34, 104002 (2017)"
 doi: "10.1088/1361-6382/aa6854"
-date: 2017-05-01
+date: 2016-11-22
 arxiv: "1611.07531"
 insp_recid: 1499839
 used_spec: true

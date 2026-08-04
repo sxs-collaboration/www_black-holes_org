@@ -2,7 +2,7 @@
 title: "Observation of Gravitational Waves from a Binary Black Hole Merger"
 authors:
   - "The LIGO Scientific Collaboration"
-  - "the Virgo Collaboration "
+  - "the Virgo Collaboration"
 jref: "Phys.Rev.Lett. 116, 061102 (2016)"
 doi: "10.1103/PhysRevLett.116.061102"
 date: 2016-02-11

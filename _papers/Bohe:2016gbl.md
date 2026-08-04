@@ -1,32 +1,33 @@
 ---
 title: "Improved effective-one-body model of spinning, nonprecessing binary black holes for the era of gravitational-wave astrophysics with advanced detectors"
 authors:
-  - "Bohé, A."
-  - "Shao, L."
-  - "Taracchini, A."
-  - "Buonanno, A."
-  - "Babak, S."
-  - "Harry, I. W."
-  - "Hinder, I."
-  - "Ossokine, S."
-  - "Pürrer, M."
-  - "Raymond, V."
-  - "Chu, T."
-  - "Fong, H."
-  - "Kumar, P."
-  - "Pfeiffer, H. P."
-  - "Boyle, M."
-  - "Hemberger, D. A."
-  - "Kidder, L. E."
-  - "Lovelace, G."
-  - "Scheel, M. A."
-  - "Szilágyi, B. "
-jref: "Physical Review D 95, 044028 (2017)"
+  - "Bohé, Alejandro"
+  - "Shao, Lijing"
+  - "Taracchini, Andrea"
+  - "Buonanno, Alessandra"
+  - "Babak, Stanislav"
+  - "Harry, Ian W."
+  - "Hinder, Ian"
+  - "Ossokine, Serguei"
+  - "Pürrer, Michael"
+  - "Raymond, Vivien"
+  - "Chu, Tony"
+  - "Fong, Heather"
+  - "Kumar, Prayush"
+  - "Pfeiffer, Harald P."
+  - "Boyle, Michael"
+  - "Hemberger, Daniel A."
+  - "Kidder, Lawrence E."
+  - "Lovelace, Geoffrey"
+  - "Scheel, Mark A."
+  - "Szilágyi, Béla"
+jref: "Phys.Rev.D 95, 044028 (2017)"
 doi: "10.1103/PhysRevD.95.044028"
-date: 2017-02-01
+date: 2016-11-11
 arxiv: "1611.03703"
-used_spec: true
 insp_recid: 1497502
+used_spec: true
+used_spectre:
 abstract: |
   We improve the accuracy of the effective-one-body (EOB) waveforms
   that were employed during the first observing run of Advanced LIGO

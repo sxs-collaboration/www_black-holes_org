@@ -2,13 +2,14 @@
 title: "GW151226: Observation of Gravitational Waves from a 22-Solar-Mass Binary Black Hole Coalescence"
 authors:
   - "The LIGO Scientific Collaboration"
-  - "the Virgo Collaboration "
-jref: "Physical Review Letters 116, 241103 (2016)"
+  - "the Virgo Collaboration"
+jref: "Phys.Rev.Lett. 116, 241103 (2016)"
 doi: "10.1103/PhysRevLett.116.241103"
-date: 2016-06-01
+date: 2016-06-15
 arxiv: "1606.04855"
-used_spec: true
 insp_recid: 1469395
+used_spec: true
+used_spectre:
 abstract: |
   We report the observation of a gravitational-wave signal produced by
   the coalescence of two stellar-mass black holes. The signal,

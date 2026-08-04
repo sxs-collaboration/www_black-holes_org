@@ -1,23 +1,16 @@
 ---
-title: "The NINJA-2 project: detecting and characterizing gravitational waveforms modelled using numerical binary black hole simulations"
+title: "The NINJA-2 project: Detecting and characterizing gravitational waveforms modelled using numerical binary black hole simulations"
 authors:
-  - "Aasi, J."
-  - "Abbott, B. P."
-  - "Abbott, R."
-  - "Abbott, T."
-  - "Abernathy, M. R."
-  - "Accadia, T."
-  - "Acernese, F."
-  - "Ackley, K."
-  - "Adams, C."
-  - "Adams, T."
-  - "others"
-jref: "Classical and Quantum Gravity 31, 115004 (2014)"
+  - "The LIGO Scientific Collaboration"
+  - "the Virgo Collaboration"
+  - "the NINJA-2 Collaboration"
+jref: "Class.Quant.Grav. 31, 115004 (2014)"
 doi: "10.1088/0264-9381/31/11/115004"
-date: 2014-06-01
+date: 2014-01-05
 arxiv: "1401.0939"
-used_spec: true
 insp_recid: 1276073
+used_spec: true
+used_spectre:
 abstract: |
   The Numerical INJection Analysis (NINJA) project is a collaborative
   effort between members of the numerical relativity and
