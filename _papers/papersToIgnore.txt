@@ -275,3 +275,4 @@ VIRGO:2009quh
 LIGOScientific:2017fdd
 LIGOScientific:2010weo
 LIGOScientific:2010tql
+LIGOScientific:2026uyd
