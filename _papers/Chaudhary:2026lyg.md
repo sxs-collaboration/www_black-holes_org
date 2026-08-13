@@ -10,7 +10,7 @@ doi:
 date: 2026-08-12
 arxiv: "2608.12211"
 insp_recid: 3190436
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   The dynamics of a binary black hole system depend on its masses and
