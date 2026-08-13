@@ -277,3 +277,4 @@ LIGOScientific:2010weo
 LIGOScientific:2010tql
 LIGOScientific:2026uyd
 LIGOScientific:2026pwx
+Sun:2026zsf
