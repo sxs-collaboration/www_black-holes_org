@@ -19,38 +19,56 @@ authors:
   - "Scheel, Mark A."
   - "Shaikh, Md Arif"
   - "Tellez, Daniel"
-jref:
-doi:
+jref: "Phys.Rev.D 114, 044078 (2026)"
+doi: "10.1103/fq4r-rt3z"
 date: 2026-04-20
 arxiv: "2604.17868"
 insp_recid: 3147122
 used_spec: true
 used_spectre:
 abstract: |
-  <code>gwNRHME</code> is a framework that converts multi-modal (i.e.,
-  containing several spherical harmonic modes) quasi-circular waveforms into
-  their eccentric counterparts, provided the quadrupolar eccentric mode is
-  known, by exploiting universal eccentric modulation functions. Leveraging this
-  framework, we combine the quasi-circular NR surrogate model
-  <code>NRHybSur3dq8</code> with the quadrupolar, non-spinning, eccentric
-  surrogate <code>NRSurE_q4NoSpin_22</code> to construct a multi-modal, non-
-  spinning, eccentric model, denoted as <code>NRHybSur3dq8</code>, which
-  includes nine modes: \((2,\{1,2\}), (3,\{1,2,3\}), (4,\{2,3,4\})\), and
-  \((5,5)\).  When compared against 156 eccentric SXS NR waveforms,
-  <code>NRHybSur3dq8</code> achieves median frequency-domain mismatches
-  (computed using the Advanced LIGO design sensitivity) of \(\sim 9\times
-  10^{-5}\), with a standard deviation of \(\sim 2 \times 10^{-4}\). To
-  demonstrate the modularity of the framework, we further combine
-  <code>NRSurE_q4NoSpin_22</code> with effective-one-body (EOB) models
-  <code>SEOBNRv5HM</code> and <code>TEOBResumS-Dali</code> in their non-
-  spinning limits, yielding eccentric waveforms with median mismatches of \(\sim
-  2\times10^{-4}\) and \(\sim 10^{-3}\), respectively, with standard deviation
-  of \(\sim 2 \times 10^{-3}\) and \(\sim 2 \times 10^{-2}\)
+  gwNRHME is a framework that converts multimodal (i.e., containing
+  several spherical harmonic modes) quasicircular waveforms into their
+  eccentric counterparts, provided the quadrupolar eccentric mode is
+  known, by exploiting universal eccentric modulation functions.
+  Leveraging this framework, we combine the quasicircular numerical
+  relativity (NR) surrogate model NRHybSur3dq8 with the quadrupolar,
+  nonspinning, eccentric surrogate NRSurE_q4NoSpin_22 to construct a
+  multimodal, nonspinning, eccentric model, denoted as
+  gwNRHME_NRSur_q4, which includes nine modes: <math
+  display="inline"><mo stretchy="false">(</mo><mn>2</mn><mo>,</mo><mo
+  stretchy="false">{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo
+  stretchy="false">}</mo><mo stretchy="false">)</mo></math>, <math
+  display="inline"><mo stretchy="false">(</mo><mn>3</mn><mo>,</mo><mo
+  stretchy="false">{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo
+  stretchy="false">}</mo><mo stretchy="false">)</mo></math>, <math
+  display="inline"><mo stretchy="false">(</mo><mn>4</mn><mo>,</mo><mo
+  stretchy="false">{</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo
+  stretchy="false">}</mo><mo stretchy="false">)</mo></math>, and (5,
+  5). When compared against 156 eccentric Simulating eXtreme
+  Spacetimes NR waveforms, gwNRHME_NRSur_q4 achieves median frequency-
+  domain mismatches (computed using the Advanced LIGO design
+  sensitivity) of <math
+  display="inline"><mo>∼</mo><mn>9</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>5</mn></mrow></msup></math>,
+  with a standard deviation of <math
+  display="inline"><mo>∼</mo><mn>2</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup></math>.
+  To demonstrate the modularity of the framework, we further combine
+  NRSurE_q4NoSpin_22 with effective-one-body models SEOBNRv5HM and
+  TEOBResumS-Dali in their nonspinning limits, yielding eccentric
+  waveforms with median mismatches of <math
+  display="inline"><mo>∼</mo><mn>2</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup></math>
+  and <math
+  display="inline"><mo>∼</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></math>,
+  respectively, with standard deviation of <math
+  display="inline"><mo>∼</mo><mn>2</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></math>
+  and <math
+  display="inline"><mo>∼</mo><mn>2</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup></math>,
   respectively. Finally, we provide both a surrogate model,
-  <code>gwEccEvolve_q4NoSpin_Sur</code>, and an analytical model,
-  <code>gwEccEvNSv2</code>, for the eccentricity evolution up to \(2M\) before
-  merger, based on eccentricity definitions derived from the universal
-  modulation functions. The <code>gwNRHME</code> framework is publicly available
-  through the <code>gwModels</code> package, and the resulting waveform models
-  will be released via the <code>gwsurrogate</code> package.
+  gwEccEvolve_q4NoSpin_Sur, and an analytical model, gwEccEvNSv2, for
+  the eccentricity evolution up to <math
+  display="inline"><mn>2</mn><mi>M</mi></math> before merger, based on
+  eccentricity definitions derived from the universal modulation
+  functions. The gwNRHME framework is publicly available through the
+  gwModels package, and the resulting waveform models will be released
+  via the gwsurrogate package.
 ---
