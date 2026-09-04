@@ -16,7 +16,7 @@ doi:
 date: 2026-09-01
 arxiv: "2609.01568"
 insp_recid: 3198661
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Binary black holes (BBHs) formed in dense stellar environments or in
