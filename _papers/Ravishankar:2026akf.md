@@ -14,7 +14,7 @@ doi:
 date: 2026-09-07
 arxiv: "2609.07873"
 insp_recid: 3201133
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Numerical relativity simulations provide the most accurate waveforms
