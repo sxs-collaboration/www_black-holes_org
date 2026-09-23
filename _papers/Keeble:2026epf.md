@@ -11,7 +11,7 @@ doi:
 date: 2026-09-22
 arxiv: "2609.25522"
 insp_recid: 3206116
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Second-order black-hole perturbation theory will be an important
