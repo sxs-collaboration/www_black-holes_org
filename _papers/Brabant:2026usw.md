@@ -12,7 +12,7 @@ doi:
 date: 2026-09-26
 arxiv: "2609.32412"
 insp_recid: 3208542
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   The gravitational-wave (GW) memory effect is a prediction of general
