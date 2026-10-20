@@ -282,4 +282,5 @@ Datrier:2026xiu
 LIGOScientific:2026mjf
 Jan:2026mnp
 Chia:2023tle
+Lovato:2022vgq
 LIGOScientific:2026kef
