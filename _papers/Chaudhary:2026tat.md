@@ -13,7 +13,7 @@ doi:
 date: 2026-10-16
 arxiv: "2610.24283"
 insp_recid: 3216226
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   The improved sensitivity of upcoming gravitational-wave detectors
