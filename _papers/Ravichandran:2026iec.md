@@ -26,8 +26,8 @@ authors:
   - "Tellez, Daniel"
   - "Throwe, William"
   - "Vu, Nils L."
-jref:
-doi:
+jref: "Phys.Rev.D 114, 084065 (2026)"
+doi: "10.1103/br26-x8db"
 date: 2026-04-30
 arxiv: "2605.00124"
 insp_recid: 3150852
@@ -40,18 +40,26 @@ abstract: |
   hierarchical mergers. For eccentric binaries, remnant mass, spin,
   and recoil carry nontrivial imprints of eccentricity that are both
   physically informative and more challenging to model, yet remain
-  less developed than in the quasi-circular case. We present two new
+  less developed than in the quasicircular case. We present two new
   models trained on numerical-relativity (NR) simulations of unequal-
-  mass, non-spinning eccentric binary black holes:
+  mass, nonspinning eccentric binary black holes:
   NRSurE_q4NoSpin_Remnant, which predicts remnant properties, and
   NRSurE_q4NoSpin_Dynamics, a time-domain surrogate for the evolution
   of eccentricity and mean anomaly. Both models are trained on NR
   simulations over a three-dimensional parameter space with mass
-  ratios \(q \leq 4\), eccentricity \(e < 0.23\), and mean anomaly
-  \(\ell \in [0,2π)\) radians, where both \(e\) and \(\ell\) defined
-  at \(t=-1000M\) relative to peak amplitude and \(M\) is the total
-  mass. We highlight some applications, including the phenomenological
-  impact of eccentricity on remnant properties and the enhancement or
+  ratios <math display="inline"><mi>q</mi><mo>≤</mo><mn>4</mn></math>,
+  eccentricity <math
+  display="inline"><mi>e</mi><mo>&lt;</mo><mn>0.23</mn></math>, and
+  mean anomaly <math display="inline"><mo>ℓ</mo><mo>∈</mo><mo
+  stretchy="false">[</mo><mn>0</mn><mo>,</mo><mn>2</mn><mi>π</mi><mo
+  stretchy="false">)</mo></math> radians, where both <math
+  display="inline"><mi>e</mi></math> and <math
+  display="inline"><mo>ℓ</mo></math> are defined at <math
+  display="inline"><mi>t</mi><mo>=</mo><mo>-</mo><mn>1000</mn><mi>M</mi></math>
+  relative to peak amplitude and <math
+  display="inline"><mi>M</mi></math> is the total mass. We highlight
+  some applications, including the phenomenological impact of
+  eccentricity on remnant properties and the enhancement or
   suppression of recoil. We also provide error estimates for all
   modeled quantities, supporting reliable use in current and future
   gravitational-wave parameter-estimation analyses. Both models will
