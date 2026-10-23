@@ -16,7 +16,7 @@ doi:
 date: 2026-10-21
 arxiv: "2610.30268"
 insp_recid: 3217989
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Accurate gravitational-wave (GW) templates from numerical-relativity

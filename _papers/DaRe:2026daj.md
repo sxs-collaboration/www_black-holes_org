@@ -16,7 +16,7 @@ doi:
 date: 2026-10-21
 arxiv: "2610.30263"
 insp_recid: 3217969
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Gravitational-wave science requires waveform templates to be
