@@ -17,7 +17,7 @@ date: 2026-10-21
 arxiv: "2610.30268"
 insp_recid: 3217989
 used_spec: true
-used_spectre:
+used_spectre: true
 abstract: |
   Accurate gravitational-wave (GW) templates from numerical-relativity
   (NR) simulations are essential for GW science. These templates are

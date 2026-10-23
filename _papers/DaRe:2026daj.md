@@ -17,7 +17,7 @@ date: 2026-10-21
 arxiv: "2610.30263"
 insp_recid: 3217969
 used_spec: true
-used_spectre:
+used_spectre: true
 abstract: |
   Gravitational-wave science requires waveform templates to be
   computed at future null infinity, the asymptotic boundary of
