@@ -1,10 +1,10 @@
 ---
-title: "Spinning down neutron-star merger remnants with the Tayler-Spruit dynamo: Global simulations reveal the formation of massive disks and neutron-rich ejecta"
+title: "Spinning Down Neutron-star Merger Remnants with the Tayler-Spruit Dynamo: Global Simulations Reveal the Formation of Massive Disks and Neutron-rich Ejecta"
 authors:
   - "Ng, Harry Ho-Yin"
   - "Most, Elias R."
-jref:
-doi:
+jref: "Astrophys.J.Lett. 1010, L42 (2026)"
+doi: "10.3847/2041-8213/aeac1b"
 date: 2026-07-30
 arxiv: "2607.28556"
 insp_recid: 3184911
@@ -18,7 +18,7 @@ abstract: |
   negative-shear regions of the neutron-star remnant and accretion
   disk, the positive-shear, stably stratified core may instead be
   susceptible to the Tayler-Spruit dynamo. We present the first
-  global, long-term general-relativistic neutrino-radiation
+  global, long-term, general-relativistic, neutrino-radiation,
   magnetohydrodynamics simulations of a neutron-star merger remnant
   incorporating the unresolved Tayler-Spruit dynamo through a new
   mean-field dynamo subgrid prescription. Our axisymmetric simulations
@@ -30,8 +30,8 @@ abstract: |
   outer remnant into the disk. This produces a more massive, extended,
   and strongly magnetized disk with a low electron fraction, leading
   to substantially more neutron-rich ejecta. Our results demonstrate
-  that currently unmodelled Tayler-Spruit dynamo action can
+  that currently unmodeled Tayler-Spruit dynamo action can
   qualitatively alter the rotational evolution, collapse prospects,
-  disk formation, and multi-messenger signatures of long-lived
-  neutron-star merger remnants.
+  disk formation, and multimessenger signatures of long-lived neutron-
+  star merger remnants.
 ---
