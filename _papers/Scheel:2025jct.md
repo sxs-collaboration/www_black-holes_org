@@ -71,11 +71,11 @@ abstract: |
   We present a major update to the Simulating eXtreme Spacetimes
   (SXSs) Collaboration’s catalog of binary black hole (BBH)
   simulations. Using highly efficient spectral methods implemented in
-  the Spectral Einstein Code (<code>SpEC</code>), we have nearly doubled the total
+  the Spectral Einstein Code (SpEC), we have nearly doubled the total
   number of binary configurations from 2018 to 3756. The catalog now
   more densely covers the parameter space with precessing simulations
   up to mass ratio q = 8 and dimensionless spins up to
-  \(|\vec{\chi}|\le 0.8\) with near-zero eccentricity. The
+  \(|\vec{\chi}|\unicode{x2A7D}0.8\) with near-zero eccentricity. The
   catalog also includes some simulations at higher mass ratios with
   moderate spin and more than 250 eccentric simulations. We have also
   deprecated and rerun some simulations from our previous catalog
@@ -90,6 +90,6 @@ abstract: |
   catalog to be 480 000 000 core-hours. We find that using spectral
   methods for BBH simulations is over 1000 times more efficient than
   previously published finite-difference simulations. The full catalog
-  is publicly available through the <code>sxs</code> Python package and at
-  <a href="https://data.black-holes.org">https://data.black-holes.org</a>.
+  is publicly available through the sxs Python package and at
+  https://data.black-holes.org .
 ---
