@@ -13,7 +13,7 @@ doi: "10.1103/PhysRevD.110.104076"
 date: 2024-03-15
 arxiv: "2403.10278"
 insp_recid: 2769188
-used_spec:
+used_spec: true
 used_spectre:
 abstract: |
   Numerical relativity (NR) simulations of binary black holes provide
