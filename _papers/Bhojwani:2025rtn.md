@@ -7,7 +7,7 @@ authors:
   - "Sun, Chang"
   - "Most, Elias R."
   - "Anandkumar, Anima"
-jref:
+jref: " ,  ()"
 doi:
 date: 2025-12-01
 arxiv: "2512.01576"
