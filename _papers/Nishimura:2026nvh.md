@@ -17,7 +17,7 @@ date: 2026-11-03
 arxiv: "2611.05259"
 insp_recid: 3223749
 used_spec:
-used_spectre:
+used_spectre: true
 abstract: |
   Gravitational self-force calculations are needed to accurately
   describe the motion of a small body in a spinning (Kerr) black hole
