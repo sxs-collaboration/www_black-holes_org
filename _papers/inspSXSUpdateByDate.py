@@ -2,11 +2,10 @@
 
 import argparse
 import dateparser
-from warnings import warn
 
 import sxs
 
-from inspToMd import write_insp_resp_to_md
+from inspToMd import UpdateSummary, write_insp_resp_to_md
 
 sxs_insp_names = [
     # Faculty
@@ -49,13 +48,13 @@ sxs_insp_names = [
 
 ############################################################
 
-def filterResponse(insp_resp, ignore_bibs, summarize=True):
+def filterResponse(insp_resp, ignore_bibs, summary):
     """Filter the response from INSPIRE, ignoring the papers with bibkeys in the
-    list ignore_bibs. Emit warnings about all the ignore papers
+    list ignore_bibs. Record the ignored papers in `summary` (an UpdateSummary).
     """
 
     # This would be a one-liner list comprehension, except we actually want to
-    # emit a warning for each paper.
+    # record each ignored paper.
 
     filtered = []
     for paper in insp_resp:
@@ -66,10 +65,7 @@ def filterResponse(insp_resp, ignore_bibs, summarize=True):
                 for texkey in texkeys]):
             filtered.append(paper)
         else:
-            warn_str = f"Ignoring {texkeys}, found in the papers-to-ignore list."
-            warn(warn_str)
-            if summarize:
-                print("- " + warn_str)
+            summary.ignored.append(texkeys)
     return filtered
 
 ############################################################
@@ -115,11 +111,12 @@ run, or on a day the run failed, are still caught. (default: %(default)s)"""
 
     ignore_bibs = [line.strip() for line in args.ignore_file.readlines()]
 
-    if args.summarize:
-        print("Summary of changes:")
-
+    summary = UpdateSummary()
     write_insp_resp_to_md(
         filterResponse(
             sxs.utilities.inspire.query(insp_query),
-            ignore_bibs, summarize=args.summarize),
-        summarize=args.summarize)
+            ignore_bibs, summary),
+        summary)
+
+    if args.summarize:
+        print(summary.to_markdown(), end="")
