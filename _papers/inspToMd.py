@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import argparse
+from dataclasses import dataclass, field
 from pathlib import Path
 import re
 from textwrap import fill
@@ -58,7 +59,64 @@ abstract: |
 ---
 """
 
-def insp_resp_to_md(resp, used_spec=None, used_spectre=None, summarize=True):
+@dataclass
+class UpdateSummary:
+    """Collects what happened while writing INSPIRE records to disk, so that it
+    can be reported all at once (e.g. in a PR description) with `to_markdown`.
+
+    `new` and `updated` hold (texkey, description) pairs; `ignored` holds the
+    list of texkeys of each ignored record; `problems` holds warning strings;
+    `unchanged` counts records whose files were already up to date."""
+    new: list = field(default_factory=list)
+    updated: list = field(default_factory=list)
+    ignored: list = field(default_factory=list)
+    problems: list = field(default_factory=list)
+    unchanged: int = 0
+
+    def problem(self, msg):
+        """Record a problem, and also emit it as a warning."""
+        warn(msg)
+        self.problems.append(msg)
+
+    def to_markdown(self):
+        """Format the summary as markdown, with each category sorted by texkey
+        and the ignored papers folded away in a <details> element."""
+        def entries(pairs):
+            return "\n".join(f"- `{texkey}`: {desc}"
+                             for texkey, desc in sorted(pairs))
+
+        sections = ["## Summary of changes"]
+        if self.problems:
+            sections.append(f"### Problems ({len(self.problems)})\n\n"
+                            + "\n".join(f"- {p}" for p in self.problems))
+        if self.new:
+            sections.append(f"### New papers ({len(self.new)})\n\n"
+                            + entries(self.new))
+        if self.updated:
+            sections.append(f"### Updated papers ({len(self.updated)})\n\n"
+                            + entries(self.updated))
+        if not (self.problems or self.new or self.updated):
+            sections.append("No new or updated papers.")
+        if self.unchanged:
+            sections.append(f"{self.unchanged} other paper(s) from INSPIRE "
+                            "were already up to date.")
+        if self.ignored:
+            ignored = "\n".join("- " + ", ".join(f"`{k}`" for k in texkeys)
+                                for texkeys in sorted(self.ignored))
+            sections.append(
+                "<details>\n<summary>Ignored papers "
+                f"({len(self.ignored)}), found in the papers-to-ignore list"
+                f"</summary>\n\n{ignored}\n\n</details>")
+        return "\n\n".join(sections) + "\n"
+
+def describe(resp):
+    """Short description of an INSPIRE record: title and first author."""
+    md = resp['metadata']
+    authors = md['authors']
+    etal = " et al." if len(authors) > 1 else ""
+    return f"\"{md['titles'][0]['title']}\" by {authors[0]['full_name']}{etal}"
+
+def insp_resp_to_md(resp, used_spec=None, used_spectre=None):
     """Take a single JSON response from INSPIRE (one element of the list
     returned by `sxs.utilities.inspire.query`) and produce a markdown string to
     be written to a file. The optional arguments `used_spec` and `used_spectre`
@@ -116,15 +174,16 @@ def insp_resp_to_md(resp, used_spec=None, used_spectre=None, summarize=True):
     used_spec_str = " true" if used_spec else ""
     used_spectre_str = " true" if used_spectre else ""
 
-    if summarize:
-        etal = " et al." if len(authors)>1 else ""
-        print(f"- {texkey}: \"{title}\" by {authors[0]}{etal}")
-
     return md_format_str.format(**locals())
 
-def write_insp_resp_to_md(responses, summarize=True, check_recids=True):
+def write_insp_resp_to_md(responses, summary=None, check_recids=True):
     """Take a JSON response from INSPIRE (e.g. return from
-    `sxs.utilities.inspire.query`) and write it to a bunch of .md files"""
+    `sxs.utilities.inspire.query`) and write it to a bunch of .md files.
+    Record what was done in `summary` (an UpdateSummary; a new one is made if
+    not given), and return it."""
+
+    if summary is None:
+        summary = UpdateSummary()
 
     if check_recids:
         import glob
@@ -140,19 +199,14 @@ def write_insp_resp_to_md(responses, summarize=True, check_recids=True):
         if 'texkeys' in md and (len(md['texkeys']) > 0):
             texkey = md['texkeys'][0]
         else:
-            warn_str = f"Didn't find a texkey in {resp['id']}; skipping!"
-            warn(warn_str)
-            if summarize:
-                print("- " + warn_str)
+            summary.problem(f"Didn't find a texkey in {resp['id']}; skipping!")
             continue
 
         # Try to get values of used_spec and used_spectre if something is
         # available on disk
-        extra_args = {"summarize": summarize}
+        extra_args = {}
         md_file = Path(f"{texkey}.md")
         if md_file.exists():
-            if summarize:
-                print(f"- {texkey}.md found on disk, overwriting")
             try:
                 yamlMD = yaml.load_all(md_file.read_text(),
                                        Loader=Loader).send(None)
@@ -160,20 +214,24 @@ def write_insp_resp_to_md(responses, summarize=True, check_recids=True):
                              for k in ['used_spec', 'used_spectre']}
                 extra_args.update(used_keys)
             except:
-                warn_str = f"Couldn't read {md_file} as yaml"
-                warn(warn_str)
-                if summarize:
-                    print("- " + warn_str)
+                summary.problem(f"Couldn't read `{md_file}` as yaml")
 
         if check_recids and (resp['id'] in recids):
             if not md_file.exists():
-                warn_str = f"recid {resp['id']} in file OTHER than {texkey}.md"
-                warn(warn_str)
-                if summarize:
-                    print("- " + warn_str)
+                summary.problem(
+                    f"recid {resp['id']} in file OTHER than `{texkey}.md`")
 
-        with open(md_file, 'w') as f:
-            f.write(insp_resp_to_md(resp, **extra_args))
+        new_text = insp_resp_to_md(resp, **extra_args)
+        if not md_file.exists():
+            summary.new.append((texkey, describe(resp)))
+        elif md_file.read_text() != new_text:
+            summary.updated.append((texkey, describe(resp)))
+        else:
+            summary.unchanged += 1
+            continue
+        md_file.write_text(new_text)
+
+    return summary
 
 ############################################################
 
@@ -195,4 +253,5 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
-    write_insp_resp_to_md(sxs.utilities.inspire.query(args.query))
+    summary = write_insp_resp_to_md(sxs.utilities.inspire.query(args.query))
+    print(summary.to_markdown(), end="")
