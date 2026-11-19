@@ -1,6 +1,8 @@
 ---
 title: Members of the SXS collaboration
 paginate_from_menu: true
+scripts:
+  - /js/open-details-for-hash.js
 ---
 Please click on the name tabs to read more about our group members.
 

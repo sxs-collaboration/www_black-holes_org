@@ -1,9 +1,11 @@
 {%- assign sorted = (site.people | sort: 'lastname') -%}
 {%- for member in sorted -%}
 {%- if member.group == include.groups -%}
-<div class="bio">
+<div class="bio" id="{{ member.name | slugify: "latin" }}">
   <details>
-    <summary>{{ member.name }}</summary>
+    <summary>{{ member.name }}
+      <a class="permalink" href="#{{ member.name | slugify: "latin" }}" aria-label="Link to {{ member.name }}'s bio" title="Link to this bio"><i class="fa-solid fa-link"></i></a>
+    </summary>
 
     {% assign img_path = '/images/people/' | append: member.path | replace: '_people/', '' | replace: 'markdown', 'jpg' %}
     {% assign file_exists = site.static_files | where: "path", img_path %}

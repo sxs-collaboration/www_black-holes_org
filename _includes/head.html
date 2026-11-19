@@ -25,6 +25,10 @@
 
     <link href="{{ site.baseurl }}/css/academicons.min.css" rel="stylesheet" />
 
+    {%- for script in page.scripts %}
+    <script src="{{ site.baseurl }}{{ script }}" defer></script>
+    {%- endfor %}
+
     {% if page.is_homepage %}
     {% endif %}
     {% if page.suppress_navbar %}

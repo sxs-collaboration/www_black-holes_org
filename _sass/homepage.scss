@@ -509,6 +509,29 @@
     color: $purplebrown;
 }
 
+.bio .permalink {
+    margin-left: .4em;
+    font-size: 70%;
+    opacity: 0;
+    transition: opacity .15s;
+}
+
+.bio summary:hover .permalink,
+.bio .permalink:focus,
+.bio details[open] .permalink {
+    opacity: .6;
+}
+
+.bio .permalink:hover {
+    opacity: 1;
+}
+
+@media (hover: none) {
+    .bio .permalink {
+        opacity: .6;
+    }
+}
+
 .bio .position {
     margin: 12px 0;
 }
