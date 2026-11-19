@@ -75,16 +75,17 @@ def filterResponse(insp_resp, ignore_bibs, summarize=True):
 ############################################################
 
 if __name__ == "__main__":
-    help = """Query INSPIRE for papers by SXS authors updated on a specific date"""
+    help = """Query INSPIRE for papers by SXS authors updated on or after a date"""
     parser = argparse.ArgumentParser(
         description=help, formatter_class=argparse.RawTextHelpFormatter
     )
     parser.add_argument(
-        "--date",
-        default="today",
+        "--since",
+        default="2 days ago",
         required=False,
-        help="""A date (parsed by dateparser) on which papers were updated on INSPIRE.
-(default: %(default)s)"""
+        help="""Find papers updated on INSPIRE on or after this date (parsed by
+dateparser). Looking back more than one day means updates made after the daily
+run, or on a day the run failed, are still caught. (default: %(default)s)"""
     )
     parser.add_argument(
         "--ignore-file",
@@ -105,12 +106,12 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    date = dateparser.parse(args.date)
+    date = dateparser.parse(args.since)
     date_str = date.strftime("%Y-%m-%d")
 
     au_str = " or ".join([f"author:{id}" for id in sxs_insp_names])
 
-    insp_query = f"find du {date_str} and ({au_str})"
+    insp_query = f"du >= {date_str} and ({au_str})"
 
     ignore_bibs = [line.strip() for line in args.ignore_file.readlines()]
 
