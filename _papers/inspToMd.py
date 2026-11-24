@@ -116,6 +116,29 @@ def describe(resp):
     etal = " et al." if len(authors) > 1 else ""
     return f"\"{md['titles'][0]['title']}\" by {authors[0]['full_name']}{etal}"
 
+def format_jref(pub_infos):
+    """Format a journal reference like 'Phys.Rev.D 114, 064077 (2026)' from a
+    list of INSPIRE publication_info entries. Uses the first entry that names a
+    journal, preferring ones that aren't errata, and only includes the parts
+    that are present. Returns '' if no entry names a journal (e.g. the only
+    entry is a conference record)."""
+    journal_infos = [p for p in pub_infos if p.get('journal_title')]
+    if not journal_infos:
+        return ''
+    p = next((p for p in journal_infos if p.get('material') != 'erratum'),
+             journal_infos[0])
+
+    ref = p['journal_title']
+    if p.get('journal_volume'):
+        ref += f" {p['journal_volume']}"
+    # Some journals use article IDs, others page numbers
+    page = p.get('artid') or p.get('page_start')
+    if page:
+        ref += f", {page}"
+    if p.get('year'):
+        ref += f" ({p['year']})"
+    return ref
+
 def insp_resp_to_md(resp, used_spec=None, used_spectre=None):
     """Take a single JSON response from INSPIRE (one element of the list
     returned by `sxs.utilities.inspire.query`) and produce a markdown string to
@@ -135,16 +158,8 @@ def insp_resp_to_md(resp, used_spec=None, used_spectre=None):
         authors_str = f" \"{authors[0]}\""
     else:
         authors_str = "\n" + "\n".join([f"  - \"{a}\"" for a in authors])
-    if 'publication_info' in md:
-        pub_info = md['publication_info']
-        if (len(pub_info) > 1):
-            warn(f"More than 1 publication_info in {iid}; using first.")
-        pub_info = pub_info[0]
-        jref_str = f" \"{pub_info.get('journal_title','')} " + \
-            f"{pub_info.get('journal_volume','')}, " + \
-            f"{pub_info.get('artid','')} ({pub_info.get('year','')})\""
-    else:
-        jref_str = ""
+    jref = format_jref(md.get('publication_info', []))
+    jref_str = f" \"{jref}\"" if jref else ""
     date = md['earliest_date']
     if 'arxiv_eprints' in md:
         if (len(md['arxiv_eprints']) > 1):
